@@ -1,51 +1,17 @@
-# [GroupID] Title of your final project
+# Rpart(Decision tree) Predict Base_Salary
 
-### Groups
-* name, student ID1
-* name, student ID2
-* name, student ID3
-* ...
-
-### Goal
-A breif introduction about your project, i.e., what is your goal?
-
-### Demo 
-You should provide an example commend to reproduce your result
+### Example commend
 ```R
-Rscript code/your_script.R --input data/training --output results/performance.tsv
+Rscript rpart.R --fold 5 --train train_salary.csv --test test_salary.csv --report result/rpart_performance.csv --predict result/rpart_predict.csv
 ```
-* any on-line visualization
-
-## Folder organization and its related information
-
-### docs
-* Your presentation, 1101_datascience_FP_<yourID|groupName>.ppt/pptx/pdf, by **Jan. 13**
-* Any related document for the final project
-  * papers
-  * software user guide
-
-### data
-
-* Source
-* Input format
-* Any preprocessing?
-  * Handle missing data
-  * Scale value
-
-### code
-
-* Which method do you use?
-* What is a null model for comparison?
-* How do your perform evaluation? ie. cross-validation, or addtional indepedent data set
 
 ### results
 
-* Which metric do you use 
-  * precision, recall, R-square
-* Is your improvement significant?
-* What is the challenge part of your project?
+* Metric: RMSE
 
 ## References
-* Code/implementation which you include/reference (__You should indicate in your presentation if you use code for others. Otherwise, cheating will result in 0 score for final project.__)
-* Packages you use
-* Related publications
+* Code/implementation which you include/reference
+  * [Random forest: how to handle new factor levels in test set?](https://stats.stackexchange.com/questions/29446/random-forest-how-to-handle-new-factor-levels-in-test-set)
+  * [R上的CART Package — rpart [參數篇]](https://c3h3notes.wordpress.com/2010/10/25/r上的cart-package-rpart-參數篇/)
+* Packages
+  * rpart
