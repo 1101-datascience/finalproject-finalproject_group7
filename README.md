@@ -1,8 +1,5 @@
 # Rpart(Decision tree) Predict Base_Salary
 
-### Goal
-A breif introduction about your project, i.e., what is your goal?
-
 ### Example commend
 ```R
 Rscript rpart.R --fold 5 --train train_salary.csv --test test_salary.csv --report result/rpart_performance.csv --predict result/rpart_predict.csv
