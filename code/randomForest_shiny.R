@@ -97,7 +97,7 @@ ui <- tagList(
                )
              )
     ),
-    tabPanel("processed data"),
+    tabPanel("Processed Data"),
     sidebarPanel(
       selectInput("x_processed", "Select x axis:", choices = names(processed_data), 
                   selected = processed_data$total_yearly_compensation),
