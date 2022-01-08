@@ -1,11 +1,11 @@
 # STEM Salaries salary prediction 
 
 ## Content
-- [Groups](#題目說明)
-- [Goal](#資料需求分析)
-- [Demo](#系統功能性分析)
-- [Shiny.io](#E-R_Diagram)
-- [Docs](Docs)
+- [Groups](#Groups)
+- [Goal](#Goal)
+- [Demo](#Demo)
+- [Shiny.io](#Shiny.io)
+- [Docs](#Docs)
 - [Data](#Data)
 - [Code](#Code)
 - [Results](#Results)
