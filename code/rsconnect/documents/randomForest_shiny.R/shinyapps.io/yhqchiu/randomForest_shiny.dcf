@@ -1,0 +1,13 @@
+name: randomForest_shiny
+title: randomForest_shiny
+username:
+account: yhqchiu
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 5409771
+bundleId: 5447418
+url: https://yhqchiu.shinyapps.io/randomForest_shiny/
+when: 1641652560.82129
+lastSyncTime: 1641652560.82129
+asMultiple: FALSE
+asStatic: FALSE

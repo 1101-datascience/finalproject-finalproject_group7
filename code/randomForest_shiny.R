@@ -1,4 +1,4 @@
-library(shiny)	
+library(shiny)
 library(shinydashboard)	
 library(ggplot2)
 library(shinythemes)
@@ -6,7 +6,10 @@ library(ggpubr)
 
 
 # load data
-data <- read.csv(file = "ds_final/train_salary.csv", header = T, stringsAsFactors = F) 
+url = "https://raw.githubusercontent.com/1101-datascience/finalproject-finalproject_group7/main/data/train_salary.csv"
+
+data <- read.csv(file = url, header = T, sep = ',',
+                 stringsAsFactors = F) 
 
 # laod key feature
 raw_data <- data.frame(base_salary = data$basesalary,
@@ -19,8 +22,6 @@ raw_data <- data.frame(base_salary = data$basesalary,
                        Doctorate_degree = data$Doctorate_Degree
 )
 raw_data[is.na(raw_data$dmaid), "dmaid"] <- median(raw_data$dmaid, na.rm = T)
-# convert categorical feature to numeric
-merge$title <- as.numeric(factor(merge$title))
 
 processed_data <- raw_data
 
@@ -159,3 +160,4 @@ server <- function(input, output){
   })
 }	
 shinyApp(ui, server)
+
