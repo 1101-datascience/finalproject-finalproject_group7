@@ -1,10 +1,24 @@
 # STEM Salaries salary prediction 
 
+## Content
+- [Groups](#Groups)
+- [Goal](#Goal)
+- [Demo](#Demo)
+- [Shiny.io](#Shiny.io)
+- [Docs](#Docs)
+- [Data](#Data)
+- [Code](#Code)
+- [Results](#Results)
+- [Reference](#Reference)
+
+
 ### Groups
-* 張立暘, 110753140
-* a
-* s
-* d
+| Dept. | Student No. | Name |
+| --------- | -------- | -------- |
+| 資科碩一 | 110753140 | 張立暘
+| 資科三 | 108703017 | 邱彥翔
+| 資科碩一 | 110753163 | 林昱辰
+| 社會二 | 109204035 | 黃楷捷
 
 ### Goal
 Our goal is to predict the salary of STEM jobs !
@@ -20,16 +34,18 @@ You should provide an example commend to reproduce your result
 
 * We put our EDA & Model result into shiny app
 
-  ShinyApps link: [https://TODO/]
+  ShinyApps link :
+  * [randomForest](https://yhqchiu.shinyapps.io/randomForest_shiny/)
+  * [...]()
 
 
 
 ## Folder organization and its related information
 
-### docs
+### Docs
 * docs/xzcxzcz
 
-### data
+### Data
 * Source
 	* Data Science and STEM Salaries 62,000+ STEM salaries scraped from levels.fyi | KAGGLE
 	* [Kaggle Breast Cancer Wisconsin](https://www.kaggle.com/jackogozaly/data-science-and-stem-salaries)
@@ -55,7 +71,7 @@ You should provide an example commend to reproduce your result
 * Any preprocessing?
     * 
 
-### code
+### Code
 * Which method do you use?
     * Robust regression
 	* Random forest regression
@@ -70,7 +86,7 @@ You should provide an example commend to reproduce your result
 	* RMSE
 
 
-### results
+### Results
 * Which metric do you use 
 
 * Is your improvement significant?
@@ -78,25 +94,37 @@ You should provide an example commend to reproduce your result
 
 * What is the challenge part of your project?
     * asd
+
+## Packages
+* argparse
+* corrplot
+* caret
+* rpart
+* ROCR
+* e1071
+* randomForest
+* Formula
+* class
+* highcharter
+* gbm
+* ggbiplot
+* ggplot2
+
 ## Reference
-* [Reference 1](https://www.kaggle.com/shravank/predicting-breast-cancer-using-pca-lda-in-r)
-* [Reference 2](https://www.kaggle.com/mirichoi0218/classification-breast-cancer-or-not-with-15-ml)
-* [Reference 3](https://www.kaggle.com/paultimothymooney/decision-trees-for-binary-classification-0-99)
-* [Reference 4](https://www.kaggle.com/kanncaa1/statistical-learning-tutorial-for-beginners/notebook)
-* [Reference 5](https://www.kaggle.com/kanncaa1/statistical-learning-tutorial-for-beginners/notebook)
-* [Reference 6](https://www.kaggle.com/bbloggsbott/feature-selection-correlation-and-p-value/data)
-* [Reference 7](https://www.kaggle.com/uciml/breast-cancer-wisconsin-data/kernels)
-* Packages
-	* argparse
-	* corrplot
-	* caret
-	* rpart
-	* ROCR
-	* e1071
-	* randomForest
-	* Formula
-	* class
-	* highcharter
-	* gbm
-	* ggbiplot
-	* ggplot2
+* [Predicting breast cancer using PCA + LDA in R](https://www.kaggle.com/shravank/predicting-breast-cancer-using-pca-lda-in-r)
+
+* [Breast Cancer or Not](https://www.kaggle.com/mirichoi0218/classification-breast-cancer-or-not-with-15-ml)
+
+* [Decision Trees for Binary Classification](https://www.kaggle.com/paultimothymooney/decision-trees-for-binary-classification-0-99)
+
+* [Statistical Learning Tutorial for Beginners](https://www.kaggle.com/kanncaa1/statistical-learning-tutorial-for-beginners/notebook)
+
+* [Feature Selection - Correlation and P-value](https://www.kaggle.com/bbloggsbott/feature-selection-correlation-and-p-value/data)
+
+* [Breast Cancer Wisconsin (Diagnostic) Data Set](https://www.kaggle.com/uciml/breast-cancer-wisconsin-data/kernels)
+
+* [Random forest: how to handle new factor levels in test set?](https://stats.stackexchange.com/questions/29446/random-forest-how-to-handle-new-factor-levels-in-test-set)
+
+* [R上的CART Package — rpart [參數篇]](https://c3h3notes.wordpress.com/2010/10/25/r%E4%B8%8A%E7%9A%84cart-package-rpart-%E5%8F%83%E6%95%B8%E7%AF%87/)
+
+* [shinythemes](https://shiny.rstudio.com/gallery/shiny-theme-selector.html)
