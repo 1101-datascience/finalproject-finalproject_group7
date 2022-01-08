@@ -1,15 +1,19 @@
 # STEM Salaries salary prediction 
 
 ## Content
-- [Groups](#Groups)
-- [Goal](#Goal)
-- [Demo](#Demo)
-- [Shiny.io](#Shiny.io)
-- [Docs](#Docs)
-- [Data](#Data)
-- [Code](#Code)
-- [Results](#Results)
-- [Reference](#Reference)
+- [STEM Salaries salary prediction](#stem-salaries-salary-prediction)
+	- [Content](#content)
+		- [Groups](#groups)
+		- [Goal](#goal)
+		- [Demo](#demo)
+		- [Shiny.io](#shinyio)
+	- [Folder organization and its related information](#folder-organization-and-its-related-information)
+		- [Docs](#docs)
+		- [Data](#data)
+		- [Code](#code)
+		- [Results](#results)
+	- [Packages](#packages)
+	- [Reference](#reference)
 
 
 ### Groups
@@ -128,3 +132,11 @@ You should provide an example commend to reproduce your result
 * [R上的CART Package — rpart [參數篇]](https://c3h3notes.wordpress.com/2010/10/25/r%E4%B8%8A%E7%9A%84cart-package-rpart-%E5%8F%83%E6%95%B8%E7%AF%87/)
 
 * [shinythemes](https://shiny.rstudio.com/gallery/shiny-theme-selector.html)
+
+* [Car Price Prediction](https://rpubs.com/amir761/car_price_prediction_using_random_forest)
+
+* [ML Using R SEction 9 Random Forest](https://rstudio-pubs-static.s3.amazonaws.com/280316_f38c3e4dc75b48398e6e72a20c1ea0a9.html)
+
+* [Correlation coefficient and correlation test in R](https://statsandr.com/blog/correlation-coefficient-and-correlation-test-in-r/)
+
+* [Build your dashboard based on shinydashboard (4) - Karthi softek](https://blog.karthisoftek.com/a?ID=01400-2bcdb5fd-17fc-45d7-b951-b8473a998800)
