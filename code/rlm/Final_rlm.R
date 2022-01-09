@@ -1,80 +1,83 @@
 library("caret")
-library("dplyr")
+library("e1071")
+library("mlbench")
+#read data
+train <- read.csv("./data/train_salary.csv", encoding = "UTF-8")
+test <- read.csv("./data/test_salary.csv", encoding = "UTF-8")
 
-#train data
-data <- read.csv("Fixed_train_data_no0.csv")
+#select feature
+#train <- train[, -c(1, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26)]
+#test <- test[, -c(1, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26)]
+select_feat =  c("company" ,"title","tag" ,"basesalary" , "gender" ,"Race","Education" )
+drop_feat = setdiff(colnames(train),select_feat)
 
-data <- data[, -c(4, 7)]
+#test target:base salary
+# train <- subset(train, select = select_feat)
+# test <- test$basesalary
 
-#Label Encoding 1,2,9,12,13
-factors <- factor(data[, 1])
-data[, 1] <- as.numeric(factors)
-factors <- factor(data[, 2])
-data[, 2] <- as.numeric(factors)
-factors <- factor(data[, 9])
-data[, 9] <- as.numeric(factors)
-factors <- factor(data[, 12])
-data[, 12] <- as.numeric(factors)
-factors <- factor(data[, 13])
-data[, 13] <- as.numeric(factors)
-print(head(data))
+train <- train[, -c(1, 3, 5, 11, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24)]
+test <- test[, -c(1, 3, 5, 11, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24)]
 
-#Target:base salary
-data_X <- data[, -6]
-data_Y <- data[, 6]
+#drop na
+train <- na.omit(train)
+test <- na.omit(test)
 
-#test data
-test_data <- read.csv("Fixed_test_data_no0.csv")
+print(any(is.na(train)))
+print(any(is.na(test)))
 
-test_data <- test_data[, -c(4, 7)]
+#One hot
+#dummy <- dummyVars(" ~ .", data=train)
+#train <- data.frame(predict(dummy, newdata = train))
 
-#Label Encoding 1,2,9,12,13
-factors <- factor(test_data[, 1])
-test_data[, 1] <- as.numeric(factors)
-factors <- factor(test_data[, 2])
-test_data[, 2] <- as.numeric(factors)
-factors <- factor(test_data[, 9])
-test_data[, 9] <- as.numeric(factors)
-factors <- factor(test_data[, 12])
-test_data[, 12] <- as.numeric(factors)
-factors <- factor(test_data[, 13])
-test_data[, 13] <- as.numeric(factors)
-print(head(test_data))
+#dmy <- dummyVars(" ~ .", data = test)
+#test <- data.frame(predict(dmy, newdata = test))
 
-#Target:base salary
-test_X <- test_data[, -6]
-test_Y <- test_data[, 6]
+#Label Encoding
+# for (i in c(1,2,5,7,10,11)){
+for (i in c("company" ,"title","tag"  , "gender" ,"Race","Education" )){  
+  # print(train[, i])
+  train[, i] <- as.numeric(factor(train[, i]))
+  test[, i] <- as.numeric(factor(test[, i]))  
+}
 
-#Train model:rlm 80% train + 20% validation
-train_ctrl <- trainControl(method = "cv", number = 5, savePredictions = TRUE)
-set.seed(777)
-fit_rlm_cv <- train(basesalary ~ ., data = data, method = 'rlm', metric = "RMSE",
-                   trControl = train_ctrl)
+#test target:base salary
+test_X <- subset(test, select = -c(basesalary))
+test_Y <- test$basesalary
 
-#K-fold Predict RMSE
-pred <- fit_rlm_cv$pred
-pred$equal <- sqrt((pred$obs - pred$pred) ^ 2)
+#model
+train_ctrl <- trainControl(method = "cv", number = 5)
 
-eachfold <- pred %>%                                        
-  group_by(Resample) %>%                         
-  summarise_at(vars(equal),                     
-               list(RMSE = mean))              
-print(eachfold)
+tune_grid <- expand.grid(nrounds = 200,
+                         max_depth = 10,
+                         eta = 0.03,
+                         gamma = 0.01,
+                         colsample_bytree = 0.75,
+                         min_child_weight = 0,
+                         subsample = 0.5)
 
-#test
+# xgboost train
+# fit_rlm_cv <- train(basesalary ~ ., data = train, objective="reg:squarederror", method = 'xgbTree',
+                    # trControl = train_ctrl, tuneGrid = tune_grid, tuneLength = 10)
+
+# rf train
+fit_rlm_cv <- train(basesalary ~ . , data = train,method = 'ranger',tuneLength = 10,
+                    trControl = train_ctrl,num.trees = 700,importance = "permutation")
+
+# lm svm train
+#fit_rlm_cv <- train(basesalary ~ ., data = train,  method = 'svmLinear',  trControl = train_ctrl)
+
+#base salary
 names(test_Y) <- "basesalary"
 
 #predict base salary
-pred_test <- data.frame(predict(fit_rlm_cv,test_X))
+pred_test <- data.frame(predict(fit_rlm_cv, test_X))
 names(pred_test) <- "Pred_basesalary"
 
-#RMSE
+#E
 test_E <- data.frame((test_Y - pred_test))
 names(test_E) <- "E"
 
-RMSE <- sqrt(sum((test_Y - pred_test)^2) / nrow(pred_test))
-print(paste0("RMSE:", round(RMSE, 2)))
-#output
+#output file
 test_output <- data.frame(
   basesalary = test_Y,
   Pred_basesalary = pred_test, 
@@ -89,3 +92,6 @@ importance <- varImp(fit_rlm_cv, scale = FALSE)
 print(importance)
 plot(importance)
 
+#RMSE
+RMSE <- sqrt(sum((test_Y - pred_test)^2) / nrow(pred_test))
+print(paste0("RMSE:", round(RMSE, 2)))
