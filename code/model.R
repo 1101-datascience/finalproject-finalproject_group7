@@ -6,24 +6,27 @@ data <- na.omit(data)
 cnt = 0
 for (row_idx in 1:nrow(data)){
   cnt <- cnt + 1
-
-  for (feat_idx in colnames(data)){
+  # if (data[row_idx,]$timestamp == "11/3/2020 19:56:58"){
+  #   print(row_idx)
+  #   break
+  # }
+  for (feat in c('company')){
     # print(feat_idx)
+    print(feat)
+    print(data[row_idx,feat])
 
-    # print(data[row_idx,feat_idx])
-
-    # data[row_idx,] <- gsub("\U00A0", "", data[row_idx,feat_idx])
+    data[row_idx,feat] <- gsub("\U00A0", "", data[row_idx,feat])
     
-    # break
-    if (data[row_idx,]$timestamp == "11/3/2020 19:56:58"){
-      print(row_idx)
-      break
-    }
+    break
+
   }
+  print(data[row_idx,])
+  
+  break
 
 }
 
-data[cnt,]
+data[34554,]
 ## 75% of the sample size
 smp_size <- floor(0.9 * nrow(data))
 
