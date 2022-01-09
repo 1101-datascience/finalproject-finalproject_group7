@@ -78,7 +78,7 @@ You should provide an example commend to reproduce your result
 ### Code
 * Which method do you use?
     * Robust regression
-   	* ecision tree regression
+   	* Decision tree regression
 	* Random forest regression
 	* SVM
 
