@@ -52,7 +52,7 @@ You should provide an example commend to reproduce your result
 ### Data
 * Source
 	* Data Science and STEM Salaries 62,000+ STEM salaries scraped from levels.fyi | KAGGLE
-	* [Kaggle Breast Cancer Wisconsin](https://www.kaggle.com/jackogozaly/data-science-and-stem-salaries)
+	* [Data Science and STEM Salaries](https://www.kaggle.com/jackogozaly/data-science-and-stem-salaries)
 * Input format
 	* One .csv file.
 	* Attribute Information:
@@ -73,7 +73,8 @@ You should provide an example commend to reproduce your result
 		* Which is 10 features x 3 measurements = 30 features
 
 * Any preprocessing?
-    * 
+    * drop the NA
+    * delete the outlier
 
 ### Code
 * Which method do you use?
@@ -81,6 +82,7 @@ You should provide an example commend to reproduce your result
    	* Decision tree regression
 	* Random forest regression
 	* SVM
+	* XGBtree
 
 
 * What is a null model for comparison?
@@ -93,15 +95,16 @@ You should provide an example commend to reproduce your result
 
 ### Results
 * Which metric do you use 
+	* RMSE
+	* R-square value
 
 * Is your improvement significant?
-	* Yes , from xxx to xxx
+	* Yes , from 50000 to 30000
 
 * What is the challenge part of your project?
     * asd
 
 ## Packages
-* argparse
 * corrplot
 * caret
 * rpart
@@ -109,24 +112,16 @@ You should provide an example commend to reproduce your result
 * e1071
 * randomForest
 * Formula
-* class
-* highcharter
+* Metrics
 * gbm
 * ggbiplot
 * ggplot2
 
 ## Reference
-* [Predicting breast cancer using PCA + LDA in R](https://www.kaggle.com/shravank/predicting-breast-cancer-using-pca-lda-in-r)
-
-* [Breast Cancer or Not](https://www.kaggle.com/mirichoi0218/classification-breast-cancer-or-not-with-15-ml)
-
-* [Decision Trees for Binary Classification](https://www.kaggle.com/paultimothymooney/decision-trees-for-binary-classification-0-99)
 
 * [Statistical Learning Tutorial for Beginners](https://www.kaggle.com/kanncaa1/statistical-learning-tutorial-for-beginners/notebook)
 
 * [Feature Selection - Correlation and P-value](https://www.kaggle.com/bbloggsbott/feature-selection-correlation-and-p-value/data)
-
-* [Breast Cancer Wisconsin (Diagnostic) Data Set](https://www.kaggle.com/uciml/breast-cancer-wisconsin-data/kernels)
 
 * [Random forest: how to handle new factor levels in test set?](https://stats.stackexchange.com/questions/29446/random-forest-how-to-handle-new-factor-levels-in-test-set)
 
