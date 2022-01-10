@@ -1,39 +1,44 @@
 library(randomForest)
+library(e1071)
 library(ggplot2)
 library(Metrics)
 library(corrplot)
-
+library(MASS)
 # read parameters
 # trailingOnly = TRUE means the first parameter start with 
 # the actual parameter, which pass into R file
-args = commandArgs(trailingOnly=TRUE)
+# args = commandArgs(trailingOnly=TRUE)
 
 # parse parameters
-if (length(args)==0){
-  stop("USAGE: Rscript randomForest.R with no arguments", call.=FALSE)
-}
+# if (length(args)==0){
+#   stop("USAGE: Rscript randomForest.R with no arguments", call.=FALSE)
+# }
 
 fold <- 5
+train_input    <- "./data/train_salary.csv"
+test_input     <- "./data/test_salary.csv"
+report_output  <- "./results/rpart_performance.csv"
+predict_output <- "./results/rpart_predict.csv"
 
-i <- 1
-while(i < length(args)){
-  if(args[i] == "--fold")
-    fold <- args[i + 1]
-  else if(args[i] == "--train")
-    train_input <- args[i + 1]
-  else if(args[i] == "--test")
-    test_input <- args[i + 1]
-  else if(args[i] == "--report")
-    report_output <- args[i + 1]
-  else if(args[i] == "--predict")
-    predict_output <- args[i + 1]
-  i <- i + 1
-}
+# i <- 1
+# while(i < length(args)){
+#   if(args[i] == "--fold")
+#     fold <- args[i + 1]
+#   else if(args[i] == "--train")
+#     train_input <- args[i + 1]
+#   else if(args[i] == "--test")
+#     test_input <- args[i + 1]
+#   else if(args[i] == "--report")
+#     report_output <- args[i + 1]
+#   else if(args[i] == "--predict")
+#     predict_output <- args[i + 1]
+#   i <- i + 1
+# }
 
 # read train_input & test_input
 
-train_data <- read.csv(file = "ds_final/train_salary.csv", header = T, stringsAsFactors = F)
-test_data <- read.csv(file = "ds_final/test_salary.csv", header = T, stringsAsFactors = F)
+#train_data <- read.csv(file = "ds_final/train_salary.csv", header = T, stringsAsFactors = F)
+#test_data <- read.csv(file = "ds_final/test_salary.csv", header = T, stringsAsFactors = F)
 
 
 train_data <- read.csv(file = train_input, header = T, stringsAsFactors = F)
@@ -73,7 +78,7 @@ test_data <- merge[merge$IsTrain == F, ]
 
 train_data <- subset(train_data, select = -c(company, level, location, tag,
                                              gender, otherdetails, Race, 
-                                             Education, IsTrain))
+                                             Education, IsTrain,rowNumber ))
 
 corrplot(cor(train_data),
          method = "square",
@@ -172,12 +177,18 @@ for(i in 1 : k){
   set.seed(1)
   
   # ========================== construct model ===========================
-  model <- randomForest(formula = interest, data = train_data, ntree = 50)
+  # model <- randomForest(formula = interest, data = train_data, ntree = 50)
+  
+  #model <- svm(formula = interest, data = train_data)
+  
+  model <- rlm(formula = interest, data = train_data)
+  
   
   # =============== predict using model applied to train_d ===============
-  pred_train <- predict(model, newdata = train_d, 
-                        data.frame(Level = 6.5), type = "response")
-  
+  pred_train <- predict(model, train_d)
+  # pred_train <- predict(model, newdata = train_d,  interval = "prediction",
+  #                       data.frame(Level = 6.5), type = "response")
+  # 
   result_train <- data.frame(ID = train_d$ID, 
                              Base_salary = train_d$basesalary,
                              predictions = pred_train)
@@ -188,8 +199,9 @@ for(i in 1 : k){
   rmse_train <- round(rmse_train, 2)
   
   # =============== predict using model applied to test_d ===============
-  pred_test <- predict(model, newdata = test_d, 
-                       data.frame(Level = 6.5), type = "response")
+  # pred_test <- predict(model, newdata = test_d, interval = "prediction",
+  #                      data.frame(Level = 6.5), type = "response")
+  pred_train <- predict(model, test_d)
   
   result_test <- data.frame(ID = test_d$ID, 
                             Base_salary = test_d$basesalary,
@@ -244,7 +256,15 @@ result_final <- data.frame(ID = final_ID,
                            predictions = pred_final)
 
 result_final <- round(result_final, 2)
+# ======================== print Final Test RMSE ========================
 
+# [1] "RandomForest Test RMSE:  33194.46"
+print(
+  paste('RandomForest Test RMSE: ', round(rmse(result_final$Base_salary,
+                                               result_final$predictions)
+                                          , 2) 
+  )
+)
 # ============================ write to file ============================
 write.table(out_data, file = report_output, row.names = F, quote = F, sep = ',')
 
@@ -253,13 +273,5 @@ write.table(result_final, file = predict_output, row.names = F, quote = F, sep =
 # write.table(out_data, file = "performance.csv", row.names = F, quote = F, sep = ',')
 # 
 # write.table(result_final, file = "predict.csv", row.names = F, quote = F, sep = ',')
-# ======================== print Final Test RMSE ========================
 
-# [1] "RandomForest Test RMSE:  33194.46"
-print(
-  paste('RandomForest Test RMSE: ', round(rmse(result_final$Base_salary,
-                                               result_final$predictions)
-                                          , 2) 
-        )
-)
 
