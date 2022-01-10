@@ -3,13 +3,33 @@ library(shinydashboard)
 library(ggplot2)
 library(shinythemes)
 library(ggpubr)
+library(corrplot)
+library(ggcorrplot)
+library(devtools)
 
 
 # load data
 url = "https://raw.githubusercontent.com/1101-datascience/finalproject-finalproject_group7/main/data/train_salary.csv"
 
 data <- read.csv(file = url, header = T, sep = ',',
-                 stringsAsFactors = F) 
+                 stringsAsFactors = F)
+# graph
+cor_data <- data
+# deal with NA and NULL value, let them be median(num) and mode(char) 
+cor_data[is.na(cor_data$dmaid), "dmaid"] <- median(cor_data$dmaid, na.rm = T)
+
+cor_data[is.na(cor_data$Race_Hispanic), "Race_Hispanic"] <- median(cor_data$Race_Hispanic, na.rm = T)
+
+# convert categorical feature to numeric
+cor_data$title <- as.numeric(factor(cor_data$title))
+
+cor_data <- subset(cor_data, select = -c(timestamp, company, level, 
+                                         location, tag, gender, 
+                                         otherdetails, rowNumber,
+                                         Race, Education
+))
+corr <- round(cor(cor_data), 2)
+cor_p <- cor_pmat(cor_data)
 
 # laod key feature
 raw_data <- data.frame(base_salary = data$basesalary,
@@ -80,7 +100,14 @@ processed_data <- subset(processed_data,
 ui <- tagList(
   shinythemes::themeSelector(),
   navbarPage(
-    "Remove Outlier",
+    "Deal With Data",
+    tabPanel("Correlation",
+             mainPanel(
+               fluidRow( 
+                column(width = 12, align="center", box(plotOutput("Cor"), width = "100%"))
+               )
+             )
+    ),
     tabPanel("Raw Data",
              sidebarPanel(
                selectInput("x", "Select x axis:", choices = names(raw_data), 
@@ -92,31 +119,39 @@ ui <- tagList(
              ),
              mainPanel(
                fluidRow(	
-                 column(width = 12,box(plotOutput("Plot"), width = NULL)),	
-                 column(width = 12,box(dataTableOutput("Data"), width = NULL))
+                 column(width = 12, box(plotOutput("Plot"), width = NULL)),	
+                 column(width = 12, box(dataTableOutput("Data"), width = NULL))
                )
              )
     ),
-    tabPanel("Processed Data"),
-    sidebarPanel(
-      selectInput("x_processed", "Select x axis:", choices = names(processed_data), 
-                  selected = processed_data$total_yearly_compensation),
-      selectInput("y_processed", "Select y axis:", choices = names(processed_data), 
-                  selected = processed_data$base_salary),
-      sliderInput("obs_processed", "Number of Data:", min = 0, max = nrow(processed_data),
-                  value = 1000, step = 1000, animate = TRUE)
-    ),
-    mainPanel(
-      fluidRow(	
-        column(width = 12,box(plotOutput("Plot2"), width = NULL)),	
-        column(width = 12,box(dataTableOutput("Data2"), width = NULL))
-      )
+    tabPanel("Processed Data",
+             sidebarPanel(
+               selectInput("x_processed", "Select x axis:", choices = names(processed_data), 
+                           selected = processed_data$total_yearly_compensation),
+               selectInput("y_processed", "Select y axis:", choices = names(processed_data), 
+                           selected = processed_data$base_salary),
+               sliderInput("obs_processed", "Number of Data:", min = 0, max = nrow(processed_data),
+                           value = 1000, step = 1000, animate = TRUE)
+             ),
+             mainPanel(
+               fluidRow(	
+                 column(width = 12, box(plotOutput("Plot2"), width = NULL)),	
+                 column(width = 12, box(dataTableOutput("Data2"), width = NULL))
+               )
+             )
     )
   )
 )
 
 server <- function(input, output){
   
+  # ============================ Correlation =============================
+  
+  # correlation graph
+  output$Cor <- renderPlot({
+    ggcorrplot(corr, hc.order = T, type = "full", p.mat = cor_p,
+               ggtheme = ggplot2::theme_classic())
+  })
   # ================================ raw =================================
   
   # user select number of raw data
