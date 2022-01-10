@@ -132,7 +132,7 @@ You should provide an example commend to reproduce your result
 
 * [R上的CART Package — rpart [參數篇]](https://c3h3notes.wordpress.com/2010/10/25/r%E4%B8%8A%E7%9A%84cart-package-rpart-%E5%8F%83%E6%95%B8%E7%AF%87/)
 
-* [shinythemes](https://shiny.rstudio.com/gallery/shiny-theme-selector.html)
+* [ShinyThemes](https://shiny.rstudio.com/gallery/shiny-theme-selector.html)
 
 * [Car Price Prediction](https://rpubs.com/amir761/car_price_prediction_using_random_forest)
 
@@ -141,3 +141,5 @@ You should provide an example commend to reproduce your result
 * [Correlation coefficient and correlation test in R](https://statsandr.com/blog/correlation-coefficient-and-correlation-test-in-r/)
 
 * [Build your dashboard based on shinydashboard (4) - Karthi softek](https://blog.karthisoftek.com/a?ID=01400-2bcdb5fd-17fc-45d7-b951-b8473a998800)
+
+* [DMA Codes](https://help-ooyala.brightcove.com/sites/all/libraries/dita/en/video-platform/reference/dma_codes.html)
