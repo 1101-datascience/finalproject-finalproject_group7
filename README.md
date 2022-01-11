@@ -1,7 +1,7 @@
-# STEM Salaries salary prediction 
+# STEM Salaries prediction 
 
 ## Content
-- [STEM Salaries salary prediction](#stem-salaries-salary-prediction)
+- [STEM Salaries Prediction](#stem-salaries-salary-prediction)
 	- [Content](#content)
 		- [Groups](#groups)
 		- [Goal](#goal)
