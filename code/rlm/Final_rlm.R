@@ -22,8 +22,13 @@ drop_feat = setdiff(colnames(train),select_feat)
 # train <- subset(train, select = select_feat)
 # test <- test$basesalary
 
-train <- train[, -c(1, 3, 5, 11,13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24)]
-test <- test[, -c(1, 3, 5, 11,13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24)]
+# drop the feature
+#train <- train[, -c(1, 3, 5, 11,13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24)]
+# test <- test[, -c(1, 3, 5, 11,13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24)]
+
+train <- subset(train, select = select_feat)
+test <- subset(test, select = select_feat)
+
 
 #drop na
 train <- na.omit(train)
