@@ -15,7 +15,7 @@ test <- read.csv("./data/test_salary.csv", encoding = "UTF-8")
 #select feature
 #train <- train[, -c(1, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26)]
 #test <- test[, -c(1, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26)]
-select_feat =  c("company" ,"title","tag" ,"basesalary" , "gender" ,"Race","Education" )
+select_feat =  c("company", "title", "tag", "basesalary", "gender", "Race", "Education", "yearsofexperience", "yearsatcompany", "cityid")
 drop_feat = setdiff(colnames(train),select_feat)
 
 #test target:base salary
@@ -46,7 +46,7 @@ print(any(is.na(test)))
 
 #Label Encoding
 # for (i in c(1,2,5,7,10,11)){
-for (i in c("company" ,"title","tag", "gender" ,"Race","Education" )){  
+for (i in c("company", "title", "tag", "gender", "Race", "Education" )){  
   # print(train[, i])
   train[, i] <- as.numeric(factor(train[, i]))
   test[, i] <- as.numeric(factor(test[, i]))  
