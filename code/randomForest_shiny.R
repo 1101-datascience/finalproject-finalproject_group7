@@ -116,6 +116,24 @@ ui <- tagList(
   shinythemes::themeSelector(),
   navbarPage(
     "Deal With Data",
+    
+    tabPanel("Raw Data",
+             sidebarPanel(
+               #            selectInput("x", "Select x axis:", choices = names(raw_data), 
+               #                        selected = raw_data$total_yearly_compensation),
+               #            selectInput("y", "Select y axis:", choices = names(raw_data), 
+               #                        selected = raw_data$base_salary),
+               sliderInput("obs", "Number of Data:", min = 0, max = nrow(raw_data),
+                           value = 3000, step = 3000, animate = TRUE)
+             ),
+             mainPanel(
+               fluidRow(	
+                 #              column(width = 12, box(plotOutput("Plot"), width = NULL)),	
+                 column(width = 12, box(dataTableOutput("Data"), width = NULL))
+               )
+             )
+    ),
+    
     tabPanel("Correlation",
              mainPanel(
                fluidRow( 
@@ -125,22 +143,7 @@ ui <- tagList(
     ),
     
     
-     tabPanel("Raw Data",
-             sidebarPanel(
-    #            selectInput("x", "Select x axis:", choices = names(raw_data), 
-    #                        selected = raw_data$total_yearly_compensation),
-    #            selectInput("y", "Select y axis:", choices = names(raw_data), 
-    #                        selected = raw_data$base_salary),
-               sliderInput("obs", "Number of Data:", min = 0, max = nrow(raw_data),
-                           value = 3000, step = 3000, animate = TRUE)
-             ),
-              mainPanel(
-                fluidRow(	
-    #              column(width = 12, box(plotOutput("Plot"), width = NULL)),	
-                  column(width = 12, box(dataTableOutput("Data"), width = NULL))
-                )
-              )
-    ),
+
     
     
     # tabPanel("Processed Data",
