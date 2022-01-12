@@ -148,20 +148,18 @@ ui <- tagList(
                )
              )
     ),
-    tabPanel("Education", 
+    tabPanel("Plot_analysis", 
              mainPanel(
                fluidRow(
                  column(width = 12, box(plotOutput("Education_plot"), width = NULL))
-               )
-             )),
-    tabPanel("Race", 
-             mainPanel(
+                 ),
                fluidRow(
                  column(width = 12, box(plotOutput("Race_plot"), width = NULL))
+                 )
                )
-             ))
-  )
-)
+             )
+        )
+      )
 
 server <- function(input, output){
   
@@ -215,13 +213,15 @@ server <- function(input, output){
   output$Education_plot <- renderPlot({
     ggplot(data, aes(x = basesalary, y = Education)) +
     geom_point()
+
   })
-  
-  # ============================== Race ===============================
   output$Race_plot <- renderPlot({
     ggplot(data, aes(x = basesalary, y = Race)) +
-    geom_point()
+      geom_point()
+    
   })
+
+  # ============================== Race ===============================
   
   # processed table data
   data_table_processed = processed_data[sample(1:nrow(processed_data), 10000, replace = T), ]	
