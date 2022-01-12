@@ -100,6 +100,23 @@ You should provide an example commend to reproduce your result
 * gbm
 * ggbiplot
 * ggplot2
+* sf
+* data.table
+* tidyverse
+* maps
+* repr
+* ggthemes
+* scales
+* ggpubr
+* shinythemes
+* shiny
+* shinydashboard
+* cowplot
+* rgdal
+* e1071
+* mlbench
+* MLmetrics
+
 
 ## Reference
 
@@ -124,3 +141,5 @@ You should provide an example commend to reproduce your result
 * [DMA Codes](https://help-ooyala.brightcove.com/sites/all/libraries/dita/en/video-platform/reference/dma_codes.html)
 
 * [Maps with ggplot](http://joshuamccrain.com/tutorials/ggplot_maps/maps_tutorial.html)
+
+* [A Useful DMA Shapefile For #Tableau and #Alteryx](https://datablends.us/2021/01/14/a-useful-dma-shapefile-for-tableau-and-alteryx/)
