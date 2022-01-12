@@ -5,10 +5,10 @@ account: yhqchiu
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 5409771
-bundleId: 5460163
+bundleId: 5460328
 url: https://yhqchiu.shinyapps.io/randomForest_shiny/
-when: 1641987406.51943
-lastSyncTime: 1641987406.51943
+when: 1641989850.28616
+lastSyncTime: 1641989850.28616
 asMultiple: FALSE
 asStatic: FALSE
 ignoredFiles: empty|model.R|null_model.R|randomForest.R|rlm/data_clean.R|rlm/Final_rlm.R|rlm/Fixed_test_data_no0.csv|rlm/Fixed_train_data_no0.csv|rlm/Output_use_Test_data.csv|rpart.R
