@@ -3,6 +3,7 @@ library(e1071)
 library(mlbench)
 library(Metrics)
 library(MLmetrics)
+library(rpart)
 
 min_max_norm <- function(x) {
   (x - min(x)) / (max(x) - min(x))
@@ -18,13 +19,10 @@ test <- read.csv("./data/test_salary.csv", encoding = "UTF-8")
 select_feat =  c("company", "title", "tag", "basesalary", "gender", "Race", "Education", "yearsofexperience", "yearsatcompany", "cityid")
 drop_feat = setdiff(colnames(train),select_feat)
 
-#test target:base salary
-# train <- subset(train, select = select_feat)
-# test <- test$basesalary
 
 # drop the feature
-#train <- train[, -c(1, 3, 5, 11,13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24)]
-# test <- test[, -c(1, 3, 5, 11,13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24)]
+#train <- train[, -c(1, 3, 5,9,10, 11,13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24)]
+#test <- test[, -c(1, 3, 5,9,10, 11,13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24)]
 
 train <- subset(train, select = select_feat)
 test <- subset(test, select = select_feat)
@@ -73,13 +71,16 @@ tune_grid <- expand.grid(nrounds = 200,
 
 # rf train
 #fit_rlm_cv <- train(basesalary ~ . , data = train,method = 'ranger',tuneLength = 10,
-#                    trControl = train_ctrl,num.trees = 700,importance = "permutation")
+#                   trControl = train_ctrl,num.trees = 700,importance = "permutation")
 
 # lm svm train
 fit_rlm_cv <- train(basesalary ~ ., data = train,  method = 'lm',  trControl = train_ctrl)
 
+
 #base salary
 names(test_Y) <- "basesalary"
+
+print(fit_rlm_cv)
 
 #predict base salary
 pred_test <- data.frame(predict(fit_rlm_cv, test_X))
@@ -97,14 +98,15 @@ test_output <- data.frame(
   stringsAsFactors = F
 )
 
-write.csv(test_output, file = "Output_use_Test_data.csv", row.names = FALSE)
+#write.csv(test_output, file = "Output_use_Test_data.csv", row.names = FALSE)
 
 #feature Importance
 importance <- varImp(fit_rlm_cv, scale = FALSE)
-print(importance)
+#print(importance)
 plot(importance)
 
 #RMSE
 print(paste0("RMSE:", round(rmse(test_output$basesalary,test_output$Pred_basesalary), 2)))
+print(paste0("MAE:", round(mae(test_output$basesalary,test_output$Pred_basesalary), 2)))
 print(paste0("R2_Score:", round(R2_Score(test_output$basesalary,test_output$Pred_basesalary), 2)))
 
