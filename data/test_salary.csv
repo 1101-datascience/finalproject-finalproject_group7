@@ -1,15 +1,12 @@
 "timestamp","company","level","title","totalyearlycompensation","location","yearsofexperience","yearsatcompany","tag","basesalary","stockgrantvalue","bonus","gender","otherdetails","cityid","dmaid","rowNumber","Masters_Degree","Bachelors_Degree","Doctorate_Degree","Highschool","Some_College","Race_Asian","Race_White","Race_Two_Or_More","Race_Black","Race_Hispanic","Race","Education"
 "6/7/2017 11:33:27","Oracle","L3","Product Manager",127000,"Redwood City, CA",1.5,1.5,NA,107000,20000,10000,NA,NA,7392,807,1,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/17/2017 0:23:14","Apple","M1","Software Engineering Manager",372000,"Sunnyvale, CA",7,5,NA,157000,180000,35000,NA,NA,7472,807,7,0,0,0,0,0,0,0,0,0,0,NA,NA
-"7/3/2017 19:28:09","Microsoft","63","Product Manager",150000,"Redmond, WA",10,10,NA,0,0,0,NA,NA,11521,819,20,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/29/2017 19:56:08","Microsoft","67","Software Engineering Manager",462000,"Bellevue, WA",15,15,NA,240000,150000,72000,NA,NA,11470,819,37,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/7/2017 2:08:48","Google","L4","Software Engineer",300000,"Mountain View, CA",8,4,NA,155000,112000,33000,NA,NA,7322,807,48,0,0,0,0,0,0,0,0,0,0,NA,NA
-"8/16/2017 19:25:50","Amazon","L4","Software Engineer",161000,"Seattle, WA",7,2,NA,0,0,0,NA,NA,11527,819,54,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/11/2017 1:00:34","Microsoft","64","Software Engineer",230000,"Seattle, WA",14,9,NA,165000,0,30000,NA,NA,11527,819,97,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/12/2017 21:05:09","Linkedin","Senior","Software Engineer",240000,"San Francisco, CA",5,2,NA,162000,3e+05,16200,NA,"401k match 50%, vested immediately, up to the legal limit
 \"Cadillac\" insurance at no cost",7419,807,99,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/26/2017 0:30:49","Amazon","SDE 3","Software Engineer",285000,"Seattle, WA",5,5,NA,145000,140000,0,NA,NA,11527,819,103,0,0,0,0,0,0,0,0,0,0,NA,NA
-"11/3/2017 19:32:48","Microsoft","61","Software Engineer",150000,"Redmond, WA",4,2,NA,0,0,0,NA,NA,11521,819,138,0,0,0,0,0,0,0,0,0,0,NA,NA
 "11/26/2017 10:24:17","Lyft","T5","Software Engineer",400000,"Seattle, WA",5,1,NA,190000,2e+05,0,NA,NA,11527,819,160,0,0,0,0,0,0,0,0,0,0,NA,NA
 "1/24/2018 4:51:35","Google","T7","Software Engineer",1120000,"New York, NY",10,7,NA,252000,790000,78000,NA,NA,10182,501,242,0,0,0,0,0,0,0,0,0,0,NA,NA
 "2/14/2018 13:57:06","Amazon","L6","Software Engineer",334000,"Seattle, WA",21,6,NA,160000,174000,1000,NA,NA,11527,819,308,0,0,0,0,0,0,0,0,0,0,NA,NA
@@ -19,10 +16,7 @@
 "3/29/2018 15:26:40","Amazon","6","Software Engineering Manager",350000,"Seattle, WA",12,1,NA,160000,0,0,NA,NA,11527,819,427,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/2/2018 7:47:31","microsoft","59","Software Engineer",147000,"Bellevue, WA",3,0.5,NA,107000,30000,10000,NA,NA,11470,819,438,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/7/2018 2:11:30","Microsoft","63","Software Engineer",188000,"Bellevue, WA",10,3,NA,148000,20000,18000,NA,NA,11470,819,456,0,0,0,0,0,0,0,0,0,0,NA,NA
-"4/11/2018 23:38:40","Airbnb","Data Scientist Manager","Software Engineering Manager",650000,"San Francisco, CA",13,1,NA,0,0,0,NA,NA,7419,807,477,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/15/2018 11:47:53","Google","L6","Software Engineer",640000,"Mountain View, CA",11,4,NA,210000,380000,50000,"Male",NA,7322,807,489,0,0,0,0,0,0,0,0,0,0,NA,NA
-"4/30/2018 22:12:33","Pinterest","L4","Software Engineer",255000,"San Francisco, CA",2,2,NA,0,0,0,"Male",NA,7419,807,564,0,0,0,0,0,0,0,0,0,0,NA,NA
-"5/4/2018 22:20:03","Intel","6","Software Engineer",120000,"Santa Clara, CA",5,5,NA,0,0,0,"Male",NA,7434,807,572,0,0,0,0,0,0,0,0,0,0,NA,NA
 "5/7/2018 21:14:39","Amazon","L5","Software Engineer",185000,"Seattle, WA",6,1,NA,134000,30000,21000,"Male",NA,11527,819,587,0,0,0,0,0,0,0,0,0,0,NA,NA
 "5/9/2018 6:25:03","Google","L3","Software Engineer",143000,"Cambridge, EN, United Kingdom",0,0,NA,105000,22500,16000,"Male",NA,4878,0,601,0,0,0,0,0,0,0,0,0,0,NA,NA
 "5/12/2018 5:27:01","Amazon","L5","Product Manager",180000,"Boston, MA",13,1,NA,145000,11000,25000,"Female",NA,8816,506,624,0,0,0,0,0,0,0,0,0,0,NA,NA
@@ -30,15 +24,11 @@
 "5/15/2018 7:51:08","Microsoft","61","Software Engineer",181000,"Redmond, WA",3,0,NA,147000,75000,40000,"Male",NA,11521,819,641,0,0,0,0,0,0,0,0,0,0,NA,NA
 "5/18/2018 12:58:27","Microsoft","62","Software Engineer",177000,"Redmond, WA",6,4.5,NA,145000,1e+05,30000,"Female","bonus is 30k signing bonus.",11521,819,673,0,0,0,0,0,0,0,0,0,0,NA,NA
 "5/22/2018 16:47:29","Microsoft","61","Software Engineer",200000,"Redmond, WA",6,0,NA,137000,17500,13700,"Male",NA,11521,819,709,0,0,0,0,0,0,0,0,0,0,NA,NA
-"6/5/2018 14:46:53","Amazon","SDE 2","Software Engineer",230000,"Seattle, WA",9,4,NA,0,0,0,NA,NA,11527,819,820,0,0,0,0,0,0,0,0,0,0,NA,NA
-"6/5/2018 14:47:22","Apple","ICT4","Software Engineer",300000,"San Francisco, CA",8,5,NA,0,0,0,NA,NA,7419,807,821,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/7/2018 12:20:48","Google","L3","Software Engineer",173000,"Mountain View, CA",1,0,NA,116000,25000,32000,"Male",NA,7322,807,841,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/8/2018 9:49:26","Box","Senior SWE","Software Engineer",320000,"Redwood City, CA",10,0,"Full Stack",190000,130000,0,"Male",NA,7392,807,850,0,0,0,0,0,0,0,0,0,0,NA,NA
-"6/9/2018 9:17:56","Microsoft","61","Software Engineer",189000,"Redmond, WA",3,3,"API Development (Back-End)",0,0,0,NA,NA,11521,819,861,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/10/2018 11:35:38","Google","L4","Software Engineer",251000,"Zurich, ZH, Switzerland",8,6,"Distributed Systems (Back-End)",159000,60000,32000,"Male","total with stock at grant (not vest) value",6736,0,869,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/10/2018 19:39:35","Twitter","Staff","Data Scientist",500000,"San Francisco, CA",4,4,"ML / AI",2e+05,280000,20000,"Male",NA,7419,807,870,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/11/2018 19:27:26","Amazon","L7","Product Manager",325000,"Seattle, WA",12,3,NA,160000,165000,0,"Male",NA,11527,819,885,0,0,0,0,0,0,0,0,0,0,NA,NA
-"6/13/2018 23:12:03","Yandex","G18","Software Engineer",140000,"Moscow, MC, Russia",15,9,"Distributed Systems (Back-End)",0,0,0,NA,NA,1384,0,907,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/14/2018 1:33:52","Yandex","18","Software Engineer",112000,"Moscow, MC, Russia",6,5,"ML / AI",48000,48000,15000,"Male",NA,1384,0,910,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/14/2018 19:29:25","VMware","Senior MTS","Software Engineer",194000,"Palo Alto, CA",7,4.5,"Kernel, Storage",138000,26000,23460,"Male","ESPP is offered",7351,807,918,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/15/2018 22:48:07","Amazon","L5","Software Engineer",160000,"Vancouver, BC, Canada",10,1,"Full Stack",130000,0,30000,"Male",NA,1320,0,929,0,0,0,0,0,0,0,0,0,0,NA,NA
@@ -48,12 +38,9 @@
 "6/20/2018 0:47:43","Microsoft","65","Data Scientist",340000,"Bellevue, WA",11,11,"ML / AI",2e+05,80000,60000,"Male",NA,11470,819,957,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/21/2018 0:16:30","Twitter","SWE II","Software Engineer",205000,"San Francisco, CA",1.6,0.4,"Full Stack",140000,44000,21000,"Male",NA,7419,807,962,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/10/2018 10:20:10","GE","Senior","Software Engineer",86000,"Albany, NY",7,1,"DevOps",85000,0,2000,"Male",NA,10089,532,1086,0,0,0,0,0,0,0,0,0,0,NA,NA
-"7/11/2018 12:34:59","Dropbox","L5","Software Engineering Manager",800000,"San Francisco, CA",8,6,"Full Stack",0,0,0,NA,NA,7419,807,1094,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/12/2018 21:01:09","Dropbox","L5","Software Engineer",425000,"Seattle, WA",12,1,"Distributed Systems (Back-End)",2e+05,175000,50000,NA,NA,11527,819,1107,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/12/2018 21:11:01","Amazon","SDE 2","Software Engineer",195000,"Austin, TX",8,0,"iOS",145000,0,50000,"Male",NA,10965,635,1108,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/16/2018 23:10:42","Amazon","L6","Software Engineer",275000,"Seattle, WA",8,6,"Distributed Systems (Back-End)",145000,130000,0,"Male",NA,11527,819,1137,0,0,0,0,0,0,0,0,0,0,NA,NA
-"7/25/2018 19:16:03","Oath","4","Software Engineer",250000,"New York, NY",4,1,"ML / AI",0,0,0,NA,NA,10182,501,1203,0,0,0,0,0,0,0,0,0,0,NA,NA
-"7/27/2018 12:05:02","Amazon","L6","Product Manager",400000,"Seattle, WA",15,10,"BD",0,0,0,NA,NA,11527,819,1214,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/30/2018 16:09:16","Oracle","IC4","Software Engineer",220000,"Austin, TX",19,10,"API Development (Back-End)",185000,30000,5000,"Male",NA,10965,635,1235,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/1/2018 9:53:36","Amazon","L5","Software Engineer",189000,"Seattle, WA",5,4.4,"Distributed Systems (Back-End)",144000,45000,0,"Male",NA,11527,819,1246,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/1/2018 16:15:26","The Climate Corporation","L3","Software Engineer",155000,"Seattle, WA",9,4,"DevOps",140000,15000,1000,"Male",NA,11527,819,1248,0,0,0,0,0,0,0,0,0,0,NA,NA
@@ -61,17 +48,11 @@
 "8/6/2018 10:15:21","Microsoft","60","Software Engineer",171000,"Redmond, WA",1,1,"Full Stack",116000,32500,22500,"Male",NA,11521,819,1279,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/6/2018 16:36:07","Siemens","C E40","Software Engineer",115000,"Colorado Springs, CO",9,9,"Full Stack",115000,3000,4000,NA,NA,7541,752,1281,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/6/2018 19:16:05","Airbnb","L5","Software Engineer",418000,"San Francisco, CA",10,2,"iOS",193000,119000,38000,NA,NA,7419,807,1284,0,0,0,0,0,0,0,0,0,0,NA,NA
-"8/7/2018 13:15:56","IBM","8","Software Engineer",165000,"San Jose, CA",4,3,"Full Stack",0,0,0,NA,NA,7422,807,1290,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/8/2018 7:09:54","Microsoft","61","Software Engineer",160000,"San Francisco, CA",9,3,"Full Stack",136000,4000,13000,NA,NA,7419,807,1297,0,0,0,0,0,0,0,0,0,0,NA,NA
-"8/8/2018 16:56:59","Facebook","E5","Software Engineer",385000,"Menlo Park, CA",15,5,"DevOps",0,0,0,NA,NA,7300,807,1303,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/8/2018 23:43:18","Tesla","Senior Engineer","Software Engineer",150000,"Palo Alto, CA",5,3,"DevOps",120000,30000,0,NA,NA,7351,807,1318,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/9/2018 12:52:50","Amazon","L5","Software Engineer",255000,"Seattle, WA",12,1,"Networking",155000,10000,92000,NA,NA,11527,819,1326,0,0,0,0,0,0,0,0,0,0,NA,NA
-"8/11/2018 21:28:53","Microsoft","63","Software Engineer",170000,"Seattle, WA",25,11,"Distributed Systems (Back-End)",0,0,0,NA,NA,11527,819,1372,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/11/2018 22:23:44","LinkedIn","Senior Software Engineer","Software Engineer",242000,"Mountain View, CA",0,3,"Full Stack",150000,75000,17000,NA,NA,7322,807,1374,0,0,0,0,0,0,0,0,0,0,NA,NA
-"8/14/2018 10:10:40","Adobe","Software Engineer 3","Software Engineer",207000,"San Jose, CA",4,1,"ML / AI",0,0,0,NA,NA,7422,807,1397,0,0,0,0,0,0,0,0,0,0,NA,NA
-"8/15/2018 12:23:35","Microsoft","67","Data Scientist",500000,"Seattle, WA",20,3,"ML / AI",0,0,0,NA,NA,11527,819,1432,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/15/2018 13:12:29","Box","Principal","Software Engineer",500000,"Redwood City, CA",20,4,"Distributed Systems (Back-End)",250000,2e+05,50000,NA,NA,7392,807,1433,0,0,0,0,0,0,0,0,0,0,NA,NA
-"8/15/2018 15:25:12","Microsoft","62","Software Engineer",200000,"Redmond, WA",4,4,"Web Development (Front-End)",0,0,0,NA,NA,11521,819,1441,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/15/2018 16:50:55","Microsoft","61","Product Manager",185000,"Bellevue, WA",2,2,"Data",129000,39000,17000,NA,NA,11470,819,1453,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/15/2018 17:08:15","Microsoft","61","Product Manager",167000,"Seattle, WA",4,1,"Web Development (Front-End)",127000,15000,15000,NA,NA,11527,819,1457,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/15/2018 18:41:42","Microsoft","60","Software Engineer",139000,"Redmond, WA",1,1,"DevOps",120000,5000,14000,NA,NA,11521,819,1462,0,0,0,0,0,0,0,0,0,0,NA,NA
@@ -84,25 +65,20 @@
 "8/18/2018 13:34:18","Microsoft","64","Software Engineer",220000,"Redmond, WA",14,0,"Distributed Systems (Back-End)",165000,25000,24000,NA,NA,11521,819,1545,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/19/2018 11:28:31","Microsoft","L61","Software Engineer",188000,"Bellevue, WA",4,0,"Full Stack",138000,25000,25000,NA,NA,11470,819,1562,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/20/2018 9:26:17","Microsoft","64","Product Manager",270000,"Redmond, WA",12,3,"Business Development",180000,40000,50000,NA,NA,11521,819,1574,0,0,0,0,0,0,0,0,0,0,NA,NA
-"8/21/2018 12:04:42","apple","ICT2","Software Engineer",120000,"San Francisco, CA",1,1,"Distributed Systems (Back-End)",0,0,0,NA,NA,7419,807,1591,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/24/2018 10:09:45","Microsoft","59","Software Engineer",196000,"Redmond, WA",1,0,"Gaming",109000,37000,50000,NA,NA,11521,819,1652,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/24/2018 12:07:12","amazon","L6","Product Manager",145000,"Seattle, WA",12,3,"ML / AI",145000,30000,0,NA,NA,11527,819,1665,0,0,0,0,0,0,0,0,0,0,NA,NA
-"8/25/2018 7:01:16","Snap","L7","Software Engineering Manager",800000,"Los Angeles, CA",10,2,"Distributed Systems (Back-End)",0,0,0,NA,NA,7275,803,1677,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/25/2018 16:36:44","Epam","Senior","Software Engineer",140000,"Seattle, WA",10,8,"Distributed Systems (Back-End)",110000,20000,10000,"Male",NA,11527,819,1683,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/25/2018 18:14:26","Oath","M3","Software Engineering Manager",270000,"Sunnyvale, CA",5,5,"Distributed Systems (Back-End)",176000,70000,25000,NA,NA,7472,807,1684,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/25/2018 20:17:27","Indeed","L2","Software Engineer",150000,"Austin, TX",5,1,"DevOps",125000,0,25000,NA,NA,10965,635,1688,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/28/2018 8:51:50","Amazon","L4","Software Engineer",155000,"Seattle, WA",0,0,"Full Stack",106000,20000,18000,NA,NA,11527,819,1728,0,0,0,0,0,0,0,0,0,0,NA,NA
-"8/28/2018 21:29:42","Amazon","L5 SDM","Software Engineering Manager",260000,"Seattle, WA",11,1,"Full Stack",0,0,0,NA,NA,11527,819,1738,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/29/2018 14:04:37","IBM","Band 7","Software Engineer",130000,"New York, NY",4,2,"Full Stack",130000,0,0,NA,NA,10182,501,1744,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/30/2018 10:40:27","Intuit","Software Engineer 2","Software Engineer",180000,"San Diego, CA",2,2,"Distributed Systems (Back-End)",110000,50000,11000,NA,NA,7416,825,1754,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/30/2018 13:00:07","LinkedIn","Principal Product Manager","Product Manager",470000,"Sunnyvale, CA",20,2,"ML / AI",225000,2e+05,45000,NA,NA,7472,807,1757,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/2/2018 2:48:36","Facebook","E4","Software Engineer",260000,"Menlo Park, CA",2,2,"Full Stack",144000,1e+05,16000,NA,NA,7300,807,1797,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/2/2018 20:33:01","Qualcomm","senior engineer","Software Engineer",150000,"San Diego, CA",5,5,"Testing (SDET)",120000,20000,10000,NA,NA,7416,825,1801,0,0,0,0,0,0,0,0,0,0,NA,NA
-"9/4/2018 10:08:23","Apple","ICT3","Software Engineer",200000,"San Francisco, CA",5,3,"ML / AI",0,0,0,NA,NA,7419,807,1816,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/5/2018 1:24:39","Google","L4","Software Engineer",250000,"Sunnyvale, CA",7,3,"Testing (SDET)",133000,23000,94000,NA,NA,7472,807,1835,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/5/2018 15:55:41","GE Digital","Senior SWE","Software Engineer",151000,"San Ramon, CA",9,4,"Web Development (Front-End)",151000,12000,10000,NA,NA,7430,807,1848,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/5/2018 22:49:19","Cisco","Software Engineer III","Software Engineer",108000,"San Jose, CA",7,7,"API Development (Back-End)",108000,0,13000,NA,NA,7422,807,1854,0,0,0,0,0,0,0,0,0,0,NA,NA
-"9/5/2018 22:52:57","Shutterfly","Software Engineering Manager","Software Engineering Manager",175000,"Redwood City, CA",11,4,"Full Stack",0,0,0,NA,NA,7392,807,1856,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/6/2018 23:25:17","Microsoft","63","Software Engineer",190000,"Seattle, WA",10,3,"Full Stack",155000,17000,17000,NA,NA,11527,819,1897,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/7/2018 0:46:24","Capgemini","Senior","Software Engineer",90000,"London, EN, United Kingdom",5,3,"Distributed Systems (Back-End)",80000,0,10000,NA,NA,12008,0,1901,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/7/2018 16:18:04","Guidewire","Entry","Software Engineer",40000,"Dublin, DN, Ireland",1,0.5,"Full Stack",40000,0,0,NA,NA,4015,0,1940,0,0,0,0,0,0,0,0,0,0,NA,NA
@@ -127,35 +103,25 @@
 "9/20/2018 13:17:58","Amazon","L6","Product Designer",220000,"Seattle, WA",10,1,"Design Management",155000,20000,45000,NA,NA,11527,819,2168,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/20/2018 23:20:44","Google","L3","Software Engineer",190000,"Seattle, WA",1,0,"iOS",120000,50000,20000,NA,NA,11527,819,2178,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/21/2018 12:35:06","Amazon","SDE I","Solution Architect",120000,"Seattle, WA",10,3,"Full Stack",115000,0,12000,NA,NA,11527,819,2188,0,0,0,0,0,0,0,0,0,0,NA,NA
-"9/21/2018 23:21:45","Oracle","Director","Product Manager",220000,"Sunnyvale, CA",20,2,"ML / AI",0,0,0,NA,NA,7472,807,2200,0,0,0,0,0,0,0,0,0,0,NA,NA
-"9/22/2018 0:25:54","Esri","L2","Product Manager",185000,"Redlands, CA",12,4,"Web",0,0,0,NA,NA,7390,803,2201,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/22/2018 0:35:49","VMware","Staff Engineer 1","Software Engineer",295000,"Palo Alto, CA",9,4,"Distributed Systems (Back-End)",182000,73000,40000,NA,NA,7351,807,2202,0,0,0,0,0,0,0,0,0,0,NA,NA
-"9/22/2018 20:13:07","Barclays","Assistant Vice-President","Software Engineer",150000,"New York, NY",9,0,"Full Stack",0,0,0,NA,NA,10182,501,2223,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/22/2018 23:55:35","Microsoft","61","Software Engineer",237000,"San Francisco, CA",3,1,"Distributed Systems (Back-End)",159000,65000,13000,NA,NA,7419,807,2229,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/24/2018 14:23:13","Yahoo","IC4","Software Engineer",190000,"Sunnyvale, CA",6,6,"Distributed Systems (Back-End)",150000,20000,20000,NA,NA,7472,807,2255,0,0,0,0,0,0,0,0,0,0,NA,NA
-"9/25/2018 9:36:21","Texas Instruments","Software Engineer 3","Software Engineering Manager",71000,"Bangalore, KA, India",10,4,"Desktop Developer",0,0,0,NA,NA,4058,0,2274,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/25/2018 10:50:32","Facebook","L5 Product Manager","Product Manager",310000,"Seattle, WA",4,1,"Pm",175000,110000,25000,NA,NA,11527,819,2275,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/26/2018 6:07:54","Amazon","Senior SDE","Software Engineer",340000,"Herndon, VA",13,3,"Full Stack",180000,160000,0,NA,NA,11385,511,2293,0,0,0,0,0,0,0,0,0,0,NA,NA
-"9/26/2018 14:57:10","Amazon","SDE I","Software Engineer",154000,"Seattle, WA",2,1,"Full Stack",0,0,0,NA,NA,11527,819,2314,0,0,0,0,0,0,0,0,0,0,NA,NA
-"9/27/2018 2:58:43","Amazon","5","Data Scientist",115000,"Seattle, WA",6,2,"ML / AI",0,0,0,NA,NA,11527,819,2340,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/27/2018 6:32:00","Amazon","L6","Software Engineer",247000,"Seattle, WA",10,8,"Full Stack",145000,102000,0,NA,NA,11527,819,2349,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/27/2018 10:27:29","LinkedIn","Staff Software Engineer","Software Engineering Manager",435000,"Sunnyvale, CA",14,4,"Distributed Systems (Back-End)",210000,2e+05,25000,NA,NA,7472,807,2357,0,0,0,0,0,0,0,0,0,0,NA,NA
-"9/27/2018 14:19:36","LinkedIn","Software Engineer","Software Engineer",190000,"San Francisco, CA",1,1,"Distributed Systems (Back-End)",0,0,0,NA,NA,7419,807,2369,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/27/2018 14:50:07","Uber","Senior Software Engineer II","Software Engineer",500000,"San Francisco, CA",8,1,"Machine Learning",198000,250000,52000,NA,NA,7419,807,2372,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/27/2018 15:05:30","Facebook","E4","Software Engineer",255000,"Menlo Park, CA",5,0,"Full Stack",160000,45000,50000,NA,NA,7300,807,2376,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/27/2018 15:56:49","Groupon","l2","Software Engineer",160000,"Palo Alto, CA",2,2,"Web Development (Front-End)",130000,20000,10000,NA,NA,7351,807,2384,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/27/2018 17:33:07","Qualcomm","Engineer","Software Engineer",116000,"San Jose, CA",2,1,"Embedded System",98000,10000,8000,NA,NA,7422,807,2392,0,0,0,0,0,0,0,0,0,0,NA,NA
-"9/27/2018 18:45:00","Salesforce","Lead MTS","Software Engineer",190000,"San Francisco, CA",13,1,"Distributed Systems (Back-End)",0,0,0,NA,NA,7419,807,2395,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/27/2018 23:57:39","Uber","L3","Software Engineer",160000,"San Francisco, CA",2,2,"Distributed Systems (Back-End)",115000,40000,10000,NA,NA,7419,807,2408,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/28/2018 7:12:23","eBay","Sr staff","Software Engineer",260000,"San Jose, CA",20,7,"Distributed Systems (Back-End)",210000,25000,25000,NA,NA,7422,807,2419,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/28/2018 17:33:04","Microsoft","61","Software Engineer",157000,"Redmond, WA",2,2,"Compiler Development",134000,8000,15000,NA,NA,11521,819,2459,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/28/2018 18:53:54","Microsoft","64","Software Engineering Manager",240000,"Boston, MA",13,13,"Mobile (iOS + Android)",180000,30000,30000,NA,NA,8816,506,2461,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/29/2018 7:27:26","Apple","ICT4","Software Engineer",250000,"Sunnyvale, CA",7,0,"API Development (Back-End)",170000,40000,40000,NA,NA,7472,807,2501,0,0,0,0,0,0,0,0,0,0,NA,NA
-"9/29/2018 13:04:01","Salesforce","Senior Director","Product Manager",350000,"San Francisco, CA",12,3,"Web Development (Front-End)",0,0,0,NA,NA,7419,807,2523,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/29/2018 13:18:43","Salesforce","Senior MTS","Software Engineer",327000,"San Francisco, CA",4,4,"Full Stack",165000,150000,22000,NA,"Acquired company",7419,807,2527,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/29/2018 13:20:08","Amazon","L5","Software Engineer",200000,"Seattle, WA",3,3,"Distributed Systems (Back-End)",131000,70000,3000,NA,NA,11527,819,2528,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/29/2018 14:00:12","Amazon","L5","Software Engineer",174000,"Seattle, WA",2,3,"Distributed Systems (Back-End)",130000,8000,0,NA,NA,11527,819,2537,0,0,0,0,0,0,0,0,0,0,NA,NA
-"9/29/2018 15:19:07","Twitter","L2","Data Scientist",230000,"San Francisco, CA",2,1,"Data Science",0,0,0,NA,NA,7419,807,2543,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/30/2018 13:43:31","Apple","ICT3","Software Engineer",191000,"Cupertino, CA",2,2,"Testing (SDET)",115000,71000,5000,NA,NA,7158,807,2563,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/30/2018 18:35:11","IBM","9","Software Engineer",140000,"Raleigh, NC",20,20,"Testing (SDET)",135000,0,5000,NA,NA,1317,560,2575,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/30/2018 21:08:42","Google","T3","Software Engineer",158000,"San Bruno, CA",1,1,"Full Stack",116000,25000,17000,NA,NA,7413,807,2580,0,0,0,0,0,0,0,0,0,0,NA,NA
@@ -173,39 +139,30 @@
 "10/7/2018 0:07:27","Hulu","Senior Product Manager","Product Manager",240000,"Santa Monica, CA",1,1,"Other",180000,15000,45000,NA,NA,7438,803,2735,0,0,0,0,0,0,0,0,0,0,NA,NA
 "10/7/2018 12:48:10","Apple","ICT4","Software Engineer",352000,"Cupertino, CA",8,6,"Distributed Systems (Back-End)",195000,125000,32000,NA,NA,7158,807,2740,0,0,0,0,0,0,0,0,0,0,NA,NA
 "10/12/2018 2:13:18","Yandex","G16","Software Engineer",35000,"Moscow, MC, Russia",9,2,"API Development (Back-End)",30000,0,5000,NA,NA,1384,0,2869,0,0,0,0,0,0,0,0,0,0,NA,NA
-"10/12/2018 12:46:53","Snap","L4","Software Engineer",300000,"Seattle, WA",8,1,"Distributed Systems (Back-End)",0,0,0,NA,NA,11527,819,2879,0,0,0,0,0,0,0,0,0,0,NA,NA
 "10/12/2018 17:41:19","LinkedIn","Senior Software Engineer","Software Engineer",275000,"Sunnyvale, CA",12,2,"DevOps",160000,1e+05,15000,NA,NA,7472,807,2883,0,0,0,0,0,0,0,0,0,0,NA,NA
-"10/13/2018 6:05:30","Netflix","Senior","Data Scientist",400000,"Los Gatos, CA",2,2,"Exp",0,0,0,NA,NA,7277,807,2889,0,0,0,0,0,0,0,0,0,0,NA,NA
 "10/13/2018 20:05:29","Twitter","Senior SWE","Software Engineer",317000,"San Francisco, CA",6,1.5,"Distributed Systems (Back-End)",170000,140000,17000,NA,NA,7419,807,2904,0,0,0,0,0,0,0,0,0,0,NA,NA
-"10/14/2018 14:22:32","Capital One","Software Eng","Software Engineer",108000,"Mc Lean, VA",2,2,"Full Stack",0,0,0,NA,NA,11412,511,2914,0,0,0,0,0,0,0,0,0,0,NA,NA
 "10/14/2018 16:16:29","Apple","M1","Software Engineering Manager",325000,"Cupertino, CA",4,4,"Firmware",177000,122000,26000,NA,NA,7158,807,2916,0,0,0,0,0,0,0,0,0,0,NA,NA
 "10/14/2018 18:25:47","Microsoft","62","Software Engineer",198000,"Redmond, WA",5,2,"Distributed Systems (Back-End)",148000,30000,20000,NA,NA,11521,819,2921,0,0,0,0,0,0,0,0,0,0,NA,NA
 "10/15/2018 5:42:12","Qualcomm","Principal Engineer","Software Engineer",385000,"San Diego, CA",20,14,"Hardware",225000,105000,55000,NA,NA,7416,825,2930,0,0,0,0,0,0,0,0,0,0,NA,NA
-"10/15/2018 13:29:28","Qualcomm","Staff Engineer","Software Engineer",180000,"San Diego, CA",10,8,"ASIC HW verification",0,0,0,NA,NA,7416,825,2936,0,0,0,0,0,0,0,0,0,0,NA,NA
 "10/16/2018 15:48:48","Google","T4","Software Engineer",420000,"Zurich, ZH, Switzerland",7,4,"Full Stack",165000,225000,30000,NA,NA,6736,0,2966,0,0,0,0,0,0,0,0,0,0,NA,NA
 "10/17/2018 14:47:24","Mic","61","Software Engineer",160000,"Redmond, WA",4,2,"Distributed Systems (Back-End)",139000,11000,10000,NA,NA,11521,819,2985,0,0,0,0,0,0,0,0,0,0,NA,NA
 "10/18/2018 17:30:41","Facebook","E4","Software Engineer",223000,"Menlo Park, CA",2,2,"Android",145000,63000,15000,NA,NA,7300,807,3003,0,0,0,0,0,0,0,0,0,0,NA,NA
-"10/18/2018 20:25:23","Amazon","L4","Software Engineer",136000,"Seattle, WA",1,1,"API Development (Back-End)",0,0,0,NA,NA,11527,819,3006,0,0,0,0,0,0,0,0,0,0,NA,NA
 "10/19/2018 19:46:40","Arista Networks","Software Engineer I","Software Engineer",100000,"Vancouver, BC, Canada",0,0,"Distributed Systems (Back-End)",85000,5000,10000,NA,"$3000 signing-bonus",1320,0,3027,0,0,0,0,0,0,0,0,0,0,NA,NA
 "10/20/2018 20:33:42","Hulu","SDE1","Software Engineer",205000,"Santa Monica, CA",1,0,"Distributed Systems (Back-End)",124000,31000,50000,NA,NA,7438,803,3051,0,0,0,0,0,0,0,0,0,0,NA,NA
 "10/22/2018 14:02:03","Microsoft","60","Software Engineer",170000,"Redmond, WA",5,2,"Full Stack",120000,40000,10000,NA,NA,11521,819,3070,0,0,0,0,0,0,0,0,0,0,NA,NA
 "10/22/2018 14:25:39","Apple","ICT4","Software Engineer",350000,"San Francisco, CA",20,2,"iOS",205000,125000,25000,NA,NA,7419,807,3071,0,0,0,0,0,0,0,0,0,0,NA,NA
 "10/23/2018 1:56:58","Salesforce","7","Software Engineering Manager",210000,"Washington, DC",12,2,"DevOps",165000,20000,25000,NA,NA,40303,511,3083,0,0,0,0,0,0,0,0,0,0,NA,NA
-"10/23/2018 11:38:54","Docker","3","Software Engineer",140000,"San Francisco, CA",6,4,"Full Stack",0,0,0,NA,NA,7419,807,3087,0,0,0,0,0,0,0,0,0,0,NA,NA
 "10/23/2018 18:01:29","Microsoft","61","Software Engineer",162000,"Redmond, WA",2,2,"Full Stack",127000,10000,25000,NA,NA,11521,819,3097,0,0,0,0,0,0,0,0,0,0,NA,NA
 "10/24/2018 15:23:42","Apple","ICT4","Software Engineer",275000,"Cupertino, CA",6,3,"iOS",185000,70000,20000,NA,NA,7158,807,3112,0,0,0,0,0,0,0,0,0,0,NA,NA
 "10/25/2018 19:10:42","Oracle","IC-4","Software Engineer",190000,"Seattle, WA",14,1,"DevOps",140000,50000,0,NA,NA,11527,819,3136,0,0,0,0,0,0,0,0,0,0,NA,NA
 "10/27/2018 10:17:05","Salesforce","Senior MTS","Software Engineer",210000,"San Francisco, CA",12,1,"Distributed Systems (Back-End)",160000,26000,24000,NA,NA,7419,807,3159,0,0,0,0,0,0,0,0,0,0,NA,NA
 "10/29/2018 10:24:27","Mi","64","Product Manager",230000,"Seattle, WA",6,3,"Distributed Systems (Back-End)",170000,30000,30000,NA,NA,11527,819,3191,0,0,0,0,0,0,0,0,0,0,NA,NA
-"10/29/2018 15:40:03","Intel","Grade 8","Software Engineer",165000,"Santa Clara, CA",8,8,"API Development (Back-End)",0,0,0,NA,NA,7434,807,3194,0,0,0,0,0,0,0,0,0,0,NA,NA
 "10/30/2018 6:51:14","Google","L4","Software Engineer",295000,"Mountain View, CA",13,0,"Awesome",160000,110000,25000,NA,NA,7322,807,3206,0,0,0,0,0,0,0,0,0,0,NA,NA
 "10/31/2018 16:37:03","Amazon","L4","Software Engineer",155000,"Seattle, WA",1,1,"API Development (Back-End)",111000,24000,20000,NA,NA,11527,819,3243,0,0,0,0,0,0,0,0,0,0,NA,NA
 "10/31/2018 16:59:37","Lyft","L4","Software Engineer",210000,"San Francisco, CA",6,1,"Full Stack",130000,80000,0,NA,NA,7419,807,3255,0,0,0,0,0,0,0,0,0,0,NA,NA
 "10/31/2018 17:16:41","Square","L3","Software Engineer",137000,"San Francisco, CA",1,1,"DevOps",110000,27000,0,NA,NA,7419,807,3265,0,0,0,0,0,0,0,0,0,0,NA,NA
 "10/31/2018 17:17:59","Amazon","L4","Solution Architect",150000,"San Francisco, CA",3,1,"ML / AI",103000,25000,22000,NA,NA,7419,807,3267,0,0,0,0,0,0,0,0,0,0,NA,NA
 "10/31/2018 17:33:18","Bloomberg","Senior Software Engineer","Software Engineer",250000,"New York, NY",13,6,"API Development (Back-End)",2e+05,0,50000,NA,NA,10182,501,3278,0,0,0,0,0,0,0,0,0,0,NA,NA
-"10/31/2018 17:35:02","Lyft","T5","Software Engineer",189000,"San Francisco, CA",10,1.5,"Web Development (Front-End)",0,0,0,NA,NA,7419,807,3282,0,0,0,0,0,0,0,0,0,0,NA,NA
-"10/31/2018 17:40:16","Mic","61","Software Engineer",155000,"Redmond, WA",3,3,"API Development (Back-End)",0,0,0,NA,NA,11521,819,3287,0,0,0,0,0,0,0,0,0,0,NA,NA
 "10/31/2018 17:50:35","Google","T3","Software Engineer",196000,"Seattle, WA",0,0,"API Development (Back-End)",105000,75000,16000,NA,NA,11527,819,3294,0,0,0,0,0,0,0,0,0,0,NA,NA
 "10/31/2018 17:57:10","Yelp","E3","Software Engineer",281000,"San Francisco, CA",5,5,"API Development (Back-End)",156000,125000,0,NA,NA,7419,807,3300,0,0,0,0,0,0,0,0,0,0,NA,NA
 "10/31/2018 18:09:57","IBM","8","Software Engineering Manager",22000,"Islamabad, IS, Pakistan",10,8,"Full Stack",20000,0,2000,NA,NA,6600,0,3306,0,0,0,0,0,0,0,0,0,0,NA,NA
@@ -218,50 +175,35 @@
 "10/31/2018 20:09:50","Amazon","L6","Software Engineer",305000,"Seattle, WA",6,6,"ML / AI",155000,150000,0,NA,NA,11527,819,3380,0,0,0,0,0,0,0,0,0,0,NA,NA
 "10/31/2018 20:12:30","Capital One","Principal Associate","Software Engineer",136000,"Chicago, IL",6,4,"ML / AI",136000,0,17000,NA,NA,8198,602,3382,0,0,0,0,0,0,0,0,0,0,NA,NA
 "10/31/2018 21:53:35","Google","L6","Software Engineer",525000,"San Bruno, CA",6,6,"ML / AI",208000,66000,250000,NA,NA,7413,807,3423,0,0,0,0,0,0,0,0,0,0,NA,NA
-"10/31/2018 22:14:37","Google","L4","Software Engineer",180000,"Seattle, WA",8,6,"Security",0,0,0,NA,NA,11527,819,3435,0,0,0,0,0,0,0,0,0,0,NA,NA
-"10/31/2018 23:21:42","Facebook","E3","Software Engineer",110000,"Seattle, WA",0,0,"Distributed Systems (Back-End)",0,0,0,NA,NA,11527,819,3463,0,0,0,0,0,0,0,0,0,0,NA,NA
 "11/1/2018 0:05:11","Walmart Labs","E5","Software Engineering Manager",262000,"Sunnyvale, CA",14,7,"DevOps",168000,60000,34000,NA,NA,7472,807,3472,0,0,0,0,0,0,0,0,0,0,NA,NA
 "11/1/2018 0:18:17","Google","L6","Software Engineer",341000,"Mountain View, CA",7,7,"ML / AI",193000,113000,36000,NA,NA,7322,807,3475,0,0,0,0,0,0,0,0,0,0,NA,NA
 "11/1/2018 1:16:02","Facebook","E3","Software Engineer",176000,"Menlo Park, CA",0,0,"Android",110000,55000,11000,NA,NA,7300,807,3487,0,0,0,0,0,0,0,0,0,0,NA,NA
 "11/1/2018 3:43:40","Google","L3","Software Engineer",160000,"Cambridge, MA",3,0,"Networking",113000,30000,17000,NA,NA,8821,506,3502,0,0,0,0,0,0,0,0,0,0,NA,NA
 "11/1/2018 4:38:11","Google","APM1","Product Manager",171000,"Zurich, ZH, Switzerland",2,1,"Web Development (Front-End)",128000,23000,20000,NA,NA,6736,0,3509,0,0,0,0,0,0,0,0,0,0,NA,NA
-"11/1/2018 4:40:36","Skyscanner","Senior","Software Engineer",116000,"London, EN, United Kingdom",6,2,"Distributed Systems (Back-End)",0,0,0,NA,NA,12008,0,3510,0,0,0,0,0,0,0,0,0,0,NA,NA
 "11/1/2018 6:39:55","General Motors","L8","Software Engineering Manager",170000,"Detroit, MI",18,5,"Distributed Systems (Back-End)",145000,0,25000,NA,NA,9052,505,3525,0,0,0,0,0,0,0,0,0,0,NA,NA
 "11/1/2018 10:07:26","Oracle","Consulting MTS","Software Engineer",500000,"Seattle, WA",15,3,"Distributed Systems (Back-End)",230000,270000,0,NA,NA,11527,819,3541,0,0,0,0,0,0,0,0,0,0,NA,NA
 "11/1/2018 19:18:36","VMware","Staff Engineer 2","Software Engineer",320000,"Palo Alto, CA",10,5,"Full Stack",210000,60000,50000,NA,NA,7351,807,3584,0,0,0,0,0,0,0,0,0,0,NA,NA
-"11/2/2018 4:17:14","Synechron","Senior","Software Engineer",65000,"Charlotte, NC",3,3,"Web Development (Front-End)",0,0,0,NA,NA,9594,517,3602,0,0,0,0,0,0,0,0,0,0,NA,NA
-"11/2/2018 10:35:31","Microsoft","61","Software Engineer",133000,"Seattle, WA",18,15,"Web Development (Front-End)",0,0,0,NA,NA,11527,819,3618,0,0,0,0,0,0,0,0,0,0,NA,NA
-"11/2/2018 18:12:27","Amazon","L6","Software Engineer",350000,"Seattle, WA",14,4,"API Development (Back-End)",0,0,0,NA,NA,11527,819,3631,0,0,0,0,0,0,0,0,0,0,NA,NA
 "11/3/2018 1:43:50","eBay","SE 3","Software Engineer",85000,"Berlin, BE, Germany",3,3,"DevOps",70000,15000,7000,NA,NA,3651,0,3641,0,0,0,0,0,0,0,0,0,0,NA,NA
 "11/3/2018 8:42:49","Apple","ICT4","Software Engineer",255000,"Sunnyvale, CA",10,2,"API Development (Back-End)",165000,65000,25000,NA,NA,7472,807,3646,0,0,0,0,0,0,0,0,0,0,NA,NA
 "11/4/2018 6:44:15","Amazon","L5","Software Engineer",240000,"Seattle, WA",20,1,"Full Stack",145000,70000,35000,"Male",NA,11527,819,3658,0,0,0,0,0,0,0,0,0,0,NA,NA
 "11/4/2018 9:16:22","Google","L5","Software Engineer",340000,"Mountain View, CA",11,6,"ML / AI",185000,130000,25000,"Male",NA,7322,807,3660,0,0,0,0,0,0,0,0,0,0,NA,NA
-"11/4/2018 22:29:28","Microsoft","60","Software Engineer",300000,"Sunnyvale, CA",3,3,"Android",0,0,0,"Male",NA,7472,807,3676,0,0,0,0,0,0,0,0,0,0,NA,NA
 "11/5/2018 21:22:55","Tesla","P2","Software Engineer",200000,"Palo Alto, CA",0,0,"DevOps",135000,65000,0,"Male",NA,7351,807,3694,0,0,0,0,0,0,0,0,0,0,NA,NA
 "11/5/2018 21:58:48","Google","L3","Software Engineer",158000,"Mountain View, CA",0,0,"API Development (Back-End)",116000,25000,17000,"Female",NA,7322,807,3697,0,0,0,0,0,0,0,0,0,0,NA,NA
 "11/6/2018 4:56:36","SAP","T2","Software Engineer",20000,"Bangalore, KA, India",5,5,"Mobile (iOS + Android)",16000,0,4000,"Male",NA,4058,0,3702,0,0,0,0,0,0,0,0,0,0,NA,NA
 "11/6/2018 12:43:48","Intuit","2","Software Engineer",148000,"Mountain View, CA",1,1,"Web Development (Front-End)",120000,16000,12000,"Male",NA,7322,807,3708,0,0,0,0,0,0,0,0,0,0,NA,NA
-"11/6/2018 14:08:01","Netflix","Data Engineer","Data Scientist",425000,"Los Gatos, CA",10,7,"Data Engineering",0,0,0,NA,NA,7277,807,3714,0,0,0,0,0,0,0,0,0,0,NA,NA
 "11/6/2018 22:26:44","Box","Senior","Software Engineer",240000,"Redwood City, CA",2,2,"Full Stack",175000,65000,0,"Male",NA,7392,807,3723,0,0,0,0,0,0,0,0,0,0,NA,NA
 "11/8/2018 18:47:19","Google","L3","Software Engineer",155000,"Kirkland, WA",0,0,"API Development (Back-End)",108000,30000,17000,"Male",NA,11497,819,3779,0,0,0,0,0,0,0,0,0,0,NA,NA
-"11/9/2018 12:16:12","JPMorgan Chase","Executive Director","Software Engineering Manager",250000,"London, EN, United Kingdom",20,1,"Full Stack",0,0,0,"Male",NA,12008,0,3798,0,0,0,0,0,0,0,0,0,0,NA,NA
 "11/9/2018 20:23:15","SAP","T4","Solution Architect",200000,"Singapore, SG, Singapore",15,5,"ML / AI",140000,0,30000,"Male",NA,17912,0,3811,0,0,0,0,0,0,0,0,0,0,NA,NA
-"11/9/2018 21:13:49","EPAM","d4","Software Engineer",123000,"Stamford, CT",15,3,"DWH",0,0,0,"Male",NA,7645,501,3814,0,0,0,0,0,0,0,0,0,0,NA,NA
 "11/9/2018 22:22:47","Amazon","L5","Software Engineer",250000,"San Francisco, CA",3,4,"DevOps",150000,1e+05,0,"Male",NA,7419,807,3817,0,0,0,0,0,0,0,0,0,0,NA,NA
 "11/9/2018 23:02:02","Microsoft","61","Software Engineer",170000,"Redmond, WA",2,2,"Distributed Systems (Back-End)",135000,12000,22000,"Male",NA,11521,819,3819,0,0,0,0,0,0,0,0,0,0,NA,NA
-"11/11/2018 17:32:47","IBM","9","Software Engineer",300000,"Cambridge, MA",10,10,"Full Stack",0,0,0,"Male",NA,8821,506,3856,0,0,0,0,0,0,0,0,0,0,NA,NA
 "11/12/2018 6:38:36","Microsoft","63","Software Engineer",209000,"Bellevue, WA",6,0,"Web Development (Front-End)",156000,25000,0,NA,NA,11470,819,3858,0,0,0,0,0,0,0,0,0,0,NA,NA
 "11/12/2018 15:02:31","Amazon","L4","Software Engineer",130000,"Toronto, ON, Canada",4,0,"API Development (Back-End)",1e+05,12000,18000,"Male","All amounts in CAD",1206,0,3863,0,0,0,0,0,0,0,0,0,0,NA,NA
 "11/12/2018 19:38:21","Apple","ICT5","Software Engineer",280000,"Cupertino, CA",12,3,"iOS",175000,85000,20000,"Male",NA,7158,807,3870,0,0,0,0,0,0,0,0,0,0,NA,NA
 "11/13/2018 2:42:11","amazon","L6","Product Manager",140000,"Dubai, DU, United Arab Emirates",10,5,"Full Stack",120000,20000,0,"Male",NA,6765,0,3879,0,0,0,0,0,0,0,0,0,0,NA,NA
 "11/13/2018 15:42:54","Uber","Senior Software Engineer II","Software Engineer",555000,"Palo Alto, CA",12,1,"Web Development (Front-End)",205000,2e+05,150000,NA,NA,7351,807,3890,0,0,0,0,0,0,0,0,0,0,NA,NA
 "11/14/2018 7:58:30","Amazon","L6 SDM","Software Engineering Manager",280000,"Austin, TX",16,2,"Distributed Systems (Back-End)",158000,120000,0,"Male",NA,10965,635,3903,0,0,0,0,0,0,0,0,0,0,NA,NA
-"11/14/2018 9:07:55","Microsoft","62","Software Engineer",180000,"Redmond, WA",6,3,"ML / AI",0,0,0,NA,NA,11521,819,3906,0,0,0,0,0,0,0,0,0,0,NA,NA
 "11/14/2018 9:25:59","Zendesk","ZEN2","Software Engineer",150000,"San Francisco, CA",1,1,"Full Stack",115000,15000,20000,"Female",NA,7419,807,3907,0,0,0,0,0,0,0,0,0,0,NA,NA
-"11/15/2018 5:41:51","Microsoft","66","Product Manager",525000,"Redmond, WA",25,12,"Full Stack",0,0,0,"Male",NA,11521,819,3924,0,0,0,0,0,0,0,0,0,0,NA,NA
 "11/15/2018 23:53:06","Facebook","E4","Software Engineer",210000,"Menlo Park, CA",7,0,"Android",145000,50000,15000,NA,NA,7300,807,3946,0,0,0,0,0,0,0,0,0,0,NA,NA
-"11/16/2018 11:36:25","Zillow","Entry","Data Scientist",205000,"Seattle, WA",0,0,"ML / AI",0,0,0,"Male",NA,11527,819,3949,0,0,0,0,0,0,0,0,0,0,NA,NA
-"11/16/2018 14:11:52","Tableau Software","Software Engineer (SWE)","Software Engineer",115000,"Seattle, WA",1,1,"iOS",0,0,0,"Female",NA,11527,819,3953,0,0,0,0,0,0,0,0,0,0,NA,NA
 "11/16/2018 14:44:45","Microsoft","62","Software Engineer",167000,"Seattle, WA",6,5,"API Development (Back-End)",140000,12000,15000,"Male",NA,11527,819,3956,0,0,0,0,0,0,0,0,0,0,NA,NA
 "11/16/2018 15:57:17","Microsoft","60","Software Engineer",165000,"Redmond, WA",3,2,"API Development (Back-End)",120000,25000,15000,"Male",NA,11521,819,3957,0,0,0,0,0,0,0,0,0,0,NA,NA
 "11/17/2018 3:11:09","Google","L3","Software Engineer",190000,"New York, NY",5,0.5,"DevOps",120000,50000,20000,"Male",NA,10182,501,3966,0,0,0,0,0,0,0,0,0,0,NA,NA
@@ -272,101 +214,75 @@
 "11/26/2018 9:24:14","Amazon","L6","Product Manager",240000,"Seattle, WA",12,4,"Full Stack",140000,0,0,"Male",NA,11527,819,4087,0,0,0,0,0,0,0,0,0,0,NA,NA
 "11/26/2018 10:33:37","Booking.com","Senior","Software Engineer",130000,"Amsterdam, NH, Netherlands",9,1,"Distributed Systems (Back-End)",90000,30000,10000,"Male",NA,6580,0,4089,0,0,0,0,0,0,0,0,0,0,NA,NA
 "11/26/2018 11:49:51","Google","L5","Hardware Engineer",364000,"Mountain View, CA",14,1,"Hardware",180000,154000,30000,"Male",NA,7322,807,4091,0,0,0,0,0,0,0,0,0,0,NA,NA
-"11/26/2018 18:27:56","Amazon","SDE II","Software Engineer",200000,"Seattle, WA",2,2,"API Development (Back-End)",0,0,0,"Male",NA,11527,819,4096,0,0,0,0,0,0,0,0,0,0,NA,NA
 "11/26/2018 20:58:10","Dropbox","IC5","Software Engineer",620000,"San Francisco, CA",10,0,"ML / AI",250000,250000,120000,NA,NA,7419,807,4100,0,0,0,0,0,0,0,0,0,0,NA,NA
 "11/27/2018 11:06:31","Amazon","SDE I","Software Engineer",37000,"Gdansk, PM, Poland",3,1,"API Development (Back-End)",29000,7000,1000,"Male",NA,4660,0,4107,0,0,0,0,0,0,0,0,0,0,NA,NA
 "11/27/2018 22:26:18","Stripe","L3","Software Engineer",410000,"San Francisco, CA",4,1,"Distributed Systems (Back-End)",2e+05,190000,20000,"Male",NA,7419,807,4124,0,0,0,0,0,0,0,0,0,0,NA,NA
 "11/28/2018 19:11:37","Facebook","E3","Software Engineer",191000,"Menlo Park, CA",3,0,"other",115000,40000,36000,"Male",NA,7300,807,4136,0,0,0,0,0,0,0,0,0,0,NA,NA
 "11/29/2018 0:16:56","Facebook","L6 Product Manager","Product Manager",530000,"Menlo Park, CA",23,3,"ML / AI",232000,252000,46000,"Male",NA,7300,807,4141,0,0,0,0,0,0,0,0,0,0,NA,NA
 "11/29/2018 11:46:03","Google","L3","Software Engineer",163000,"Mountain View, CA",1,0,"Distributed Systems (Back-End)",120000,25000,18000,"Male",NA,7322,807,4146,0,0,0,0,0,0,0,0,0,0,NA,NA
-"11/29/2018 23:30:24","Unity Technologies","Senior","Software Engineer",215000,"San Francisco, CA",10,2,"API Development (Back-End)",0,0,0,"Other",NA,7419,807,4154,0,0,0,0,0,0,0,0,0,0,NA,NA
 "11/30/2018 13:55:35","Microsoft","59","Software Engineer",165000,"Redmond, WA",2,0,"Full Stack",109000,35000,21000,"Male",NA,11521,819,4164,0,0,0,0,0,0,0,0,0,0,NA,NA
 "11/30/2018 18:00:04","Apple","ICT4","Software Engineer",460000,"Cupertino, CA",4,4,"iOS",160000,250000,50000,"Male",NA,7158,807,4168,0,0,0,0,0,0,0,0,0,0,NA,NA
 "11/30/2018 21:02:39","PayPal","Software Engineer II","Software Engineer",163000,"San Jose, CA",2,2,"API Development (Back-End)",118000,17000,21000,"Male",NA,7422,807,4173,0,0,0,0,0,0,0,0,0,0,NA,NA
 "12/1/2018 12:46:49","Salesforce","Senior MTS","Software Engineer",215000,"Palo Alto, CA",5,3,"API Development (Back-End)",160000,30000,25000,NA,NA,7351,807,4182,0,0,0,0,0,0,0,0,0,0,NA,NA
 "12/1/2018 14:50:32","Amazon","L6","Solution Architect",140000,"Paris, IL, France",17,1,"Full Stack",120000,40000,0,"Male",NA,6409,0,4184,0,0,0,0,0,0,0,0,0,0,NA,NA
 "12/4/2018 10:19:52","SAIC","Senior Principal","Solution Architect",160000,"Tampa, FL",14,6,"Cloud/Cyber",160000,0,0,"Male",NA,7813,539,4224,0,0,0,0,0,0,0,0,0,0,NA,NA
-"12/4/2018 19:00:36","top hat","Intermediate","Software Engineer",110000,"Toronto, ON, Canada",3,1,"Full Stack",0,0,0,"Male",NA,1206,0,4233,0,0,0,0,0,0,0,0,0,0,NA,NA
 "12/4/2018 20:49:29","IBM","Advisory","Software Engineer",153000,"San Jose, CA",6,3,"API Development (Back-End)",153000,0,0,"Male",NA,7422,807,4238,0,0,0,0,0,0,0,0,0,0,NA,NA
 "12/5/2018 9:04:44","Google","L5","Software Engineer",345000,"Mountain View, CA",17,7,"Distributed Systems (Back-End)",180000,125000,40000,"Male",NA,7322,807,4244,0,0,0,0,0,0,0,0,0,0,NA,NA
-"12/5/2018 14:27:25","Oracle","sr director","Software Engineering Manager",200000,"Santa Clara, CA",20,20,"Testing (SDET)",0,0,0,"Male",NA,7434,807,4249,0,0,0,0,0,0,0,0,0,0,NA,NA
 "12/6/2018 4:03:26","Google","L4","Software Engineer",255000,"Zurich, ZH, Switzerland",10,7,"Security",165000,60000,30000,"Male",NA,6736,0,4260,0,0,0,0,0,0,0,0,0,0,NA,NA
-"12/6/2018 10:19:39","Dell Technologies","Senior Software Engineer","Software Engineer",92000,"Hopkinton, MA",6,6,"Full Stack",0,0,0,"Male",NA,28525,506,4262,0,0,0,0,0,0,0,0,0,0,NA,NA
-"12/6/2018 10:37:13","Twitter","EM","Software Engineering Manager",430000,"San Francisco, CA",6,6,"Distributed Systems (Back-End)",0,0,0,"Male",NA,7419,807,4263,0,0,0,0,0,0,0,0,0,0,NA,NA
 "12/6/2018 20:56:43","Google","L6","Software Engineering Manager",475000,"Sunnyvale, CA",15,0,"DevOps",240000,188000,48000,"Male",NA,7472,807,4270,0,0,0,0,0,0,0,0,0,0,NA,NA
 "12/6/2018 21:45:15","Google","L7","Software Engineer",650000,"San Francisco, CA",14,7,"Distributed Systems (Back-End)",240000,340000,70000,"Male",NA,7419,807,4271,0,0,0,0,0,0,0,0,0,0,NA,NA
 "12/7/2018 7:54:34","Cadence","6","Software Engineering Manager",320000,"San Jose, CA",15,4,"Field Application Engineering",190000,75000,55000,"Male",NA,7422,807,4281,0,0,0,0,0,0,0,0,0,0,NA,NA
-"12/7/2018 17:22:20","Salesforce","lmts","Software Engineer",260000,"San Francisco, CA",7,3,"DevOps",0,0,0,"Male",NA,7419,807,4289,0,0,0,0,0,0,0,0,0,0,NA,NA
 "12/7/2018 17:40:52","Uber","5b","Software Engineer",371000,"San Francisco, CA",11,2,"Distributed Systems (Back-End)",213000,126000,31000,"Male",NA,7419,807,4290,0,0,0,0,0,0,0,0,0,0,NA,NA
 "12/8/2018 3:28:45","Google","L3","Software Engineer",170000,"Seattle, WA",0,0,"ML / AI",116000,43000,17000,NA,NA,11527,819,4309,0,0,0,0,0,0,0,0,0,0,NA,NA
 "12/9/2018 22:02:21","Disney","Director","Software Engineering Manager",202000,"New York, NY",8,8,"Distributed Systems (Back-End)",183000,5000,14000,"Male","Disney Streaming Services",10182,501,4339,0,0,0,0,0,0,0,0,0,0,NA,NA
 "12/10/2018 20:38:09","Facebook","M1","Software Engineering Manager",522000,"Seattle, WA",16,2,"Full Stack",227000,250000,45000,"Male",NA,11527,819,4352,0,0,0,0,0,0,0,0,0,0,NA,NA
 "12/10/2018 20:49:21","Facebook","E6","Software Engineer",500000,"Seattle, WA",20,4,"Full Stack",220000,240000,40000,"Male",NA,11527,819,4353,0,0,0,0,0,0,0,0,0,0,NA,NA
-"12/11/2018 15:15:22","Google","L5","Software Engineering Manager",365000,"Zurich, ZH, Switzerland",8,6,"Full Stack",0,0,0,NA,NA,6736,0,4366,0,0,0,0,0,0,0,0,0,0,NA,NA
-"12/12/2018 13:55:45","Qualcomm","Engineer","Software Engineer",150000,"San Diego, CA",2,1,"Networking",0,0,0,NA,NA,7416,825,4382,0,0,0,0,0,0,0,0,0,0,NA,NA
 "12/12/2018 19:56:29","Qualcomm","Engineer","Software Engineer",110000,"San Diego, CA",1,0,"Networking",95000,10000,5000,"Male",NA,7416,825,4388,0,0,0,0,0,0,0,0,0,0,NA,NA
 "12/12/2018 20:01:02","Microsoft","63","Software Engineering Manager",248000,"San Francisco, CA",8,2,"DevOps",168000,60000,20000,"Male",NA,7419,807,4389,0,0,0,0,0,0,0,0,0,0,NA,NA
 "12/13/2018 0:22:31","Apple","E4","Software Engineer",300000,"Cupertino, CA",5,2.5,"Distributed Systems (Back-End)",150000,135000,15000,"Male",NA,7158,807,4401,0,0,0,0,0,0,0,0,0,0,NA,NA
-"12/14/2018 16:23:11","General Motors","L6","Software Engineer",80000,"Austin, TX",3,3,"API Development (Back-End)",0,0,0,"Male",NA,10965,635,4431,0,0,0,0,0,0,0,0,0,0,NA,NA
 "12/15/2018 12:29:46","Google","Staff SWE","Software Engineer",372000,"San Bruno, CA",6,2,"ML / AI",202000,130000,40000,"Male",NA,7413,807,4448,0,0,0,0,0,0,0,0,0,0,NA,NA
 "12/16/2018 12:47:20","Facebook","L4","Software Engineer",275000,"Menlo Park, CA",5,0,"Full Stack",160000,75000,40000,"Male",NA,7300,807,4460,0,0,0,0,0,0,0,0,0,0,NA,NA
 "12/18/2018 12:56:24","Etsy","Senior","Product Designer",161000,"New York, NY",10,1,"Web",135000,13000,13000,"Female",NA,10182,501,4489,0,0,0,0,0,0,0,0,0,0,NA,NA
-"12/18/2018 14:01:38","Cisco","Grade 12","Software Engineer",300000,"San Jose, CA",8,2,"Networking",0,0,0,"Male",NA,7422,807,4490,0,0,0,0,0,0,0,0,0,0,NA,NA
 "12/18/2018 23:22:06","Amazon","L4","Software Engineer",172000,"Seattle, WA",1,0,"Distributed Systems (Back-End)",135000,17000,30000,"Male",NA,11527,819,4503,0,0,0,0,0,0,0,0,0,0,NA,NA
 "12/19/2018 5:16:34","Amazon","L5","Software Engineer",45000,"Hyderabad, TS, India",5,3,"Full Stack",20000,20000,5000,"Female",NA,47926,0,4505,0,0,0,0,0,0,0,0,0,0,NA,NA
 "12/19/2018 10:41:40","Apple","ICT3","Software Engineer",245000,"Cupertino, CA",2,0,"Distributed Systems (Back-End)",150000,30000,65000,"Other",NA,7158,807,4508,0,0,0,0,0,0,0,0,0,0,NA,NA
-"12/19/2018 11:11:35","ibm","L9","Software Engineer",180000,"Austin, TX",25,1,"DevOps",0,0,0,"Male",NA,10965,635,4509,0,0,0,0,0,0,0,0,0,0,NA,NA
 "12/19/2018 21:38:56","Apple","ICT4","Product Manager",265000,"Cupertino, CA",9,4,"iOS",156000,90000,19000,"Male",NA,7158,807,4524,0,0,0,0,0,0,0,0,0,0,NA,NA
 "12/20/2018 8:22:44","Box","Sr Director","Software Engineering Manager",650000,"Redwood City, CA",20,7,"Distributed Systems (Back-End)",275000,320000,55000,"Male",NA,7392,807,4528,0,0,0,0,0,0,0,0,0,0,NA,NA
 "12/20/2018 11:40:05","roku","-","Software Engineer",325000,"Los Gatos, CA",3,0,"ML / AI",260000,65000,0,NA,"25k joining bonus",7277,807,4530,0,0,0,0,0,0,0,0,0,0,NA,NA
 "12/20/2018 15:28:46","Airbnb","L4","Product Designer",228000,"San Francisco, CA",0,0,"Research",140000,52000,36000,"Male","Experience Research",7419,807,4541,0,0,0,0,0,0,0,0,0,0,NA,NA
-"12/20/2018 18:39:32","Google","L4","Software Engineer",345000,"Sunnyvale, CA",7,0,"Distributed Systems (Back-End)",0,0,0,"Male",NA,7472,807,4545,0,0,0,0,0,0,0,0,0,0,NA,NA
 "12/20/2018 20:24:35","Google","Product Manager 2","Product Manager",235000,"Mountain View, CA",11,8,"Ads",154000,55000,25000,"Male",NA,7322,807,4548,0,0,0,0,0,0,0,0,0,0,NA,NA
 "12/21/2018 14:14:41","Salesforce","Software Engineer (SWE)","Software Engineer",198000,"San Francisco, CA",0,0,"Full Stack",125000,25000,48000,"Male","10% Target, $25K Signing, $10K Relocation",7419,807,4578,0,0,0,0,0,0,0,0,0,0,NA,NA
 "12/21/2018 14:29:13","Apple","ICT4","Data Scientist",300000,"Cupertino, CA",6,2,"Services",176000,1e+05,20000,"Male",NA,7158,807,4579,0,0,0,0,0,0,0,0,0,0,NA,NA
 "12/21/2018 21:31:37","LinkedIn","Staff Software Engineer","Software Engineer",700000,"San Francisco, CA",15,3,"API Development (Back-End)",2e+05,480000,20000,"Male",NA,7419,807,4583,0,0,0,0,0,0,0,0,0,0,NA,NA
-"12/22/2018 11:28:03","IBM","Band 9","Product Designer",190000,"San Jose, CA",10,5,"ML / AI",0,0,0,"Male",NA,7422,807,4592,0,0,0,0,0,0,0,0,0,0,NA,NA
 "12/24/2018 0:31:51","Amazon","L5","Software Engineer",178000,"Seattle, WA",1,1,"API Development (Back-End)",132000,36000,10000,"Male",NA,11527,819,4618,0,0,0,0,0,0,0,0,0,0,NA,NA
 "12/25/2018 21:41:56","Samsara","Member of the Technical Staff","Software Engineer",230000,"San Francisco, CA",1,0,"Distributed Systems (Back-End)",135000,85000,0,"Male","$20k sign on",7419,807,4639,0,0,0,0,0,0,0,0,0,0,NA,NA
-"12/27/2018 3:04:53","Dropbox","M5","Software Engineering Manager",350000,"Tel Aviv, TA, Israel",12,2,"Leasership",0,0,0,"Male",NA,15900,0,4703,0,0,0,0,0,0,0,0,0,0,NA,NA
-"12/27/2018 8:17:40","T-Mobile","Associate Engineer","Software Engineer",78000,"Bothell, WA",0,0,"Security",0,0,10000,"Female",NA,11981,819,4709,0,0,0,0,0,0,0,0,0,0,NA,NA
 "12/27/2018 18:07:22","Cloudflare","L4","Software Engineer",175000,"Austin, TX",7,0.25,"Distributed Systems (Back-End)",175000,0,0,"Female","I have RSUs but the company isn't public (yet!), so I didn't calculate that in. Appx value is $350,000 over 4 year vesting cycle. Cloudflare doesn't have levels in the title, but at 7 years experience I expect I'm between regular and senior",10965,635,4731,0,0,0,0,0,0,0,0,0,0,NA,NA
 "12/27/2018 18:22:02","Morgan Stanley","Vice President","Solution Architect",350000,"New York, NY",21,3,"Networking",2e+05,30000,120000,"Male",NA,10182,501,4732,0,0,0,0,0,0,0,0,0,0,NA,NA
 "12/29/2018 14:37:06","eBay","SE 3","Software Engineer",230000,"San Jose, CA",6,6,"API Development (Back-End)",145000,70000,15000,"Male",NA,7422,807,4766,0,0,0,0,0,0,0,0,0,0,NA,NA
 "12/30/2018 5:45:14","Facebook","E4","Software Engineer",226000,"Menlo Park, CA",10,0,"Security",160000,50000,16000,"Male",NA,7300,807,4773,0,0,0,0,0,0,0,0,0,0,NA,NA
 "12/30/2018 9:14:51","Dropbox","IC4","Software Engineer",534000,"San Francisco, CA",13,2,"Full Stack",190000,306000,38000,"Male",NA,7419,807,4774,0,0,0,0,0,0,0,0,0,0,NA,NA
-"12/31/2018 20:20:28","Apple","ICT2","Software Engineer",135000,"Cupertino, CA",5,2,"Distributed Systems (Back-End)",0,0,0,"Male",NA,7158,807,4798,0,0,0,0,0,0,0,0,0,0,NA,NA
 "1/2/2019 17:52:59","Amazon","L5","Software Engineer",227000,"San Francisco, CA",5,3,"Distributed Systems (Back-End)",148000,79000,0,"Male",NA,7419,807,4821,0,0,0,0,0,0,0,0,0,0,NA,NA
 "1/3/2019 10:57:21","Microsoft","61","Software Engineer",175000,"Sunnyvale, CA",3,1,"Mobile (iOS + Android)",140000,7000,28000,"Male",NA,7472,807,4828,0,0,0,0,0,0,0,0,0,0,NA,NA
-"1/4/2019 16:18:28","Zynga","Lead","Product Manager",190000,"San Francisco, CA",6,3,"Growth",0,0,0,"Male",NA,7419,807,4848,0,0,0,0,0,0,0,0,0,0,NA,NA
 "1/5/2019 16:03:05","Netflix","Senior Software Engineer","Software Engineer",430000,"Los Gatos, CA",5,0.5,"Distributed Systems (Back-End)",430000,22000,0,"Female",NA,7277,807,4866,0,0,0,0,0,0,0,0,0,0,NA,NA
 "1/5/2019 21:50:59","Snap","L4","Software Engineer",450000,"Los Angeles, CA",2,2,"iOS",190000,250000,10000,"Male",NA,7275,803,4871,0,0,0,0,0,0,0,0,0,0,NA,NA
 "1/6/2019 16:12:54","Microsoft","67","Software Engineering Manager",655000,"Seattle, WA",20,7,"Mixed Reality",218000,353000,84000,"Male","Benefits: 36K/year",11527,819,4880,0,0,0,0,0,0,0,0,0,0,NA,NA
 "1/7/2019 12:25:50","Google","L3","Software Engineer",210000,"Mountain View, CA",2,0,"Distributed Systems (Back-End)",130000,60000,20000,"Male",NA,7322,807,4893,0,0,0,0,0,0,0,0,0,0,NA,NA
-"1/7/2019 13:37:50","Indeed","L2","Product Manager",345000,"Seattle, WA",10,1,"Full Stack",0,0,0,"Other",NA,11527,819,4896,0,0,0,0,0,0,0,0,0,0,NA,NA
 "1/8/2019 12:27:47","PayPal","Member of Technical Staff 1","Software Engineer",200000,"San Jose, CA",11,6,"Full Stack",170000,10000,20000,"Male",NA,7422,807,4912,0,0,0,0,0,0,0,0,0,0,NA,NA
 "1/8/2019 12:57:42","SAP","T4","Software Engineer",100000,"Berlin, BE, Germany",8,2,"Distributed Systems (Back-End)",80000,5000,15000,"Male",NA,3651,0,4915,0,0,0,0,0,0,0,0,0,0,NA,NA
-"1/8/2019 13:55:48","Workday","P3","Software Engineer",200000,"Pleasanton, CA",4,3,"DevOps",0,0,0,NA,NA,7369,807,4916,0,0,0,0,0,0,0,0,0,0,NA,NA
 "1/8/2019 21:47:05","Microsoft","64","Software Engineer",350000,"Redmond, WA",8,1,"Full Stack",180000,60000,110000,"Male",NA,11521,819,4923,0,0,0,0,0,0,0,0,0,0,NA,NA
 "1/8/2019 22:51:44","Google","L4","Product Manager",190000,"New York, NY",5,1,"Full Stack",135000,35000,20000,"Female",NA,10182,501,4925,0,0,0,0,0,0,0,0,0,0,NA,NA
 "1/8/2019 23:51:11","Microsoft","65","Software Engineer",316000,"Bellevue, WA",12,12,"ML / AI",181000,101000,34000,"Male",NA,11470,819,4928,0,0,0,0,0,0,0,0,0,0,NA,NA
 "1/10/2019 11:32:03","Salesforce","AMTS","Software Engineer",175000,"San Francisco, CA",0,1,"Distributed Systems (Back-End)",130000,22000,20000,"Male",NA,7419,807,4963,0,0,0,0,0,0,0,0,0,0,NA,NA
-"1/10/2019 19:24:01","Slalom","Solution Principal","Solution Architect",215000,"San Diego, CA",28,1,"Data and Analytics",0,0,0,"Male",NA,7416,825,4972,0,0,0,0,0,0,0,0,0,0,NA,NA
-"1/10/2019 20:21:01","Google","PM 2","Product Manager",280000,"Mountain View, CA",8,4,"ML / AI",0,0,0,NA,NA,7322,807,4974,0,0,0,0,0,0,0,0,0,0,NA,NA
-"1/11/2019 0:15:00","Microsoft","59","Software Engineer",21000,"Hyderabad, TS, India",1,1,"ML / AI",0,0,0,NA,NA,47926,0,4983,0,0,0,0,0,0,0,0,0,0,NA,NA
 "1/11/2019 7:21:46","Veritas Technologies","Senior SWE","Software Engineer",158000,"Mountain View, CA",0,0,"ML / AI",140000,8000,5000,"Male",NA,7322,807,4989,0,0,0,0,0,0,0,0,0,0,NA,NA
 "1/11/2019 19:39:27","Google","L6","Software Engineering Manager",500000,"Mountain View, CA",20,7,"DevOps",245000,190000,65000,"Female",NA,7322,807,5017,0,0,0,0,0,0,0,0,0,0,NA,NA
-"1/13/2019 18:48:22","Amazon","SDE II","Software Engineer",310000,"Sunnyvale, CA",10,5,"Mobile (iOS + Android)",0,0,0,NA,NA,7472,807,5063,0,0,0,0,0,0,0,0,0,0,NA,NA
 "1/13/2019 21:50:16","Facebook","E4","Software Engineer",209000,"Menlo Park, CA",7,0,"iOS",140000,55000,14000,"Male",NA,7300,807,5070,0,0,0,0,0,0,0,0,0,0,NA,NA
 "1/14/2019 6:36:18","Qualcomm","Engineer","Software Engineer",113000,"San Diego, CA",1,0,"Android",95000,10000,8000,"Male",NA,7416,825,5071,0,0,0,0,0,0,0,0,0,0,NA,NA
 "1/15/2019 16:01:12","Capital One","Senior Associate","Software Engineer",118000,"Plano, TX",10,2,"Distributed Systems (Back-End)",113000,0,5000,"Male",NA,11204,623,5102,0,0,0,0,0,0,0,0,0,0,NA,NA
-"1/15/2019 23:46:18","Salesforce","Senior Manager","Software Engineering Manager",250000,"San Francisco, CA",10,3,"Full Stack",0,0,0,"Female",NA,7419,807,5113,0,0,0,0,0,0,0,0,0,0,NA,NA
 "1/16/2019 1:16:05","Google","l3","Software Engineer",200000,"Mountain View, CA",3,2,"API Development (Back-End)",136000,50000,20000,"Male",NA,7322,807,5114,0,0,0,0,0,0,0,0,0,0,NA,NA
 "1/16/2019 8:59:26","PayPal","T26","Product Designer",225000,"San Jose, CA",10,1,"Product Design",180000,25000,20000,"Male",NA,7422,807,5121,0,0,0,0,0,0,0,0,0,0,NA,NA
 "1/16/2019 15:24:42","Salesforce","Senior MTS","Software Engineer",181000,"Boulder, CO",6,1,"API Development (Back-End)",140000,20000,21000,"Male",NA,7534,751,5131,0,0,0,0,0,0,0,0,0,0,NA,NA
 "1/17/2019 10:47:28","Google","L4","Software Engineer",364000,"New York, NY",5,5,"Distributed Systems (Back-End)",163000,138000,62000,"Male",NA,10182,501,5147,0,0,0,0,0,0,0,0,0,0,NA,NA
 "1/18/2019 14:05:01","Shutterfly","2","Software Engineer",115000,"Redwood City, CA",0,0,"API Development (Back-End)",115000,0,0,NA,NA,7392,807,5179,0,0,0,0,0,0,0,0,0,0,NA,NA
-"1/19/2019 9:35:21","Microsoft","61","Software Engineer",175000,"Redmond, WA",5,5,"Distributed Systems (Back-End)",0,0,0,"Female",NA,11521,819,5204,0,0,0,0,0,0,0,0,0,0,NA,NA
 "1/20/2019 19:44:10","LinkedIn","Staff Software Engineer","Software Engineering Manager",366000,"Sunnyvale, CA",9,2,"Mobile (iOS + Android)",210000,125000,31000,"Male",NA,7472,807,5232,0,0,0,0,0,0,0,0,0,0,NA,NA
 "1/22/2019 13:19:00","Amazon","SDE III","Software Engineer",320000,"Seattle, WA",12,5,"Distributed Systems (Back-End)",160000,160000,0,"Male",NA,11527,819,5276,0,0,0,0,0,0,0,0,0,0,NA,NA
 "1/22/2019 22:06:44","Google","L6","Software Engineer",700000,"Mountain View, CA",19,7,"Networking",230000,415000,55000,"Male",NA,7322,807,5292,0,0,0,0,0,0,0,0,0,0,NA,NA
@@ -376,7 +292,6 @@
 "1/25/2019 18:45:57","Dropbox","IC2","Software Engineer",260000,"San Francisco, CA",6,1,"Security",172000,68000,20000,"Male",NA,7419,807,5362,0,0,0,0,0,0,0,0,0,0,NA,NA
 "1/25/2019 20:23:58","Apple","ICT3","Software Engineer",303000,"Cupertino, CA",6,1,"Full Stack",164000,125000,14000,"Male",NA,7158,807,5363,0,0,0,0,0,0,0,0,0,0,NA,NA
 "1/26/2019 14:59:08","Twitch","L5","Software Engineer",200000,"San Francisco, CA",6,1,"API Development (Back-End)",150000,30000,20000,"Male",NA,7419,807,5377,0,0,0,0,0,0,0,0,0,0,NA,NA
-"1/27/2019 8:41:18","Amazon","L5","Software Engineer",220000,"Vancouver, BC, Canada",4,2,"Networking",0,0,0,"Male",NA,1320,0,5391,0,0,0,0,0,0,0,0,0,0,NA,NA
 "1/27/2019 9:14:32","HERE Technologies","Senior","Data Scientist",110000,"Vancouver, BC, Canada",3,3,"ML / AI",97000,6000,7000,"Female",NA,1320,0,5392,0,0,0,0,0,0,0,0,0,0,NA,NA
 "1/28/2019 22:34:24","Google","L5","Software Engineer",398000,"Kirkland, WA",13,1,"Distributed Systems (Back-End)",178000,192000,28000,"Male",NA,11497,819,5421,0,0,0,0,0,0,0,0,0,0,NA,NA
 "1/29/2019 22:42:23","oracle","Principle","Software Engineer",380000,"Seattle, WA",10,1,"Distributed Systems (Back-End)",190000,165000,25000,"Male",NA,11527,819,5439,0,0,0,0,0,0,0,0,0,0,NA,NA
@@ -389,40 +304,27 @@
 "2/2/2019 16:55:11","Microsoft","60","Software Engineer",144000,"Redmond, WA",1,0,"ML / AI",114000,15000,15000,"Female",NA,11521,819,5562,0,0,0,0,0,0,0,0,0,0,NA,NA
 "2/2/2019 19:03:41","Electronic Arts","Senior SE 1","Software Engineer",120000,"Vancouver, BC, Canada",16,10,"API Development (Back-End)",1e+05,5000,15000,"Male",NA,1320,0,5566,0,0,0,0,0,0,0,0,0,0,NA,NA
 "2/3/2019 7:50:56","NetApp","MTS IV","Software Engineer",194000,"Sunnyvale, CA",9,9,"Full Stack",165000,12000,17000,"Male",NA,7472,807,5573,0,0,0,0,0,0,0,0,0,0,NA,NA
-"2/3/2019 19:34:49","NVIDIA","M3","Software Engineering Manager",280000,"Santa Clara, CA",20,10,"DevOps",0,0,0,"Male",NA,7434,807,5586,0,0,0,0,0,0,0,0,0,0,NA,NA
-"2/4/2019 5:49:08","NVIDIA","IC3","Software Engineer",160000,"Santa Clara, CA",3,3,"HW",0,0,0,NA,NA,7434,807,5596,0,0,0,0,0,0,0,0,0,0,NA,NA
 "2/4/2019 12:04:07","Adobe","Software Engineer 3","Software Engineer",156000,"Lehi, UT",8,4,"API Development (Back-End)",120000,30000,6000,"Male",NA,15555,770,5603,0,0,0,0,0,0,0,0,0,0,NA,NA
 "2/4/2019 12:33:07","LinkedIn","Associate Product Manager","Product Manager",220000,"San Francisco, CA",5,3,"Full Stack",160000,40000,20000,"Male",NA,7419,807,5604,0,0,0,0,0,0,0,0,0,0,NA,NA
-"2/5/2019 10:02:27","Google","L4","Software Engineer",213000,"Waterloo, ON, Canada",4,0,"Full Stack",0,0,0,"Male",NA,3488,0,5627,0,0,0,0,0,0,0,0,0,0,NA,NA
-"2/5/2019 12:45:29","Facebook","E6","Software Engineering Manager",800000,"Menlo Park, CA",7,7,"ML / AI",0,0,0,"Male",NA,7300,807,5630,0,0,0,0,0,0,0,0,0,0,NA,NA
-"2/5/2019 13:32:27","Amazon","L6 SDM","Software Engineering Manager",285000,"Seattle, WA",9,2,"Distributed Systems (Back-End)",0,0,0,NA,NA,11527,819,5632,0,0,0,0,0,0,0,0,0,0,NA,NA
 "2/5/2019 16:02:59","Facebook","E5","Software Engineer",390000,"Seattle, WA",10,1,"Android",185000,175000,30000,"Male",NA,11527,819,5637,0,0,0,0,0,0,0,0,0,0,NA,NA
-"2/5/2019 16:15:01","Barclays","Assistant Vice-President","Software Engineer",170000,"New York, NY",16,9,"Web Development (Front-End)",0,0,0,"Male",NA,10182,501,5638,0,0,0,0,0,0,0,0,0,0,NA,NA
 "2/5/2019 22:39:35","Google","L4","Software Engineer",320000,"Mountain View, CA",9,0,"API Development (Back-End)",170000,125000,25000,"Male",NA,7322,807,5657,0,0,0,0,0,0,0,0,0,0,NA,NA
-"2/6/2019 0:18:03","F5 networks","Manager","Software Engineering Manager",210000,"Seattle, WA",22,10,"Networking",0,0,0,"Male",NA,11527,819,5658,0,0,0,0,0,0,0,0,0,0,NA,NA
 "2/6/2019 0:58:44","Google","L4","Software Engineer",316000,"Mountain View, CA",5,0,"Android",153000,140000,23000,"Female",NA,7322,807,5660,0,0,0,0,0,0,0,0,0,0,NA,NA
 "2/6/2019 6:17:46","Accenture","Team Leader","Software Engineer",82000,"Tampa, FL",10,6,"API Development (Back-End)",82000,0,2000,"Female",NA,7813,539,5662,0,0,0,0,0,0,0,0,0,0,NA,NA
-"2/7/2019 9:52:22","Google","3","Software Engineer",180000,"Kirkland, WA",0,0,"Distributed Systems (Back-End)",0,0,0,NA,NA,11497,819,5706,0,0,0,0,0,0,0,0,0,0,NA,NA
 "2/7/2019 20:15:15","Goldman Sachs","Analyst","Software Engineer",135000,"New York, NY",2,2,"Full Stack",98000,2000,35000,"Male",NA,10182,501,5730,0,0,0,0,0,0,0,0,0,0,NA,NA
 "2/8/2019 9:35:41","Apple","ic4","Recruiter",170000,"Cupertino, CA",10,2,"Hardware",165000,0,0,"Female",NA,7158,807,5734,0,0,0,0,0,0,0,0,0,0,NA,NA
 "2/9/2019 8:40:28","Google","L3","Software Engineer",221000,"Sunnyvale, CA",1,0,"Distributed Systems (Back-End)",140000,60000,21000,"Male",NA,7472,807,5750,0,0,0,0,0,0,0,0,0,0,NA,NA
 "2/9/2019 9:43:12","Cisco","Grade 11","Solution Architect",300000,"Irvine, CA",8,3,"Networking",170000,75000,55000,"Male",NA,7229,803,5752,0,0,0,0,0,0,0,0,0,0,NA,NA
-"2/9/2019 18:50:44","Oracle","IC-5","Software Engineer",180000,"Redwood City, CA",15,1.5,"Distributed Systems (Back-End)",0,0,0,NA,"IC5",7392,807,5765,0,0,0,0,0,0,0,0,0,0,NA,NA
-"2/10/2019 20:59:46","GE Digital","Senior Data Scientist","Data Scientist",178000,"San Francisco, CA",1,1,"Data Science",0,0,0,NA,NA,7419,807,5793,0,0,0,0,0,0,0,0,0,0,NA,NA
 "2/11/2019 11:06:48","Amazon","SDE II","Software Engineer",211000,"Boston, MA",6,2,"Distributed Systems (Back-End)",150000,60000,0,"Male",NA,8816,506,5801,0,0,0,0,0,0,0,0,0,0,NA,NA
-"2/11/2019 17:42:42","Amazon","L6","Software Engineering Manager",300000,"Seattle, WA",10,2,"Mobile (iOS + Android)",0,0,0,NA,NA,11527,819,5820,0,0,0,0,0,0,0,0,0,0,NA,NA
 "2/12/2019 20:00:43","Airbnb","L4","Software Engineer",310000,"San Francisco, CA",2,0,"Distributed Systems (Back-End)",170000,120000,25000,"Male",NA,7419,807,5843,0,0,0,0,0,0,0,0,0,0,NA,NA
 "2/14/2019 23:36:03","Facebook","IC4","Solution Architect",202000,"San Francisco, CA",3,0,"Security",140000,48000,14000,"Male",NA,7419,807,5898,0,0,0,0,0,0,0,0,0,0,NA,NA
 "2/14/2019 23:43:16","Stripe","L2","Solution Architect",228000,"San Francisco, CA",3,0,"Full Stack",149000,57000,22000,"Male",NA,7419,807,5899,0,0,0,0,0,0,0,0,0,0,NA,NA
 "2/15/2019 15:11:36","Google","L5","Software Engineer",340000,"Los Angeles, CA",7,5,"ML / AI",155000,150000,30000,"Male",NA,7275,803,5911,0,0,0,0,0,0,0,0,0,0,NA,NA
 "2/17/2019 15:32:52","Amazon","L6 SDM","Software Engineering Manager",340000,"Seattle, WA",6,6,"Full Stack",160000,140000,0,"Male",NA,11527,819,5954,0,0,0,0,0,0,0,0,0,0,NA,NA
-"2/18/2019 11:30:02","Morgan Stanley","Vice President","Business Analyst",180000,"New York, NY",10,5,"Business Analyst",0,0,0,"Female",NA,10182,501,5977,0,0,0,0,0,0,0,0,0,0,NA,NA
 "2/18/2019 12:54:53","Facebook","E5","Software Engineer",320000,"Seattle, WA",19,2,"Distributed Systems (Back-End)",170000,135000,17000,"Male",NA,11527,819,5979,0,0,0,0,0,0,0,0,0,0,NA,NA
 "2/20/2019 16:54:23","Amazon","L7","Product Manager",401000,"Seattle, WA",17,3.5,"Compute",160000,241000,0,"Male",NA,11527,819,6021,0,0,0,0,0,0,0,0,0,0,NA,NA
 "2/20/2019 18:02:08","SAP","T1","Software Engineer",145000,"Seattle, WA",1,1,"Security",105000,33000,7000,"Male",NA,11527,819,6023,0,0,0,0,0,0,0,0,0,0,NA,NA
 "2/21/2019 13:53:58","Google","L6","Software Engineering Manager",410000,"Kirkland, WA",10,5,"DevOps",2e+05,160000,40000,"Male",NA,11497,819,6045,0,0,0,0,0,0,0,0,0,0,NA,NA
 "2/21/2019 21:56:36","Zynga","Director","Product Manager",250000,"San Diego, CA",10,5,"Mobile (iOS + Android)",190000,30000,30000,"Male",NA,7416,825,6057,0,0,0,0,0,0,0,0,0,0,NA,NA
-"2/21/2019 23:11:57","Amazon","SDE I","Software Engineer",115000,"Vancouver, BC, Canada",1,1,"Distributed Systems (Back-End)",0,0,0,"Male",NA,1320,0,6064,0,0,0,0,0,0,0,0,0,0,NA,NA
 "2/22/2019 1:00:00","Facebook","E6","Software Engineer",630000,"Seattle, WA",16,2,"Distributed Systems (Back-End)",230000,340000,60000,"Male",NA,11527,819,6066,0,0,0,0,0,0,0,0,0,0,NA,NA
 "2/23/2019 12:17:22","SoFi","Senior","Software Engineer",141000,"Sandy, UT",6,0,"iOS",120000,1000,21000,"Male",NA,37046,770,6106,0,0,0,0,0,0,0,0,0,0,NA,NA
 "2/23/2019 18:48:19","Microsoft","62","Software Engineer",185000,"Redmond, WA",4,2,"API Development (Back-End)",140000,22000,14000,"Male",NA,11521,819,6114,0,0,0,0,0,0,0,0,0,0,NA,NA
@@ -431,14 +333,11 @@
 "2/25/2019 18:28:07","Yahoo","IC4","Software Engineer",227000,"San Jose, CA",9,7,"Distributed Systems (Back-End)",167000,40000,20000,"Male",NA,7422,807,6164,0,0,0,0,0,0,0,0,0,0,NA,NA
 "2/25/2019 19:33:44","Facebook","E5","Software Engineer",335000,"Menlo Park, CA",5,2,"ML / AI",183000,125000,27000,"Male",NA,7300,807,6166,0,0,0,0,0,0,0,0,0,0,NA,NA
 "2/26/2019 15:31:44","Google","L3","Software Engineer",190000,"Mountain View, CA",2,2,"Testing (SDET)",129000,42000,19000,"Male",NA,7322,807,6184,0,0,0,0,0,0,0,0,0,0,NA,NA
-"2/26/2019 22:34:29","Amazon","L4","Software Engineer",145000,"Seattle, WA",0,0,"Full Stack",0,0,0,"Male",NA,11527,819,6196,0,0,0,0,0,0,0,0,0,0,NA,NA
-"2/27/2019 2:37:12","Adobe","Software Engineer 4","Software Engineer",209000,"San Francisco, CA",4,4,"Full Stack",0,0,0,NA,NA,7419,807,6197,0,0,0,0,0,0,0,0,0,0,NA,NA
 "2/27/2019 9:11:50","Netflix","Senior Software Engineer","Software Engineer",483000,"Los Gatos, CA",7,0,"API Development (Back-End)",460000,23000,0,"Male",NA,7277,807,6204,0,0,0,0,0,0,0,0,0,0,NA,NA
 "2/27/2019 16:32:05","Salesforce","Associate Member of Technical Staff","Software Engineer",165000,"San Francisco, CA",1,1,"DevOps",130000,22000,13000,"Male",NA,7419,807,6219,0,0,0,0,0,0,0,0,0,0,NA,NA
 "2/28/2019 18:37:48","Micron Technology","M2","Product Manager",320000,"Boise, ID",12,12,"Semiconductors",185000,75000,60000,NA,NA,8132,757,6258,0,0,0,0,0,0,0,0,0,0,NA,NA
 "3/1/2019 12:26:48","Microsoft","64","Solution Architect",220000,"Boston, MA",12,1,"Networking",160000,12000,48000,"Male",NA,8816,506,6290,0,0,0,0,0,0,0,0,0,0,NA,NA
 "3/1/2019 18:41:24","NVIDIA","IC3","Software Engineer",173000,"Santa Clara, CA",7,4,"ML / AI",161000,12000,0,"Male",NA,7434,807,6306,0,0,0,0,0,0,0,0,0,0,NA,NA
-"3/1/2019 19:29:16","Amazon","L5","Product Manager",300000,"Denver, CO",10,1,"API Development (Back-End)",0,0,0,NA,NA,7548,751,6310,0,0,0,0,0,0,0,0,0,0,NA,NA
 "3/2/2019 1:12:30","Amazon","L4","Software Engineer",172000,"Seattle, WA",10,1,"Full Stack",145000,2000,25000,"Male",NA,11527,819,6315,0,0,0,0,0,0,0,0,0,0,NA,NA
 "3/2/2019 5:44:01","Opendoor","T1","Software Engineer",160000,"Atlanta, GA",3,1,"Full Stack",116000,24000,20000,"Male",NA,7839,524,6321,0,0,0,0,0,0,0,0,0,0,NA,NA
 "3/2/2019 22:31:14","Salesforce","Software Engineer (SWE)","Software Engineer",160000,"Melbourne, VI, Australia",7,0,"API Development (Back-End)",128000,0,32000,NA,NA,1225,0,6347,0,0,0,0,0,0,0,0,0,0,NA,NA
@@ -447,14 +346,12 @@
 "3/5/2019 11:32:28","Amazon","L5","Software Engineer",216000,"New York, NY",8,0,"API Development (Back-End)",160000,34000,22000,"Male",NA,10182,501,6410,0,0,0,0,0,0,0,0,0,0,NA,NA
 "3/5/2019 11:50:41","Nextdoor","1","Software Engineer",120000,"San Francisco, CA",1,1,"Full Stack",120000,0,0,"Male",NA,7419,807,6411,0,0,0,0,0,0,0,0,0,0,NA,NA
 "3/5/2019 16:55:29","Google","L4","Software Engineer",200000,"Waterloo, ON, Canada",3,3,"DevOps",90000,90000,20000,"Male",NA,3488,0,6421,0,0,0,0,0,0,0,0,0,0,NA,NA
-"3/5/2019 19:24:28","Cruise","Senior Software Engineer","Software Engineer",360000,"San Fernando, LB, Philippines",8,1,"Full Stack",0,0,0,"Male",NA,7418,803,6426,0,0,0,0,0,0,0,0,0,0,NA,NA
 "3/5/2019 20:42:23","Fitbit","Senior","Software Engineer",167000,"Boston, MA",2,2,"Embedded",123000,33000,10000,"Male","Firmware / embedded salaries are pretty hard to get information on; it would be awesome if I could compare to others in the industry!",8816,506,6432,0,0,0,0,0,0,0,0,0,0,NA,NA
 "3/6/2019 11:54:28","Facebook","E5","Software Engineer",399000,"Menlo Park, CA",5,0,"Unable to Disclose",195000,125000,79000,"Male",NA,7300,807,6455,0,0,0,0,0,0,0,0,0,0,NA,NA
 "3/6/2019 13:39:16","Linkedin","Software Engineering manager","Software Engineering Manager",461000,"Sunnyvale, CA",16,2.5,"Engineering Manager",221000,2e+05,40000,"Male",NA,7472,807,6457,0,0,0,0,0,0,0,0,0,0,NA,NA
 "3/6/2019 22:32:58","Facebook","E7","Software Engineer",725000,"Menlo Park, CA",15,4,"Full Stack",250000,4e+05,75000,"Male",NA,7300,807,6477,0,0,0,0,0,0,0,0,0,0,NA,NA
 "3/7/2019 10:37:26","Foursquare","Senior","Software Engineering Manager",202000,"New York, NY",3,6,"Data",190000,0,12000,"Male",NA,10182,501,6490,0,0,0,0,0,0,0,0,0,0,NA,NA
 "3/7/2019 11:36:08","FactSet","Senior","Software Engineer",108000,"Norwalk, CT",4,4,"Full Stack",108000,0,0,"Male",NA,7634,501,6491,0,0,0,0,0,0,0,0,0,0,NA,NA
-"3/7/2019 14:44:12","Microsoft","61","Software Engineer",180000,"Redmond, WA",6,3.5,"API Development (Back-End)",0,0,0,"Male",NA,11521,819,6493,0,0,0,0,0,0,0,0,0,0,NA,NA
 "3/8/2019 0:03:18","Expedia","M","Software Engineer",215000,"Seattle, WA",9,4,"API Development (Back-End)",160000,25000,30000,"Male",NA,11527,819,6516,0,0,0,0,0,0,0,0,0,0,NA,NA
 "3/8/2019 15:23:42","SoFi","Senior SWE","Software Engineer",175000,"San Francisco, CA",3,2,"Distributed Systems (Back-End)",150000,10000,25000,"Male",NA,7419,807,6531,0,0,0,0,0,0,0,0,0,0,NA,NA
 "3/9/2019 15:24:40","Google","L3","Software Engineer",215000,"Sunnyvale, CA",4,0,"ML / AI",129000,40000,46000,"Male",NA,7472,807,6562,0,0,0,0,0,0,0,0,0,0,NA,NA
@@ -462,11 +359,8 @@
 "3/9/2019 16:32:16","SquareSpace","E3","Software Engineer",189000,"New York, NY",3,0,"Web Development (Front-End)",151000,18000,20000,"Male",NA,10182,501,6564,0,0,0,0,0,0,0,0,0,0,NA,NA
 "3/9/2019 20:24:58","Nvidia","IC4","Software Engineer",230000,"Santa Clara, CA",7,7,"iOS",194000,50000,0,NA,NA,7434,807,6572,0,0,0,0,0,0,0,0,0,0,NA,NA
 "3/10/2019 12:37:27","APPLE","ICT4","Software Engineer",354000,"Cupertino, CA",21,1,"iOS",224000,1e+05,30000,"Male",NA,7158,807,6583,0,0,0,0,0,0,0,0,0,0,NA,NA
-"3/11/2019 20:45:16","Salesforce","Senior SWE","Software Engineer",220000,"Indianapolis, IN",7,1,"API Development (Back-End)",0,0,0,NA,NA,8399,527,6609,0,0,0,0,0,0,0,0,0,0,NA,NA
 "3/12/2019 4:49:10","Microsoft","62","Software Engineer",103000,"London, EN, United Kingdom",6,2,"Full Stack",86000,9000,8000,"Male",NA,12008,0,6619,0,0,0,0,0,0,0,0,0,0,NA,NA
-"3/12/2019 9:57:32","LinkedIn","Senior Software Engineer","Software Engineer",300000,"Mountain View, CA",8,3,"Distributed Systems (Back-End)",0,0,0,NA,NA,7322,807,6624,0,0,0,0,0,0,0,0,0,0,NA,NA
 "3/12/2019 12:06:58","Amazon","L4","Software Engineer",85000,"Cambridge, EN, United Kingdom",4,0,"API Development (Back-End)",59000,14000,9000,"Male",NA,4878,0,6631,0,0,0,0,0,0,0,0,0,0,NA,NA
-"3/12/2019 12:56:59","Intel","Grade 7","Software Engineer",140000,"Hillsboro, OR",8,7,"Firmware",0,0,0,"Female",NA,10500,820,6636,0,0,0,0,0,0,0,0,0,0,NA,NA
 "3/12/2019 20:35:11","Uber","5b","Software Engineering Manager",600000,"Seattle, WA",15,2,"Distributed Systems (Back-End)",210000,360000,30000,"Male",NA,11527,819,6651,0,0,0,0,0,0,0,0,0,0,NA,NA
 "3/12/2019 23:41:05","Microsoft","62","Software Engineer",190000,"Redmond, WA",8,8,"Full Stack",144000,22000,24000,NA,NA,11521,819,6657,0,0,0,0,0,0,0,0,0,0,NA,NA
 "3/13/2019 10:24:50","Square","L6","Software Engineering Manager",365000,"San Francisco, CA",8,1,"DevOps",190000,175000,0,"Male",NA,7419,807,6661,0,0,0,0,0,0,0,0,0,0,NA,NA
@@ -475,10 +369,6 @@
 "3/13/2019 18:59:59","Amazon","L5","Software Engineer",220000,"Sunnyvale, CA",4,2,"Distributed Systems (Back-End)",157000,63000,0,"Male",NA,7472,807,6677,0,0,0,0,0,0,0,0,0,0,NA,NA
 "3/14/2019 2:30:49","Intuit","Software Engineer 1","Software Engineer",132000,"Mountain View, CA",1,1,"Full Stack",105000,17000,10000,"Male",NA,7322,807,6693,0,0,0,0,0,0,0,0,0,0,NA,NA
 "3/14/2019 10:47:49","Amazon","L5","Software Engineer",260000,"Seattle, WA",6,0,"Distributed Systems (Back-End)",155000,40000,65000,"Male","AWS",11527,819,6700,0,0,0,0,0,0,0,0,0,0,NA,NA
-"3/14/2019 19:56:12","Amazon","L5","Software Engineer",265000,"Seattle, WA",10,1,"Distributed Systems (Back-End)",0,0,0,"Male",NA,11527,819,6720,0,0,0,0,0,0,0,0,0,0,NA,NA
-"3/14/2019 23:24:43","Salesforce","Senior MTS","Software Engineer",220000,"San Francisco, CA",4,2,"Distributed Systems (Back-End)",0,0,0,NA,NA,7419,807,6728,0,0,0,0,0,0,0,0,0,0,NA,NA
-"3/15/2019 1:09:47","Amazon","L5","Software Engineer",200000,"San Francisco, CA",5,5,"iOS",0,0,0,NA,NA,7419,807,6732,0,0,0,0,0,0,0,0,0,0,NA,NA
-"3/15/2019 12:40:19","Capital One","Senior Associate","Software Engineer",128000,"Vienna, VA",2,2,"DevOps",0,0,0,"Male",NA,12391,511,6742,0,0,0,0,0,0,0,0,0,0,NA,NA
 "3/15/2019 23:39:52","eBay","Senior User Experience Designer 1","Product Designer",249000,"San Jose, CA",8,2.5,"UX Design",171000,62000,17000,"Female",NA,7422,807,6761,0,0,0,0,0,0,0,0,0,0,NA,NA
 "3/16/2019 13:52:53","Google","L5","Product Manager",319000,"New York, NY",6,0,"Mobile (iOS + Android)",175000,118000,26000,"Male",NA,10182,501,6769,0,0,0,0,0,0,0,0,0,0,NA,NA
 "3/18/2019 7:36:12","Amazon","L6","Software Engineer",285000,"Sunnyvale, CA",8,3,"Android",175000,110000,0,NA,NA,7472,807,6809,0,0,0,0,0,0,0,0,0,0,NA,NA
@@ -490,10 +380,8 @@
 "3/21/2019 4:22:37","Microsoft","62","Software Engineer",142000,"Vancouver, BC, Canada",5,1,"Full Stack",115000,15000,12000,"Male","CAD",1320,0,6901,0,0,0,0,0,0,0,0,0,0,NA,NA
 "3/21/2019 14:00:52","Groupon","SDE 2","Software Engineer",155000,"San Francisco, CA",3,1,"API Development (Back-End)",143000,11000,1000,"Male",NA,7419,807,6915,0,0,0,0,0,0,0,0,0,0,NA,NA
 "3/21/2019 20:37:03","paypal","27","Software Engineering Manager",450000,"San Jose, CA",18,12,"Distributed Systems (Back-End)",2e+05,120000,130000,"Female",NA,7422,807,6931,0,0,0,0,0,0,0,0,0,0,NA,NA
-"3/21/2019 21:59:45","TriNet","SWE I","Software Engineer",95000,"Austin, TX",1,1,"Full Stack",0,0,0,NA,NA,10965,635,6938,0,0,0,0,0,0,0,0,0,0,NA,NA
 "3/22/2019 2:12:36","Microsoft","64","Software Engineering Manager",270000,"Seattle, WA",9,6,"DevOps",180000,50000,40000,"Male",NA,11527,819,6947,0,0,0,0,0,0,0,0,0,0,NA,NA
 "3/23/2019 6:19:34","Microsoft","62","Data Scientist",230000,"Seattle, WA",2,1,"ML / AI",140000,80000,10000,"Female",NA,11527,819,6982,0,0,0,0,0,0,0,0,0,0,NA,NA
-"3/23/2019 12:00:16","Apple","ICT3","Hardware Engineer",240000,"Cupertino, CA",5,5,"Hardware",0,0,0,"Male",NA,7158,807,6990,0,0,0,0,0,0,0,0,0,0,NA,NA
 "3/23/2019 17:43:56","Palantir","Software Engineer","Software Engineer",200000,"New York, NY",2,0,"Full Stack",155000,10000,35000,"Female",NA,10182,501,7000,0,0,0,0,0,0,0,0,0,0,NA,NA
 "3/24/2019 22:06:38","Apple","ICT3","Software Engineer",224000,"Cupertino, CA",7,4,"Firmware",135000,69000,20000,"Male",NA,7158,807,7032,0,0,0,0,0,0,0,0,0,0,NA,NA
 "3/25/2019 0:08:33","Amazon","SDE II","Software Engineer",253000,"Palo Alto, CA",7,1,"ML / AI",175000,48000,30000,"Male",NA,7351,807,7035,0,0,0,0,0,0,0,0,0,0,NA,NA
@@ -504,7 +392,6 @@
 "3/26/2019 21:47:49","Google","L3","Software Engineer",160000,"Sunnyvale, CA",2,0,"Security",120000,22000,18000,"Male",NA,7472,807,7108,0,0,0,0,0,0,0,0,0,0,NA,NA
 "3/26/2019 23:10:39","Facebook","E4","Software Engineer",212000,"Menlo Park, CA",1,1,"Full Stack",148000,49000,15000,"Female",NA,7300,807,7112,0,0,0,0,0,0,0,0,0,0,NA,NA
 "3/27/2019 6:39:04","Indeed","SWE1","Software Engineer",120000,"Tokyo, TY, Japan",3,3,"Full Stack",1e+05,7000,12000,"Male","https://indcn.avature.net/indeedtokyoncg/JobDetail/Japan-Software-Engineer/9",4364,0,7121,0,0,0,0,0,0,0,0,0,0,NA,NA
-"3/27/2019 17:19:53","Amazon","L5","Software Engineer",250000,"Palo Alto, CA",10,2,"Distributed Systems (Back-End)",0,0,0,"Male",NA,7351,807,7137,0,0,0,0,0,0,0,0,0,0,NA,NA
 "3/27/2019 17:38:53","Blizzard Entertainment","Software Engineer","Software Engineer",120000,"Irvine, CA",6,2,"Games",105000,0,15000,"Male","Game Development Team",7229,803,7140,0,0,0,0,0,0,0,0,0,0,NA,NA
 "3/27/2019 17:43:05","Blizzard Entertainment","Senior Software Engineer I","Software Engineer",145000,"Irvine, CA",6,6,"Games",125000,0,20000,"Male","Game Development Team",7229,803,7143,0,0,0,0,0,0,0,0,0,0,NA,NA
 "3/27/2019 22:15:00","WeWork","L3","Software Engineer",175000,"New York, NY",4,0,"Full Stack",145000,30000,0,"Male",NA,10182,501,7155,0,0,0,0,0,0,0,0,0,0,NA,NA
@@ -519,13 +406,9 @@
 "3/30/2019 17:57:58","Adobe","Software Engineer 2","Software Engineer",150000,"San Jose, CA",1,1,"Full Stack",120000,22000,8000,NA,NA,7422,807,7245,0,0,0,0,0,0,0,0,0,0,NA,NA
 "3/31/2019 16:58:35","Amazon","L5","Data Scientist",332000,"Palo Alto, CA",1,0,"Optimization",185000,17000,130000,"Male","PhD",7351,807,7271,0,0,1,0,0,0,0,0,0,0,NA,"PhD"
 "3/31/2019 17:15:36","Microsoft","61","Software Engineer",190000,"Redmond, WA",3,3,"Full Stack",130000,35000,25000,"Male",NA,11521,819,7273,0,0,0,0,0,0,0,0,0,0,NA,NA
-"3/31/2019 17:54:09","Google","L5","Software Engineer",300000,"Cambridge, MA",20,4,"Distributed Systems (Back-End)",0,0,0,"Male",NA,8821,506,7278,0,0,0,0,0,0,0,0,0,0,NA,NA
 "3/31/2019 20:23:27","Salesforce","Senior SWE","Software Engineer",270000,"San Francisco, CA",8,0,"API Development (Back-End)",180000,63000,27000,NA,NA,7419,807,7286,0,0,0,0,0,0,0,0,0,0,NA,NA
-"4/1/2019 13:17:17","Amazon","L6","Product Manager",198000,"San Francisco, CA",3,1,"Full Stack",0,0,0,"Male",NA,7419,807,7309,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/1/2019 14:24:11","Intuit","Senior","Data Scientist",194000,"Mountain View, CA",2,0,"ML / AI",146000,25000,23000,"Female",NA,7322,807,7311,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/1/2019 14:34:11","Amazon","L7","Software Engineering Manager",590000,"Seattle, WA",20,7,"Full Stack",160000,430000,0,"Male",NA,11527,819,7312,0,0,0,0,0,0,0,0,0,0,NA,NA
-"4/1/2019 19:19:52","Petuum","Engineer II","Data Scientist",110000,"Pittsburgh, PA",1,1,"ML / AI",0,0,0,NA,NA,10648,508,7328,0,0,0,0,0,0,0,0,0,0,NA,NA
-"4/1/2019 21:27:01","Expedia","N","Software Engineer",251000,"Chicago, IL",13,6,"Full Stack",0,0,0,"Male","Director of Technology",8198,602,7334,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/1/2019 22:01:14","LinkedIn","Senior Software Engineer","Software Engineer",353000,"Mountain View, CA",9,4,"API Development (Back-End)",174000,149000,30000,NA,NA,7322,807,7335,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/2/2019 9:10:27","SAP","T5","Solution Architect",359000,"San Ramon, CA",30,14,"Distributed Systems (Back-End)",255000,0,104000,"Male",NA,7430,807,7346,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/2/2019 17:17:49","Pandora","SDE3","Software Engineer",175000,"Oakland, CA",5,1,"Mobile (iOS + Android)",135000,25000,20000,"Male",NA,7335,807,7363,0,0,0,0,0,0,0,0,0,0,NA,NA
@@ -533,31 +416,25 @@
 "4/3/2019 16:09:26","Oracle","IC4","Software Engineer",145000,"Redwood City, CA",15,12,"Web Development (Front-End)",140000,5000,0,NA,NA,7392,807,7390,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/3/2019 22:14:49","Apple","ICT3","Software Engineer",230000,"Cupertino, CA",6,3,"Full Stack",150000,60000,20000,"Female",NA,7158,807,7402,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/4/2019 10:59:53","Google","L4","Software Engineer",224000,"Zurich, ZH, Switzerland",6,6,"Full Stack",140000,55000,29000,NA,NA,6736,0,7417,0,0,0,0,0,0,0,0,0,0,NA,NA
-"4/4/2019 18:35:30","PayPal","Member of Technical Staff 1","Software Engineer",250000,"San Jose, CA",15,8,"Distributed Systems (Back-End)",0,0,0,NA,NA,7422,807,7427,0,0,0,0,0,0,0,0,0,0,NA,NA
-"4/4/2019 19:07:44","Deloitte","Consultant","Software Engineer",75000,"Kitchener, ON, Canada",3,1,"Full Stack",0,0,0,"Male",NA,5898,0,7431,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/5/2019 6:04:03","Oracle","IC-4","Software Engineer",129000,"Toronto, ON, Canada",17,3,"Web Development (Front-End)",124000,5000,0,"Male",NA,1206,0,7453,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/5/2019 7:27:05","Amazon","SDE II","Software Engineer",200000,"Boston, MA",5,5,"Android",150000,50000,0,"Male",NA,8816,506,7458,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/6/2019 10:56:41","Facebook","IC5","Product Designer",234000,"Seattle, WA",9,0,"Mobile (iOS + Android)",160000,50000,26000,"Male",NA,11527,819,7490,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/6/2019 14:30:58","Cadence","Lead","Software Engineer",150000,"San Jose, CA",3,0,"ML / AI",135000,5000,10000,"Male",NA,7422,807,7494,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/6/2019 22:37:40","Zendesk","Director","Product Manager",550000,"San Francisco, CA",8,2,"Full Stack",225000,225000,0,NA,NA,7419,807,7508,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/7/2019 10:05:37","Red Hat","Entry Level","Data Scientist",99000,"Raleigh, NC",1,1,"Sales Analytics",90000,0,9000,"Male",NA,1317,560,7518,0,0,0,0,0,0,0,0,0,0,NA,NA
-"4/7/2019 12:39:59","Oracle","IC-2","Solution Architect",45000,"Dublin, DN, Ireland",2,2,"IaaS and PaaS",0,0,0,"Male",NA,4015,0,7521,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/7/2019 12:49:19","Adobe","Technical Support Engineer 4","Software Engineer",117000,"Austin, TX",15,1,"Technical Support",102000,10000,5000,"Male",NA,10965,635,7522,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/7/2019 18:57:11","Amazon","L5","Software Engineer",280000,"Seattle, WA",12,0,"Distributed Systems (Back-End)",155000,125000,0,"Male",NA,11527,819,7529,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/7/2019 23:06:53","IBM","Associate Engineer","Software Engineer",107000,"San Jose, CA",2,2,"Distributed Systems (Back-End)",107000,2000,2000,"Male",NA,7422,807,7537,0,0,0,0,0,0,0,0,0,0,NA,NA
-"4/8/2019 21:10:59","Amazon","L5","Product Manager",210000,"San Francisco, CA",10,1,"ML / AI",0,0,0,NA,NA,7419,807,7559,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/9/2019 9:42:01","Microsoft","59","Software Engineer",184000,"Seattle, WA",0,0,"Full Stack",109000,30000,45000,"Male",NA,11527,819,7565,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/9/2019 17:13:08","Amazon","L5","Software Engineer",202000,"Bellevue, WA",4,2,"Distributed Systems (Back-End)",140000,60000,0,"Male",NA,11470,819,7578,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/10/2019 10:10:06","Microsoft","63","Software Engineer",240000,"Seattle, WA",7,7,"Distributed Systems (Back-End)",165000,40000,40000,"Male",NA,11527,819,7606,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/10/2019 13:31:04","Google","L3","Software Engineer",171000,"Sunnyvale, CA",4,0,"Full Stack",121000,32000,18000,"Male",NA,7472,807,7613,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/10/2019 15:23:50","Amazon","SDE I","Software Engineer",177000,"Seattle, WA",2,0,"API Development (Back-End)",135000,17000,25000,"Male",NA,11527,819,7618,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/10/2019 21:28:03","IBM","6","Software Engineer",81000,"Austin, TX",3,3,"Distributed Systems (Back-End)",79000,0,2000,"Male",NA,10965,635,7633,0,0,0,0,0,0,0,0,0,0,NA,NA
-"4/11/2019 2:24:23","Bloomberg","Software Engineer","Software Engineer",135000,"New York, NY",0,0,"Full Stack",0,0,0,NA,NA,10182,501,7642,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/11/2019 6:39:20","Microsoft","62","Software Engineer",104000,"San Juan, PR, Puerto Rico",10,3,"Full Stack",90000,8000,6000,"Male",NA,12773,0,7646,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/11/2019 10:16:57","Google","L3","Software Engineer",193000,"Mountain View, CA",2,0,"Distributed Systems (Back-End)",128000,0,0,NA,NA,7322,807,7655,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/11/2019 14:57:45","Amazon","SDE I","Software Engineer",152000,"Seattle, WA",1,0,"Distributed Systems (Back-End)",125000,15000,22000,"Male",NA,11527,819,7666,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/11/2019 15:56:22","Microsoft","66","Software Engineering Manager",320000,"Redmond, WA",15,13,"Distributed Systems (Back-End)",2e+05,70000,50000,NA,NA,11521,819,7672,0,0,0,0,0,0,0,0,0,0,NA,NA
-"4/12/2019 2:29:47","Google","L3","Software Engineer",90000,"Stockholm, ST, Sweden",1,0.5,"Android",0,0,0,NA,NA,6713,0,7699,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/12/2019 2:41:10","GitHub","E3","Solution Architect",175000,"Sydney, NS, Australia",2,2,"DevOps",90000,55000,30000,"Male",NA,1311,0,7700,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/12/2019 11:00:50","Intel","Grade 7","Data Scientist",140000,"Hillsboro, OR",2,2,"ML / AI",123000,8000,9000,"Male",NA,10500,820,7708,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/12/2019 15:59:12","Yahoo","IC3","Software Engineer",192000,"Sunnyvale, CA",2,2,"iOS",146000,24000,20000,"Male",NA,7472,807,7715,0,0,0,0,0,0,0,0,0,0,NA,NA
@@ -565,7 +442,6 @@
 "4/13/2019 2:25:18","IBM","8","Product Manager",167000,"New York, NY",4,4,"ML / AI",165000,0,2000,"Male",NA,10182,501,7733,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/13/2019 11:39:33","Amazon","L6","Product Manager",240000,"Atlanta, GA",9,2.5,"ML / AI",143000,1e+05,0,"Female",NA,7839,524,7739,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/13/2019 12:02:25","Yahoo","IC3","Software Engineer",210000,"Sunnyvale, CA",4,4,"Android",150000,35000,25000,"Male",NA,7472,807,7741,0,0,0,0,0,0,0,0,0,0,NA,NA
-"4/13/2019 18:18:41","Amazon","L6","Product Manager",244000,"Seattle, WA",11,3,"Product",0,0,0,NA,NA,11527,819,7761,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/14/2019 0:33:14","VMware","PM6","Product Manager",340000,"Palo Alto, CA",7,5,"Networking",215000,75000,50000,"Male",NA,7351,807,7767,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/14/2019 12:10:58","PayPal","T26","Software Engineering Manager",260000,"Chicago, IL",8,2,"Full Stack",161000,75000,24000,"Male",NA,8198,602,7774,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/14/2019 12:55:53","SoFi","Baseline SWE","Software Engineer",142000,"San Francisco, CA",3,1,"iOS",121000,0,21000,"Male",NA,7419,807,7775,0,0,0,0,0,0,0,0,0,0,NA,NA
@@ -576,34 +452,27 @@
 "4/15/2019 12:20:08","Amazon","L4","Software Engineer",154000,"Nashville, TN",6,0,"Full Stack",125000,25000,4000,"Male",NA,10919,659,7800,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/15/2019 17:02:20","Amazon","L5","Software Engineer",205000,"Seattle, WA",4,3,"API Development (Back-End)",141000,64000,0,NA,NA,11527,819,7810,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/15/2019 21:03:37","Amazon","4","Software Engineer",169000,"Herndon, VA",0,0,"Distributed Systems (Back-End)",115000,4000,50000,"Male",NA,11385,511,7821,0,0,0,0,0,0,0,0,0,0,NA,NA
-"4/15/2019 21:38:13","Box","Senior","Software Engineer",331000,"Redwood City, CA",10,1,"API Development (Back-End)",0,0,0,"Male",NA,7392,807,7825,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/16/2019 1:10:46","Google","L4","Software Engineer",318000,"Mountain View, CA",4,4,"Graphics",148000,138000,32000,"Male",NA,7322,807,7835,0,0,0,0,0,0,0,0,0,0,NA,NA
-"4/16/2019 19:12:30","Oath","Ic 3","Data Scientist",140000,"New York, NY",2,1,"ML / AI",0,0,0,NA,NA,10182,501,7853,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/17/2019 11:10:24","Chewy","L5","Product Designer",157000,"Boston, MA",15,2,"Mobile (iOS + Android)",157000,0,0,"Male",NA,8816,506,7871,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/17/2019 13:35:19","Uber","4","Data Scientist",310000,"San Francisco, CA",4,0,"ML / AI",160000,120000,30000,"Male",NA,7419,807,7878,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/18/2019 17:05:34","Amazon","L5","Software Engineer",200000,"Seattle, WA",4,3,"Full Stack",145000,50000,5000,"Male",NA,11527,819,7921,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/19/2019 13:44:20","Microsoft","60","Software Engineer",163000,"Seattle, WA",1,1,"ML / AI",120000,30000,13000,"Male",NA,11527,819,7946,0,0,0,0,0,0,0,0,0,0,NA,NA
-"4/19/2019 15:03:32","Oracle","IC-5","Product Manager",177000,"Redwood City, CA",14,5,"OCI",0,0,0,"Female",NA,7392,807,7949,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/19/2019 19:01:58","Workday","P4","Software Engineer",222000,"Pleasanton, CA",4,4,"iOS",142000,80000,0,"Male",NA,7369,807,7954,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/20/2019 8:59:02","Verizon","E3","Solution Architect",120000,"Pittsburgh, PA",15,8,"Networking",103000,10000,7000,"Male",NA,10648,508,7968,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/20/2019 18:58:27","Google","L3","Software Engineer",225000,"Sunnyvale, CA",2,0,"Distributed Systems (Back-End)",145000,58000,22000,"Male",NA,7472,807,7984,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/21/2019 20:45:36","Facebook","L4","Data Scientist",195000,"Menlo Park, CA",9,1,"Data Science",145000,35000,15000,"Male",NA,7300,807,8013,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/22/2019 13:35:36","Amazon","L7","Solution Architect",350000,"Chicago, IL",15,1,"ML / AI",160000,160000,30000,"Male",NA,8198,602,8021,0,0,0,0,0,0,0,0,0,0,NA,NA
-"4/22/2019 13:37:05","Amazon","L7","Solution Architect",350000,"Chicago, IL",15,1,"ML / AI",0,0,0,NA,NA,8198,602,8022,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/22/2019 17:38:35","Broadcom","ICB 3","Software Engineer",140000,"San Jose, CA",3,1,"Firmware",1e+05,20000,20000,"Male",NA,7422,807,8036,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/23/2019 6:39:13","Uber","4","Software Engineer",266000,"New York, NY",3,0,"Distributed Systems (Back-End)",157000,94000,15000,"Male",NA,10182,501,8050,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/23/2019 10:04:50","Dropbox","IC3","Software Engineer",366000,"Seattle, WA",7,4,"Full Stack",170000,171000,25000,"Male",NA,11527,819,8055,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/23/2019 21:55:01","Facebook","E4","Software Engineer",235000,"Seattle, WA",2,2,"Full Stack",150000,70000,15000,"Male",NA,11527,819,8085,0,0,0,0,0,0,0,0,0,0,NA,NA
-"4/24/2019 7:00:02","BCG Digital Ventures","Lead","Solution Architect",200000,"Los Angeles, CA",15,5,"Distributed Systems (Back-End)",0,0,0,"Male",NA,7275,803,8088,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/24/2019 14:34:35","Dolby Laboratories","Senior Solutions Engineer","Solution Architect",137000,"San Francisco, CA",7,7,"Solutions Engineer",127000,1000,9000,"Male",NA,7419,807,8102,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/24/2019 15:24:20","Amazon","L5","Software Engineer",211000,"Seattle, WA",6,6,"Full Stack",137000,74000,0,"Male",NA,11527,819,8106,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/26/2019 2:00:32","SAP","T4","Product Manager",130000,"Auckland, AU, New Zealand",15,5,"API Development (Back-End)",1e+05,14000,16000,"Male",NA,4594,0,8145,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/26/2019 9:37:40","Veritas Technologies","Senior manager","Product Designer",210000,"Mountain View, CA",17,3,"UX",2e+05,0,10000,"Male",NA,7322,807,8151,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/26/2019 9:39:09","Veritas Technologies","Senior manager","Product Designer",190000,"San Francisco, CA",14,8,"UX",170000,0,20000,"Female",NA,7419,807,8152,0,0,0,0,0,0,0,0,0,0,NA,NA
-"4/26/2019 11:01:27","Microsoft","62","Software Engineer",186000,"Seattle, WA",2,2,"Distributed Systems (Back-End)",0,0,0,"Male",NA,11527,819,8157,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/26/2019 11:58:16","Amazon","L6","Software Engineer",240000,"Seattle, WA",10,1,"Web Development (Front-End)",154000,86000,0,"Male",NA,11527,819,8161,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/26/2019 18:10:28","Facebook","IC4","Data Scientist",206000,"Menlo Park, CA",4,1,"Analytics",150000,41000,15000,"Male",NA,7300,807,8179,0,0,0,0,0,0,0,0,0,0,NA,NA
-"4/27/2019 12:47:44","Amazon","L6","Product Manager",230000,"Seattle, WA",10,6,"DevOps",0,0,0,NA,NA,11527,819,8191,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/28/2019 0:15:42","Apple","ICT4","Software Engineer",286000,"San Francisco, CA",3,1,"ML / AI",180000,88000,10000,"Male",NA,7419,807,8207,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/28/2019 9:41:33","Amazon","L6","Product Manager",170000,"Seattle, WA",8,3,"CX",124000,46000,0,"Male",NA,11527,819,8211,0,0,0,0,0,0,0,0,0,0,NA,NA
 "4/29/2019 9:49:13","Bank of America Merrill Lynch","VP","Software Engineer",260000,"New York, NY",6,0,"Distributed Systems (Back-End)",190000,0,70000,NA,NA,10182,501,8232,0,0,0,0,0,0,0,0,0,0,NA,NA
@@ -612,55 +481,41 @@
 "4/30/2019 16:40:45","Blackrock","Associate","Software Engineer",145000,"New York, NY",4,3,"Distributed Systems (Back-End)",120000,0,23000,"Male",NA,10182,501,8270,0,0,0,0,0,0,0,0,0,0,NA,NA
 "5/1/2019 8:46:38","NetApp","MTS II","Software Engineer",119000,"Raleigh, NC",2,2,"Networking",108000,2000,9000,"Male",NA,1317,560,8295,0,0,0,0,0,0,0,0,0,0,NA,NA
 "5/1/2019 19:00:32","eBay","MTS 2","Software Engineer",306000,"San Francisco, CA",18,2,"Web Development (Front-End)",203000,73000,30000,"Male",NA,7419,807,8317,0,0,0,0,0,0,0,0,0,0,NA,NA
-"5/1/2019 23:11:25","Intuit","Senior Software Engineer","Software Engineer",205000,"Mountain View, CA",10,3,"Mobile (iOS + Android)",0,0,0,"Male",NA,7322,807,8322,0,0,0,0,0,0,0,0,0,0,NA,NA
 "5/2/2019 9:42:06","Workday","P3","Software Engineer",180000,"Pleasanton, CA",1,1,"Full Stack",120000,60000,0,"Male",NA,7369,807,8337,0,0,0,0,0,0,0,0,0,0,NA,NA
 "5/3/2019 15:58:14","Linkedin","Staff","Software Engineer",375000,"San Francisco, CA",13,0,"API Development (Back-End)",205000,143000,30000,NA,NA,7419,807,8383,0,0,0,0,0,0,0,0,0,0,NA,NA
 "5/3/2019 20:50:23","Uber","L4","Software Engineer",290000,"Seattle, WA",6,2,"Distributed Systems (Back-End)",160000,120000,10000,NA,NA,11527,819,8390,0,0,0,0,0,0,0,0,0,0,NA,NA
 "5/3/2019 23:26:45","Lyft","T6","Software Engineer",613000,"Seattle, WA",12,1,"Web Development (Front-End)",203000,4e+05,10000,"Male",NA,11527,819,8396,0,0,0,0,0,0,0,0,0,0,NA,NA
 "5/5/2019 14:00:07","Twitter","Senior SWE","Software Engineer",347000,"San Francisco, CA",9,0,"Distributed Systems (Back-End)",190000,119000,38000,"Male",NA,7419,807,8425,0,0,0,0,0,0,0,0,0,0,NA,NA
 "5/5/2019 14:52:34","Microsoft","62","Software Engineer",172000,"Redmond, WA",6,1,"Desktop",140000,18000,14000,"Male",NA,11521,819,8426,0,0,0,0,0,0,0,0,0,0,NA,NA
-"5/5/2019 16:14:54","Uber","L4","Product Manager",340000,"San Francisco, CA",5,2,"Distributed Systems (Back-End)",0,0,0,"Female",NA,7419,807,8428,0,0,0,0,0,0,0,0,0,0,NA,NA
 "5/6/2019 19:17:39","Google","L3","Software Engineer",137000,"Pittsburgh, PA",0,0,"Full Stack",102000,20000,15000,"Male",NA,10648,508,8456,0,0,0,0,0,0,0,0,0,0,NA,NA
 "5/7/2019 8:32:32","Workday","P3","Software Engineer",170000,"Pleasanton, CA",4,2,"API Development (Back-End)",125000,35000,10000,"Male",NA,7369,807,8475,0,0,0,0,0,0,0,0,0,0,NA,NA
 "5/7/2019 8:37:31","Bluecore","Senior Software Engineer","Software Engineer",160000,"New York, NY",5,5,"Full Stack",160000,0,0,"Male",NA,10182,501,8477,0,0,0,0,0,0,0,0,0,0,NA,NA
-"5/7/2019 13:43:22","Cisco","Software Engineer III","Software Engineer",162000,"San Jose, CA",4,4,"Security",0,0,0,NA,NA,7422,807,8486,0,0,0,0,0,0,0,0,0,0,NA,NA
-"5/7/2019 14:26:12","Deliveroo","L6","Software Engineer",100000,"London, EN, United Kingdom",5,3,"Full Stack",0,0,0,"Female",NA,12008,0,8487,0,0,0,0,0,0,0,0,0,0,NA,NA
 "5/7/2019 16:38:52","DoorDash","E5","Software Engineer",180000,"San Francisco, CA",8,0,"Distributed Systems (Back-End)",180000,72000,0,"Male",NA,7419,807,8490,0,0,0,0,0,0,0,0,0,0,NA,NA
-"5/7/2019 16:44:28","Amazon","L6","Solution Architect",220000,"Cambridge, MA",3,0,"Hardware",0,0,0,"Female",NA,8821,506,8491,0,0,0,0,0,0,0,0,0,0,NA,NA
 "5/8/2019 9:35:04","Apple","ICT4","Software Engineer",242000,"Seattle, WA",6,0,"Distributed Systems (Back-End)",175000,50000,17000,NA,NA,11527,819,8510,0,0,0,0,0,0,0,0,0,0,NA,NA
 "5/8/2019 12:40:13","Charles Schwab","Senior","Software Engineer",139000,"Austin, TX",10,1,"Salesforce",123000,0,16000,"Male",NA,10965,635,8514,0,0,0,0,0,0,0,0,0,0,NA,NA
 "5/8/2019 21:46:46","Oracle","IC-5","Product Manager",220000,"Redwood City, CA",13,5,"OCI",177000,40000,0,"Female",NA,7392,807,8535,0,0,0,0,0,0,0,0,0,0,NA,NA
 "5/9/2019 0:43:06","Facebook","E5","Software Engineer",362000,"Seattle, WA",5,0,"Full Stack",185000,150000,28000,"Male",NA,11527,819,8539,0,0,0,0,0,0,0,0,0,0,NA,NA
 "5/9/2019 10:17:47","Microsoft","Principal SDE","Software Engineer",325000,"Redmond, WA",6,6,"Distributed Systems (Back-End)",190000,90000,40000,"Male",NA,11521,819,8542,0,0,0,0,0,0,0,0,0,0,NA,NA
-"5/10/2019 10:09:07","Salesforce","Senior MTS","Software Engineer",300000,"San Francisco, CA",9,2,"Testing (SDET)",0,0,0,NA,NA,7419,807,8578,0,0,0,0,0,0,0,0,0,0,NA,NA
 "5/10/2019 16:20:58","Apple","ICT4","Software Engineer",270000,"Sunnyvale, CA",14,2,"Distributed Systems (Back-End)",170000,75000,25000,"Male",NA,7472,807,8589,0,0,0,0,0,0,0,0,0,0,NA,NA
 "5/11/2019 2:41:22","General Motors","L5","Software Engineer",72000,"Warren, MI",1,2,"Full Stack",68000,0,4000,"Male",".Net client application development",9151,505,8611,0,0,0,0,0,0,0,0,0,0,NA,NA
 "5/12/2019 14:53:29","Uber","5a","Software Engineer",280000,"San Francisco, CA",3,3,"Distributed Systems (Back-End)",160000,90000,30000,"Male",NA,7419,807,8647,0,0,0,0,0,0,0,0,0,0,NA,NA
-"5/12/2019 15:48:38","IBM","9","Software Engineering Manager",210000,"San Jose, CA",8,8,"ML / AI",0,0,0,NA,NA,7422,807,8648,0,0,0,0,0,0,0,0,0,0,NA,NA
 "5/13/2019 20:58:52","Qualcomm","Principal Engineer","Software Engineering Manager",290000,"San Diego, CA",15,14,"Networking",192000,70000,30000,NA,NA,7416,825,8678,0,0,0,0,0,0,0,0,0,0,NA,NA
 "5/13/2019 23:51:47","Zendesk","Software Engineer","Software Engineer",225000,"San Francisco, CA",1,1,"Full Stack",120000,85000,10000,"Male",NA,7419,807,8681,0,0,0,0,0,0,0,0,0,0,NA,NA
-"5/14/2019 4:12:49","Google","L4","Software Engineer",89000,"Tokyo, TY, Japan",1,1,"General",0,0,0,"Female",NA,4364,0,8686,0,0,0,0,0,0,0,0,0,0,NA,NA
 "5/14/2019 13:40:16","Barclays","Analyst","Software Engineer",97000,"Whippany, NJ",4,1,"Full Stack",95000,0,2000,"Male","Recent Grad Program",9995,501,8696,0,0,0,0,0,0,0,0,0,0,NA,NA
 "5/15/2019 0:31:44","Google","L6","Software Engineer",500000,"Mountain View, CA",9,7,"Distributed Systems (Back-End)",215000,2e+05,85000,"Male",NA,7322,807,8706,0,0,0,0,0,0,0,0,0,0,NA,NA
 "5/15/2019 9:01:59","Salesforce","Associate MTS","Software Engineer",165000,"San Francisco, CA",0,0,"API Development (Back-End)",130000,21000,13000,"Male",NA,7419,807,8709,0,0,0,0,0,0,0,0,0,0,NA,NA
 "5/15/2019 14:29:18","Google","L5","Software Engineer",200000,"Dublin, DN, Ireland",9,5,"DevOps",112000,80000,8000,"Male",NA,4015,0,8716,0,0,0,0,0,0,0,0,0,0,NA,NA
-"5/15/2019 20:10:00","Spotify","Squad Step","Software Engineer",63000,"Stockholm, ST, Sweden",19,1.5,"Full Stack",0,0,0,"Male",NA,6713,0,8727,0,0,0,0,0,0,0,0,0,0,NA,NA
 "5/16/2019 8:16:24","Capital One","Senior Manager","Product Manager",190000,"Washington, DC",15,4,"Full Stack",160000,30000,0,"Male",NA,40303,511,8745,0,0,0,0,0,0,0,0,0,0,NA,NA
 "5/16/2019 10:20:51","ServiceNow","IC4","Product Designer",140000,"Phoenix, AZ",15,2,"Mobile (iOS + Android)",110000,10000,20000,"Male",NA,7042,753,8752,0,0,0,0,0,0,0,0,0,0,NA,NA
-"5/17/2019 13:33:48","Amazon","L4","Software Engineer",142000,"Denver, CO",2,2,"Full Stack",0,0,0,"Male",NA,7548,751,8800,0,0,0,0,0,0,0,0,0,0,NA,NA
 "5/17/2019 17:03:54","Google","L3","Software Engineer",220000,"New York, NY",2,1,"Full Stack",127000,75000,18000,"Female",NA,10182,501,8807,0,0,0,0,0,0,0,0,0,0,NA,NA
 "5/18/2019 12:48:57","Square","Level 6","Software Engineer",310000,"San Francisco, CA",11,0,"Full Stack",195000,115000,0,NA,NA,7419,807,8827,0,0,0,0,0,0,0,0,0,0,NA,NA
 "5/18/2019 14:30:13","Amazon","L5","Software Engineer",173000,"Seattle, WA",13,5,"Distributed Systems (Back-End)",143000,30000,0,"Male",NA,11527,819,8829,0,0,0,0,0,0,0,0,0,0,NA,NA
-"5/18/2019 21:06:04","Marqeta","1","Software Engineer",160000,"Oakland, CA",4,1,"Full Stack",0,0,0,"Female",NA,7335,807,8838,0,0,0,0,0,0,0,0,0,0,NA,NA
-"5/19/2019 20:01:09","Microsoft","61","Software Engineer",154000,"Redmond, WA",9,6,"Distributed Systems (Back-End)",0,0,0,NA,NA,11521,819,8861,0,0,0,0,0,0,0,0,0,0,NA,NA
 "5/19/2019 21:32:30","Facebook","E4","Software Engineer",250000,"Menlo Park, CA",6,0,"ML / AI",150000,85000,15000,"Other",NA,7300,807,8862,0,0,0,0,0,0,0,0,0,0,NA,NA
 "5/19/2019 23:16:50","Nextdoor","L3","Software Engineer",155000,"San Francisco, CA",2,0,"Full Stack",145000,10000,0,"Female",NA,7419,807,8866,0,0,0,0,0,0,0,0,0,0,NA,NA
 "5/20/2019 0:25:27","Salesforce","Senior MTS","Software Engineer",229000,"San Francisco, CA",5,3,"Full Stack",167000,37000,25000,"Male",NA,7419,807,8868,0,0,0,0,0,0,0,0,0,0,NA,NA
 "5/20/2019 13:53:57","Microsoft","61","Software Engineer",224000,"Seattle, WA",5,3,"iOS",131000,76000,11000,"Male",NA,11527,819,8886,0,0,0,0,0,0,0,0,0,0,NA,NA
-"5/20/2019 13:59:19","Facebook","E5","Software Engineer",450000,"Menlo Park, CA",5,5,"Web Development (Front-End)",0,0,0,"Male",NA,7300,807,8888,0,0,0,0,0,0,0,0,0,0,NA,NA
 "5/20/2019 16:22:13","AppDirect","4","Product Manager",152000,"San Francisco, CA",4,5,"Product Management",152000,0,0,"Male",NA,7419,807,8895,0,0,0,0,0,0,0,0,0,0,NA,NA
 "5/21/2019 14:16:51","Tableau Software","Senior SWE","Software Engineer",280000,"Seattle, WA",3,3,"Distributed Systems (Back-End)",145000,120000,14000,"Male","after 4 years stock based compensation will reduce significantly",11527,819,8938,0,0,0,0,0,0,0,0,0,0,NA,NA
-"5/21/2019 19:53:48","Aptiv","Engineer","Software Engineer",82000,"Detroit, MI",1,1,"Car",0,0,0,NA,NA,9052,505,8949,0,0,0,0,0,0,0,0,0,0,NA,NA
 "5/21/2019 20:07:25","Lyft","T6","Software Engineer",520000,"San Francisco, CA",13,1,"Lbs",230000,275000,0,"Male",NA,7419,807,8951,0,0,0,0,0,0,0,0,0,0,NA,NA
 "5/21/2019 21:12:32","VMware","Senior MTS","Software Engineer",230000,"Palo Alto, CA",4,4,"Distributed Systems (Back-End)",150000,40000,40000,"Male",NA,7351,807,8956,0,0,0,0,0,0,0,0,0,0,NA,NA
 "5/22/2019 10:33:39","LinkedIn","L1","Business Analyst",150000,"Sunnyvale, CA",4,4,"IT",1e+05,40000,10000,"Male",NA,7472,807,8985,0,0,0,0,0,0,0,0,0,0,NA,NA
@@ -668,14 +523,11 @@
 "5/22/2019 15:17:55","Amazon","L4","Data Scientist",144000,"San Francisco, CA",1,0.5,"ML / AI",120000,4000,20000,"Male",NA,7419,807,8995,0,0,0,0,0,0,0,0,0,0,NA,NA
 "5/22/2019 16:42:59","Amazon","L5","Solution Architect",198000,"San Francisco, CA",3,1.8,"Cloud",144000,44000,20000,"Female",NA,7419,807,9000,0,0,0,0,0,0,0,0,0,0,NA,NA
 "5/22/2019 21:19:28","Nvidia","IC4","Software Engineer",275000,"Santa Clara, CA",6,1,"ML / AI",194000,56000,25000,"Female",NA,7434,807,9011,0,0,0,0,0,0,0,0,0,0,NA,NA
-"5/23/2019 7:07:57","SAP","T3","Software Engineer",76000,"Walldorf, BW, Germany",5,5,"API Development (Back-End)",0,0,0,"Male",NA,3761,0,9025,0,0,0,0,0,0,0,0,0,0,NA,NA
 "5/23/2019 15:55:51","ServiceNow","2","Software Engineer",150000,"Santa Clara, CA",2,0,"Full Stack",120000,16000,12000,"Male",NA,7434,807,9047,0,0,0,0,0,0,0,0,0,0,NA,NA
 "5/23/2019 18:14:37","Zillow","P3","Software Engineer",230000,"Seattle, WA",3,0,"Back-end",155000,45000,30000,"Male",NA,11527,819,9055,0,0,0,0,0,0,0,0,0,0,NA,NA
-"5/23/2019 20:14:18","Apple","ICT5","Hardware Engineer",550000,"Austin, TX",10,6,"Hardware Engineering",0,0,0,"Male",NA,10965,635,9060,0,0,0,0,0,0,0,0,0,0,NA,NA
 "5/23/2019 21:58:46","Yelp","IC4","Software Engineer",308000,"San Francisco, CA",6,4,"Android",158000,150000,0,"Male",NA,7419,807,9064,0,0,0,0,0,0,0,0,0,0,NA,NA
 "5/23/2019 23:03:20","Dropbox","IC3","Software Engineer",343000,"San Francisco, CA",5,0,"Distributed Systems (Back-End)",2e+05,112000,30000,"Male","25k Joining",7419,807,9072,0,0,0,0,0,0,0,0,0,0,NA,NA
 "5/24/2019 8:22:49","Google","L4","Software Engineer",260000,"Seattle, WA",4,0,"Security",145000,85000,25000,"Male",NA,11527,819,9088,0,0,0,0,0,0,0,0,0,0,NA,NA
-"5/24/2019 11:59:34","Microsoft","62","Software Engineer",196000,"Redmond, WA",4,0,"Security",0,0,0,NA,NA,11521,819,9097,0,0,0,0,0,0,0,0,0,0,NA,NA
 "5/24/2019 16:26:42","Salesforce","Senior MTS","Software Engineer",214000,"San Francisco, CA",9,1,"Testing (SDET)",182000,0,32000,"Male",NA,7419,807,9109,0,0,0,0,0,0,0,0,0,0,NA,NA
 "5/24/2019 20:58:58","SAP","T4","Software Engineer",238000,"Bellevue, WA",20,14,"Distributed Systems (Back-End)",176000,36000,26000,"Male",NA,11470,819,9116,0,0,0,0,0,0,0,0,0,0,NA,NA
 "5/26/2019 3:15:40","Disney","Associate","Software Engineer",129000,"Point Richmond, CA",0,0,"Client Engineering",110000,11000,8000,"Male","Disney Streaming Services",41856,807,9146,0,0,0,0,0,0,0,0,0,0,NA,NA
@@ -696,7 +548,6 @@
 "6/1/2019 22:49:09","Apple","ICT3","Hardware Engineer",228000,"Cupertino, CA",5,1,"Hardware",140000,70000,18000,"Male",NA,7158,807,9348,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/1/2019 23:05:21","Zillow","P3","Software Engineer",190000,"San Francisco, CA",3,2,"Full Stack",145000,15000,30000,"Male",NA,7419,807,9350,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/2/2019 18:13:09","Intuit","Senior Software Engineer","Software Engineer",235000,"Mountain View, CA",4,4,"API Development (Back-End)",155000,50000,25000,"Male",NA,7322,807,9363,0,0,0,0,0,0,0,0,0,0,NA,NA
-"6/3/2019 11:55:53","Amadeus","Software Development Engineer","Software Engineer",78000,"Frankford, DE",3,3,"Web Development (Front-End)",0,0,0,"Male",NA,26238,576,9374,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/3/2019 14:44:50","New Relic","L7","Software Engineer",152000,"Portland, OR",10,1,"DevOps",132000,20000,0,"Male",NA,10522,820,9378,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/3/2019 21:00:37","Amazon","L5","Software Engineer",239000,"Seattle, WA",9,9,"Full Stack",130000,110000,0,"Male",NA,11527,819,9394,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/4/2019 10:24:14","Uber","L4","Software Engineer",280000,"New York, NY",4,0,"Distributed Systems (Back-End)",160000,95000,25000,"Male",NA,10182,501,9412,0,0,0,0,0,0,0,0,0,0,NA,NA
@@ -709,31 +560,22 @@
 "6/6/2019 6:44:44","Medtronic","Engineer","Software Engineer",97000,"Minneapolis, MN",7,5,"Android",92000,0,5000,NA,NA,9194,613,9481,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/6/2019 9:41:57","Linkedin","IC","Product Designer",235000,"Sunnyvale, CA",2,2,"Design",128000,97000,10000,"Female",NA,7472,807,9485,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/6/2019 11:28:31","Comcast","4","Software Engineer",153000,"Philadelphia, PA",9,1,"API Development (Back-End)",132000,11000,10000,NA,NA,10646,504,9489,0,0,0,0,0,0,0,0,0,0,NA,NA
-"6/6/2019 14:00:59","Accenture","Manager","Software Engineering Manager",138000,"Washington, DC",6,5,"Distributed Systems (Back-End)",0,0,0,NA,NA,40303,511,9496,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/6/2019 16:11:14","NetApp","MTS V","Software Engineer",205000,"Sunnyvale, CA",10,10,"Systems Engineering",183000,7000,15000,"Male",NA,7472,807,9501,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/6/2019 21:33:21","AMD","Senior Engineer","Hardware Engineer",135000,"Austin, TX",5,0,"Architect",115000,10000,10000,"Male",NA,10965,635,9510,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/7/2019 7:48:11","Amazon","L5","Software Engineer",180000,"Seattle, WA",3,3,"Distributed Systems (Back-End)",134000,45000,0,"Male",NA,11527,819,9522,0,0,0,0,0,0,0,0,0,0,NA,NA
-"6/7/2019 11:32:35","IBM","7","Software Engineer",90000,"Toronto, ON, Canada",3,1,"C++",0,0,0,NA,NA,1206,0,9535,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/7/2019 21:39:51","Twitter","Staff SWE","Software Engineer",425000,"San Francisco, CA",15,0,"Distributed Systems (Back-End)",220000,150000,55000,"Male","25k sign on",7419,807,9558,0,0,0,0,0,0,0,0,0,0,NA,NA
-"6/8/2019 0:27:00","Yahoo","IC7","Software Engineer",750000,"Sunnyvale, CA",17,14,"Distributed Systems (Back-End)",0,0,0,"Male",NA,7472,807,9561,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/8/2019 14:07:13","Amazon","L4","Software Engineer",137000,"Toronto, ON, Canada",0,0,"Full Stack",1e+05,16000,21000,"Male",NA,1206,0,9579,0,0,0,0,0,0,0,0,0,0,NA,NA
-"6/9/2019 0:33:33","Amazon","L5","Software Engineer",250000,"Seattle, WA",8,6,"Full Stack",0,0,0,NA,NA,11527,819,9589,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/9/2019 8:37:16","Apple","ICT4","Software Engineer",411000,"San Francisco, CA",5,1,"Distributed Systems (Back-End)",206000,180000,25000,NA,NA,7419,807,9593,0,0,0,0,0,0,0,0,0,0,NA,NA
-"6/9/2019 11:13:31","Lockheed Martin","L2","Software Engineer",90000,"Orlando, FL",5,5,"Full Stack",0,0,0,NA,NA,7776,534,9598,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/9/2019 17:02:19","Nvidia","IC3","Software Engineer",170000,"Santa Clara, CA",8,5,"Android",150000,20000,0,"Male",NA,7434,807,9606,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/9/2019 21:12:22","Square","Level 5","Product Manager",268000,"San Francisco, CA",3,5,"Full Stack",168000,1e+05,0,"Male",NA,7419,807,9613,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/9/2019 21:33:01","Amazon","L4","Software Engineer",140000,"Seattle, WA",0,0,"Networking",107000,2000,31000,"Male",NA,11527,819,9614,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/10/2019 8:30:19","Amazon","L5","Software Engineer",200000,"Boston, MA",6,3,"API Development (Back-End)",150000,50000,0,"Male",NA,8816,506,9628,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/11/2019 8:45:14","Apple","ICT2","Software Engineer",182000,"Cupertino, CA",0,1,"iOS",117000,65000,0,"Male",NA,7158,807,9656,0,0,0,0,0,0,0,0,0,0,NA,NA
-"6/11/2019 14:03:13","Udemy","L2","Software Engineer",137000,"San Francisco, CA",3,1,"Full Stack",0,0,0,NA,NA,7419,807,9667,0,0,0,0,0,0,0,0,0,0,NA,NA
-"6/12/2019 9:53:40","Micron","E5","Software Engineer",178000,"Austin, TX",8,5,"DevOps",0,0,0,"Male",NA,10965,635,9701,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/12/2019 19:27:58","Thumbtack","L4","Software Engineer",165000,"San Francisco, CA",4,2,"Web Development (Front-End)",152000,13000,0,"Male",NA,7419,807,9732,0,0,0,0,0,0,0,0,0,0,NA,NA
-"6/12/2019 22:21:37","Dell","I10","Hardware Engineer",275000,"Round Rock, TX",20,19,"ML / AI",0,0,0,"Male","Dell EMC",11226,635,9736,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/13/2019 21:50:46","JPMorgan Chase","Associate","Data Scientist",150000,"New York, NY",1,1,"ML / AI",130000,0,20000,"Male",NA,10182,501,9771,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/13/2019 21:56:40","Google","L4","Software Engineer",305000,"Mountain View, CA",15,2,"API Development (Back-End)",158000,113000,35000,"Female",NA,7322,807,9772,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/14/2019 8:50:56","Apple","ICT4","Software Engineer",410000,"Cupertino, CA",13,1,"iOS",205000,180000,25000,NA,NA,7158,807,9778,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/14/2019 14:58:43","Tableau Software","Staff SWE","Software Engineer",337000,"Seattle, WA",12,4,"Distributed Systems (Back-End)",174000,146000,17000,"Male",NA,11527,819,9786,0,0,0,0,0,0,0,0,0,0,NA,NA
-"6/14/2019 18:41:43","Amazon","L6","Product Manager",200000,"Seattle, WA",7,3,"Voice",0,0,0,"Female",NA,11527,819,9797,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/14/2019 19:29:27","Google","L4","Product Manager",235000,"Mountain View, CA",3,0,"ML / AI",147000,66000,22000,"Male",NA,7322,807,9801,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/15/2019 9:59:54","Intel","Grade 8","Hardware Engineer",178000,"Hillsboro, OR",25,12,"Systems",137000,20000,21000,"Male",NA,10500,820,9874,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/15/2019 10:04:08","Apple","ICT2","Product Designer",240000,"Sunnyvale, CA",1,1,"Special Projects (R&D)",210000,20000,10000,"Male",NA,7472,807,9878,0,0,0,0,0,0,0,0,0,0,NA,NA
@@ -769,12 +611,9 @@
 "6/16/2019 16:33:31","Facebook","E5","Software Engineer",320000,"Menlo Park, CA",8,4,"Full Stack",175000,120000,25000,"Male",NA,7300,807,10332,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/16/2019 17:06:07","Oracle","Senior MTS","Software Engineer",224000,"Redwood City, CA",4,0,"Backend",170000,54000,0,NA,NA,7392,807,10339,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/16/2019 17:11:39","Amazon","L6 SDM","Software Engineering Manager",275000,"San Jose, CA",13,3,"Mobile (iOS + Android)",145000,130000,0,"Male",NA,7422,807,10340,0,0,0,0,0,0,0,0,0,0,NA,NA
-"6/16/2019 17:13:56","Huawei","Sr Director","Software Engineering Manager",450000,"Santa Clara, CA",25,7,"Distributed Systems (Back-End)",0,0,0,NA,NA,7434,807,10341,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/16/2019 17:14:49","Uber","EM 1","Software Engineering Manager",400000,"San Jose, CA",13,1,"Full Stack",195000,178000,27000,"Male",NA,7422,807,10343,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/16/2019 18:16:47","Oracle","IC-3","Software Engineer",120000,"Santa Clara, CA",11,8,"Full Stack",120000,0,0,"Male",NA,7434,807,10347,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/16/2019 18:57:22","Facebook","M1","Software Engineering Manager",505000,"Seattle, WA",6,1,"Full Stack",215000,250000,40000,"Male",NA,11527,819,10357,0,0,0,0,0,0,0,0,0,0,NA,NA
-"6/17/2019 1:26:22","JPMorgan Chase","Associate","Software Engineer",120000,"Tel Aviv, TA, Israel",15,2,"API Development (Back-End)",0,0,0,"Male",NA,15900,0,10402,0,0,0,0,0,0,0,0,0,0,NA,NA
-"6/17/2019 3:13:01","Qualcomm","Senior Engineer","Software Engineer",100000,"San Diego, CA",10,4,"Android",0,0,0,"Male",NA,7416,825,10408,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/17/2019 5:06:31","Mellanox","Senior Principal Engineer","Software Engineer",390000,"Nazareth Illit, HZ, Israel",30,6,"Algorithms",193000,172000,25000,"Male",NA,14824,0,10421,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/17/2019 7:48:54","Google","Manager (L6)","Product Designer",310000,"Mountain View, CA",20,1,"UX",2e+05,70000,40000,"Male",NA,7322,807,10439,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/17/2019 9:53:04","Uber","L4","Software Engineer",243000,"Seattle, WA",6,0,"DevOps",150000,73000,15000,"Male","Offer, not accepted",11527,819,10460,0,0,0,0,0,0,0,0,0,0,NA,NA
@@ -789,9 +628,7 @@
 "6/17/2019 21:21:44","Amazon","L5","Software Engineer",240000,"Seattle, WA",10,2,"Embedded",150000,90000,0,"Male",NA,11527,819,10562,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/17/2019 21:45:00","Apple","ICT4","Hardware Engineer",260000,"Cupertino, CA",12,4,"HARDWARE",150000,1e+05,10000,"Male",NA,7158,807,10565,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/17/2019 21:56:31","Zillow","M3","Software Engineering Manager",298000,"San Francisco, CA",19,6,"Full Stack",198000,1e+05,0,"Male",NA,7419,807,10570,0,0,0,0,0,0,0,0,0,0,NA,NA
-"6/17/2019 22:49:12","Facebook","E7","Software Engineer",910000,"New York, NY",21,7,"ML / AI",0,0,0,"Male",NA,10182,501,10579,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/18/2019 0:04:11","Intuit","Principal / Architect","Solution Architect",285000,"San Francisco, CA",13,9,"Distributed Systems (Back-End)",215000,20000,50000,"Male",NA,7419,807,10588,0,0,0,0,0,0,0,0,0,0,NA,NA
-"6/18/2019 0:16:46","Cisco","Grade 10","Software Engineer",200000,"San Jose, CA",10,10,"Distributed Systems (Back-End)",0,0,0,NA,NA,7422,807,10589,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/18/2019 0:54:42","DoorDash","E4","Software Engineer",220000,"San Francisco, CA",2,0,"API Development (Back-End)",160000,50000,10000,"Male",NA,7419,807,10591,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/18/2019 4:23:26","Google","L4","Software Engineer",281000,"Boston, MA",8,6,"Full Stack",152000,1e+05,29000,"Male",NA,8816,506,10601,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/18/2019 11:33:56","Qualcomm","Senior Engineer","Software Engineer",152000,"San Diego, CA",4,1,"Security",117000,25000,10000,"Male",NA,7416,825,10632,0,0,0,0,0,0,0,0,0,0,NA,NA
@@ -801,7 +638,6 @@
 "6/18/2019 20:56:15","Workday","Software Engineer (SWE) I","Software Engineer",109000,"Boulder, CO",0,0,"ML / AI",95000,14000,0,"Male",NA,7534,751,10679,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/18/2019 20:58:04","Google","L3","Software Engineer",164000,"Zurich, ZH, Switzerland",0,0,"Full Stack",120000,26000,18000,"Male",NA,6736,0,10680,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/18/2019 22:22:41","Western Digital","Senior Software Engineer","Software Engineer",120000,"Milpitas, CA",4,4,"Full Stack",114000,2000,0,"Male",NA,7304,807,10688,0,0,0,0,0,0,0,0,0,0,NA,NA
-"6/18/2019 22:24:22","Walmart Labs","4","Data Scientist",245000,"Sunnyvale, CA",2,0.5,"ML / AI",0,0,0,"Male",NA,7472,807,10689,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/18/2019 23:35:23","Microsoft","64","Software Engineer",270000,"Seattle, WA",15,6,"Full Stack",170000,30000,70000,"Female",NA,11527,819,10694,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/19/2019 8:14:17","Arm","Grade 3","Hardware Engineer",130000,"Austin, TX",2,2,"Computer Architecture",101000,19000,10000,"Male",NA,10965,635,10708,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/19/2019 9:06:01","Yelp","IC2","Software Engineer",191000,"San Francisco, CA",1,1,"Full Stack",116000,75000,0,"Female",NA,7419,807,10713,0,0,0,0,0,0,0,0,0,0,NA,NA
@@ -825,7 +661,6 @@
 "6/23/2019 12:17:23","VMware","SMTS","Software Engineer",242000,"Palo Alto, CA",4,4,"Distributed Systems (Back-End)",179000,25000,38000,"Male",NA,7351,807,10989,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/23/2019 13:49:34","Amazon","L4","Software Engineer",152000,"Seattle, WA",1,0,"Full Stack",120000,17000,15000,NA,NA,11527,819,10993,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/23/2019 14:03:09","Bank of America","L3","Software Engineer",160000,"New York, NY",24,8,"Distributed Systems (Back-End)",160000,0,0,"Male",NA,10182,501,10994,0,0,0,0,0,0,0,0,0,0,NA,NA
-"6/23/2019 14:59:45","ServiceNow","Senior","Software Engineer",190000,"Chicago, IL",8,0,"Web Development (Front-End)",0,0,0,"Male",NA,8198,602,10995,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/23/2019 17:07:06","Google","L4","Software Engineer",257000,"Mountain View, CA",4,2,"Web Development (Front-End)",149000,80000,28000,"Male",NA,7322,807,10999,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/24/2019 6:47:53","IBM","Band 6","Software Engineer",80000,"Ottawa, ON, Canada",1,0,"DevOps",80000,0,0,"Male",NA,5906,0,11018,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/24/2019 18:09:33","Pivotal","P1","Software Engineer",116000,"San Francisco, CA",2,1,"API Development (Back-End)",110000,6000,0,"Male",NA,7419,807,11042,0,0,0,0,0,0,0,0,0,0,NA,NA
@@ -834,135 +669,98 @@
 "6/25/2019 13:24:22","Nike","SWE 2","Software Engineer",110000,"Beaverton, OR",5,4.5,"Distributed Systems (Back-End)",107000,0,3000,"Male",NA,10485,820,11078,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/25/2019 15:03:52","Walmart","ECB4","Software Engineer",235000,"Hoboken, NJ",6,3,"Distributed Systems (Back-End)",162000,40000,32000,"Female",NA,9916,501,11085,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/26/2019 0:36:35","Eventbrite","Senior Software Engineer II","Software Engineer",180000,"San Francisco, CA",10,4,"Web Development (Front-End)",155000,25000,0,"Male",NA,7419,807,11113,0,0,0,0,0,0,0,0,0,0,NA,NA
-"6/26/2019 5:59:42","Apple","ICT2","Software Engineer",35000,"Hyderabad, TS, India",1,1,"ML / AI",0,0,0,NA,NA,47926,0,11120,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/26/2019 10:42:32","Microsoft","62","Data Scientist",165000,"Redmond, WA",4,4,"Data Science",139000,12000,14000,"Female","From other industry",11521,819,11129,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/26/2019 15:55:20","Facebook","E5","Software Engineer",435000,"Menlo Park, CA",10,0,"Distributed Systems (Back-End)",205000,175000,55000,NA,NA,7300,807,11141,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/26/2019 21:59:52","Autodesk","Grade 14","Software Engineer",290000,"San Francisco, CA",11,4,"Full Stack",190000,65000,38000,"Male",NA,7419,807,11158,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/27/2019 8:38:55","Google","L5","Hardware Engineer",287000,"Mountain View, CA",7,1,"Hardware",170000,90000,27000,"Male",NA,7322,807,11174,0,0,0,0,0,0,0,0,0,0,NA,NA
-"6/27/2019 11:47:06","Amazon","L6 SDM","Software Engineering Manager",400000,"San Francisco, CA",20,4,"Distributed Systems (Back-End)",0,0,0,NA,NA,7419,807,11180,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/27/2019 12:23:45","Rubrik","L3","Software Engineer",187000,"Palo Alto, CA",1,1,"ML / AI",120000,55000,12000,"Male",NA,7351,807,11187,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/27/2019 21:17:29","Amazon","L4","Software Engineer",166000,"Seattle, WA",0,0,"Distributed Systems (Back-End)",129000,22000,15000,"Male",NA,11527,819,11207,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/28/2019 13:13:47","Amazon","L5","Software Engineer",272000,"New York, NY",3,0,"Web Development (Front-End)",180000,52000,40000,"Male","Got approval for out of band offer.",10182,501,11230,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/28/2019 14:17:03","Salesforce","SMTS","Software Engineer",261000,"San Francisco, CA",4,0,"Security",195000,37000,29000,NA,NA,7419,807,11236,0,0,0,0,0,0,0,0,0,0,NA,NA
-"6/28/2019 21:27:37","Qualtrics","L4","Software Engineer",147000,"Seattle, WA",4,1,"Web Development (Front-End)",0,0,0,"Male",NA,11527,819,11251,0,0,0,0,0,0,0,0,0,0,NA,NA
-"6/29/2019 1:11:11","oracle","IC-4","Software Engineer",140000,"Redwood City, CA",5,5,"Testing (SDET)",0,0,0,NA,NA,7392,807,11254,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/29/2019 1:17:02","Apple","ICT4","Software Engineer",320000,"Seattle, WA",4,4,"iOS",175000,120000,25000,"Male",NA,11527,819,11256,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/29/2019 12:39:14","Amazon","L5","Software Engineer",228000,"Seattle, WA",7,6,"Full Stack",138000,90000,0,"Male",NA,11527,819,11271,0,0,0,0,0,0,0,0,0,0,NA,NA
 "6/29/2019 18:32:23","Airbnb","L4","Software Engineer",342000,"San Francisco, CA",3,0.5,"API Development (Back-End)",195000,118000,30000,"Female",NA,7419,807,11287,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/1/2019 11:01:06","Microsoft","Senior SDE","Software Engineer",302000,"Redmond, WA",7,1,"Full Stack",164000,115000,25000,"Female",NA,11521,819,11331,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/1/2019 16:05:21","Costco","Software Developer","Software Engineer",69000,"Issaquah, WA",2,2,"Full Stack",67000,0,2000,"Male",NA,12671,819,11345,0,0,0,0,0,0,0,0,0,0,NA,NA
-"7/1/2019 18:50:29","Google","L5","Software Engineer",325000,"New York, NY",8,4,"Full Stack",0,0,0,NA,NA,10182,501,11346,0,0,0,0,0,0,0,0,0,0,NA,NA
-"7/1/2019 19:53:26","PayPal","Senior Software Engineer","Software Engineer",175000,"San Jose, CA",5,3,"Full Stack",0,0,0,NA,NA,7422,807,11350,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/2/2019 17:44:43","Electronic Arts","4","Software Engineer",181000,"Redwood City, CA",4,4,"Web Development (Front-End)",146000,13000,22000,"Male",NA,7392,807,11386,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/2/2019 23:06:57","Amazon","L5","Software Engineer",206000,"Seattle, WA",7,6,"Mobile (iOS + Android)",149000,57000,0,NA,NA,11527,819,11398,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/3/2019 15:26:46","SAP","T1","Software Engineer",78000,"Newtown Square, PA",1,1,"SAPUI5",72000,0,6000,"Male",NA,33465,504,11418,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/3/2019 23:54:46","Intel","Grade 8","Hardware Engineer",186000,"Austin, TX",19,11,"Testing (SDET)",145000,20000,21000,"Male","Sr. Design Verification Engineer",10965,635,11432,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/4/2019 21:41:05","National Instruments","Principal","Software Engineer",150000,"Austin, TX",15,15,"N/A",125000,20000,5000,NA,NA,10965,635,11459,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/5/2019 7:00:42","Facebook","E5","Software Engineer",231000,"New York, NY",6,2,"iOS",152000,65000,14000,"Male","No degree (of any kind)",10182,501,11466,0,0,0,0,0,0,0,0,0,0,NA,NA
-"7/5/2019 11:00:48","Google","L4","Software Engineer",260000,"Kirkland, WA",10,5,"Security",0,0,0,"Male",NA,11497,819,11474,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/5/2019 14:09:53","Intuit","Senior Software Engineer","Software Engineer",220000,"Mountain View, CA",5,5,"Web Development (Front-End)",153000,28000,37000,"Female",NA,7322,807,11482,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/6/2019 13:29:21","ebay","Sde 2","Software Engineer",150000,"San Jose, CA",2,0,"Testing (SDET)",12000,350000,0,"Female",NA,7422,807,11511,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/6/2019 20:49:47","VMware","Senior MTS","Software Engineer",229000,"Palo Alto, CA",4,0,"Distributed Systems (Back-End)",175000,25000,30000,"Male",NA,7351,807,11520,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/7/2019 13:47:52","Google","L4","Software Engineer",285000,"Seattle, WA",6,6,"Distributed Systems (Back-End)",150000,80000,55000,"Female",NA,11527,819,11534,0,0,0,0,0,0,0,0,0,0,NA,NA
-"7/8/2019 17:46:51","Microsoft","64","Software Engineering Manager",250000,"Mountain View, CA",10,8,"Full Stack",0,0,0,NA,NA,7322,807,11559,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/8/2019 20:54:32","Tableau Software","Senior SWE","Software Engineer",400000,"Seattle, WA",10,0,"Web Development (Front-End)",175000,206000,17000,"Male",NA,11527,819,11567,0,0,0,0,0,0,0,0,0,0,NA,NA
-"7/8/2019 21:15:52","VMware","Senior","Product Designer",220000,"Palo Alto, CA",6,1,"Web Development (Front-End)",0,0,0,NA,NA,7351,807,11571,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/9/2019 4:22:47","Lyft","T3","Software Engineer",209000,"San Francisco, CA",0,0,"API Development (Back-End)",130000,79000,0,"Male",NA,7419,807,11576,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/9/2019 14:24:23","Qualcomm","Staff Engineer","Software Engineer",225000,"San Jose, CA",7,0,"Networking",160000,40000,25000,"Male",NA,7422,807,11587,0,0,0,0,0,0,0,0,0,0,NA,NA
-"7/9/2019 18:49:43","Amazon","SDE II","Software Engineer",200000,"Seattle, WA",12,1,"Web Development (Front-End)",0,0,0,NA,NA,11527,819,11597,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/9/2019 20:41:09","Amazon","L4","Software Engineer",108000,"Tel Aviv, TA, Israel",1,0,"API Development (Back-End)",95000,13000,0,"Female",NA,15900,0,11606,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/9/2019 22:03:54","Qualcomm","Engineer","Hardware Engineer",135000,"San Diego, CA",3,3,"Design Verification",115000,10000,10000,"Male",NA,7416,825,11614,0,0,0,0,0,0,0,0,0,0,NA,NA
-"7/10/2019 9:04:36","Buildium","Senior Software Engineer","Software Engineer",120000,"Boston, MA",5,1,"Full Stack",0,0,0,NA,NA,8816,506,11631,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/10/2019 19:41:34","Netflix","Senior Software Engineer","Software Engineer",495000,"Los Gatos, CA",10,4,"Distributed Systems (Back-End)",495000,0,0,NA,NA,7277,807,11657,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/10/2019 23:20:45","Yelp","IC3","Software Engineer",190000,"San Francisco, CA",2,2,"Full Stack",135000,55000,0,NA,NA,7419,807,11668,0,0,0,0,0,0,0,0,0,0,NA,NA
-"7/11/2019 11:55:26","Tinder","Senior","Product Designer",145000,"Los Angeles, CA",7,2.5,"Mobile (iOS + Android)",0,0,0,"Female",NA,7275,803,11680,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/11/2019 14:36:09","Facebook","E5","Software Engineer",411000,"Menlo Park, CA",3,3,"Web Development (Front-End)",183000,2e+05,28000,"Female",NA,7300,807,11688,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/11/2019 20:52:48","Microsoft","60","Software Engineer",130000,"Bellevue, WA",10,6,"Full Stack",117000,10000,3000,"Male",NA,11470,819,11706,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/12/2019 8:49:41","Pluralsight","Mid-level","Product Designer",144000,"Salt Lake City, UT",5,2,"Design",95000,40000,9000,"Female","We have unlimited PTO, whole company week off around the fourth of July, 100% covered medical (just copays), matching 50% up to 6% of 401K",1180,770,11723,0,0,0,0,0,0,0,0,0,0,NA,NA
-"7/12/2019 9:13:09","Amazon","L6","Product Manager",185000,"Seattle, WA",9,6,"ML / AI",0,0,0,"Female",NA,11527,819,11724,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/12/2019 14:42:06","Huawei","Director of engineering","Software Engineering Manager",400000,"Seattle, WA",20,3,"Distributed Systems (Back-End)",260000,0,140000,"Male",NA,11527,819,11734,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/13/2019 8:41:21","Uber","EM 2","Software Engineering Manager",620000,"San Francisco, CA",14,1,"API Development (Back-End)",220000,3e+05,1e+05,"Female",NA,7419,807,11757,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/13/2019 11:11:42","Rally Health","SEII","Software Engineer",135000,"Washington, DC",2,2,"Full Stack",113000,5000,17000,"Male",NA,40303,511,11763,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/13/2019 12:57:43","Snap","L4","Software Engineer",325000,"Los Angeles, CA",5,2,"iOS",160000,150000,15000,"Male",NA,7275,803,11768,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/13/2019 16:25:05","Amazon","L4","Software Engineer",150000,"Seattle, WA",1,0,"Distributed Systems (Back-End)",118000,3000,30000,"Male",NA,11527,819,11784,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/13/2019 17:52:36","Facebook","IC5","Data Scientist",280000,"New York, NY",8,2,"ML / AI",185000,70000,25000,"Male",NA,10182,501,11792,0,0,0,0,0,0,0,0,0,0,NA,NA
-"7/13/2019 19:59:13","CIBC","L6","Software Engineer",70000,"Toronto, ON, Canada",0,0,"Web Development (Front-End)",0,0,0,NA,NA,1206,0,11796,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/13/2019 23:03:40","PayPal","T27","Software Engineering Manager",540000,"San Jose, CA",19,0,"API Development (Back-End)",283000,2e+05,57000,NA,NA,7422,807,11805,0,0,0,0,0,0,0,0,0,0,NA,NA
-"7/14/2019 10:10:42","IBM","Advisory Engineer","Software Engineer",135000,"Austin, TX",14,14,"Full Stack",0,0,0,"Female",NA,10965,635,11820,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/14/2019 18:54:58","Capital One","Associate","Data Scientist",95000,"Dallas, TX",2,2,"ML / AI",90000,0,5000,NA,NA,11039,623,11836,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/15/2019 22:10:58","Adobe","Software Engineer 4","Software Engineer",179000,"Lehi, UT",10,6,"Networking",126000,44000,9000,NA,"Title: Networking Engineer",15555,770,11887,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/16/2019 10:31:54","Costar Group","I","Software Engineer",80000,"Norfolk, VA",5,2,"Full Stack",80000,0,0,NA,NA,11420,544,11923,0,0,0,0,0,0,0,0,0,0,NA,NA
-"7/16/2019 14:17:20","Salesforce","Architect","Software Engineer",533000,"San Francisco, CA",4,2,"Product",0,0,0,"Male",NA,7419,807,11945,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/16/2019 16:22:48","google","6","Product Manager",240000,"San Francisco, CA",10,5,"Android",2e+05,20000,20000,NA,NA,7419,807,11964,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/16/2019 23:50:01","Atlassian","Junior Engineer","Software Engineer",83000,"Sydney, NS, Australia",0,0,"API Development (Back-End)",60000,17000,6000,"Male",NA,1311,0,11997,0,0,0,0,0,0,0,0,0,0,NA,NA
-"7/17/2019 17:46:30","Amazon","SDE II","Software Engineer",270000,"Seattle, WA",3,3,"Distributed Systems (Back-End)",0,0,0,NA,NA,11527,819,12028,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/18/2019 10:22:46","Realtor.com","L4","Software Engineer",148000,"Santa Clara, CA",3,3,"Data",135000,0,13000,"Male",NA,7434,807,12049,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/18/2019 12:37:08","Intuit","Senior","Software Engineer",226000,"San Diego, CA",12,2,"API Development (Back-End)",139000,60000,27000,"Male",NA,7416,825,12057,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/18/2019 20:48:49","Lyft","T5","Software Engineer",470000,"San Francisco, CA",11,1,"Distributed Systems (Back-End)",220000,250000,0,"Male",NA,7419,807,12085,0,0,0,0,0,0,0,0,0,0,NA,NA
-"7/18/2019 22:04:45","Amazon","L5","Software Engineer",220000,"Seattle, WA",5,2,"Distributed Systems (Back-End)",0,0,0,"Male",NA,11527,819,12092,0,0,0,0,0,0,0,0,0,0,NA,NA
-"7/19/2019 1:06:55","Google","L4","Software Engineer",160000,"Mountain View, CA",1,1,"Web Development (Front-End)",0,0,0,"Male",NA,7322,807,12096,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/19/2019 8:49:15","indeed","L3","Software Engineer",260000,"Seattle, WA",6,5,"Full Stack",187000,60000,13000,"Male",NA,11527,819,12101,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/19/2019 17:45:47","Expedia","SDE","Software Engineer",110000,"Chicago, IL",0,0,"Full Stack",88000,0,22000,"Male",NA,8198,602,12128,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/20/2019 13:29:21","Wayfair","1","Software Engineer",110000,"Boston, MA",0,1,"Full Stack",1e+05,0,10000,"Male","Among the last group of L1s to not receive any stock",8816,506,12151,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/20/2019 14:02:06","Zulily","E2","Software Engineer",184000,"Seattle, WA",4,0,"Full Stack",153000,24000,8000,"Male",NA,11527,819,12152,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/21/2019 1:54:38","Oracle","Senior MTS","Software Engineer",200000,"Redwood City, CA",6,6,"DevOps",170000,25000,0,"Male",NA,7392,807,12175,0,0,0,0,0,0,0,0,0,0,NA,NA
-"7/21/2019 7:43:05","Starbucks","Lead","Software Engineer",180000,"Seattle, WA",15,3,"DevOps",0,0,0,"Male",NA,11527,819,12178,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/21/2019 8:16:56","Morgan Stanley","Executive Director","Software Engineering Manager",225000,"New York, NY",22,19,"Full Stack",180000,0,45000,"Male",NA,10182,501,12179,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/22/2019 21:59:39","Amazon","SDE II","Software Engineer",225000,"Irvine, CA",7,1,"Full Stack",160000,38000,27000,"Male",NA,7229,803,12233,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/23/2019 14:14:38","Facebook","E5","Software Engineer",340000,"San Francisco, CA",10,3,"Web Development (Front-End)",180000,120000,40000,"Male",NA,7419,807,12266,0,0,0,0,0,0,0,0,0,0,NA,NA
-"7/23/2019 17:10:46","HCL Technologies","L2","Software Engineer",22000,"Pune, MH, India",7,5,"API Development (Back-End)",0,0,0,"Male",NA,4062,0,12277,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/23/2019 17:35:43","Google","L3","Software Engineer",231000,"Mountain View, CA",3,0,"Android",135000,81000,15000,"Male",NA,7322,807,12279,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/24/2019 16:00:39","Microsoft","61","Software Engineer",174000,"Redmond, WA",3,0,"DevOps",140000,20000,14000,"Male",NA,11521,819,12335,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/24/2019 22:26:24","Facebook","M1","Software Engineering Manager",557000,"Seattle, WA",7,0,"Full Stack",235000,275000,47000,"Male",NA,11527,819,12352,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/24/2019 22:27:20","Amazon","L6","Software Engineering Manager",360000,"Seattle, WA",7,7,"Distributed Systems (Back-End)",160000,2e+05,0,"Male",NA,11527,819,12353,0,0,0,0,0,0,0,0,0,0,NA,NA
-"7/25/2019 7:41:18","Google","L5","Hardware Engineer",350000,"Mountain View, CA",15,1,"hardware",0,0,0,NA,NA,7322,807,12369,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/25/2019 11:57:55","Amazon","L5","Solution Architect",200000,"Chicago, IL",6,0,"Networking",140000,36000,25000,"Male",NA,8198,602,12378,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/25/2019 18:36:46","Google","L5","Product Designer",355000,"Mountain View, CA",10,2,"UX Design",180000,140000,35000,NA,NA,7322,807,12401,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/26/2019 19:37:20","nvidia","4","Software Engineer",228000,"Santa Clara, CA",11,6,"DevOps",178000,50000,0,NA,NA,7434,807,12455,0,0,0,0,0,0,0,0,0,0,NA,NA
-"7/26/2019 20:04:59","Capital One","Software Eng","Software Engineer",140000,"New York, NY",1,0,"ML / AI",0,0,0,NA,NA,10182,501,12459,0,0,0,0,0,0,0,0,0,0,NA,NA
-"7/26/2019 21:29:17","Facebook","E5","Software Engineer",340000,"Menlo Park, CA",15,1,"Distributed Systems (Back-End)",0,0,0,"Male",NA,7300,807,12467,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/27/2019 10:08:15","Amazon","L5","Solution Architect",170000,"London, EN, United Kingdom",4,4,"HPC",120000,32000,18000,NA,NA,12008,0,12488,0,0,0,0,0,0,0,0,0,0,NA,NA
-"7/27/2019 12:33:24","Amazon","L5","Software Engineer",225000,"Seattle, WA",4,4,"Full Stack",0,0,0,NA,NA,11527,819,12494,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/27/2019 19:04:29","Booz Allen Hamilton","Consultant","Software Engineer",75000,"Washington, DC",1,1,"Web Development (Front-End)",75000,0,0,"Male",NA,40303,511,12508,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/28/2019 10:42:37","Microsoft","63","Software Engineer",242000,"Redmond, WA",10,2,"Full Stack",162000,50000,30000,"Male",NA,11521,819,12520,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/28/2019 14:38:34","Google","L3","Software Engineer",127000,"Mountain View, CA",0,0,"Full Stack",112000,0,15000,"Male",NA,7322,807,12529,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/28/2019 16:15:58","Google","L4","Software Engineer",278000,"Sunnyvale, CA",7,4,"Networking",153000,1e+05,25000,"Male",NA,7472,807,12533,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/30/2019 7:36:22","Intel","Grade 6","Software Engineer",118000,"Hillsboro, OR",4,4,"Operating Systems",103000,7000,10000,"Male",NA,10500,820,12600,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/30/2019 9:25:08","The Trade Desk","L1","Software Engineer",155000,"Irvine, CA",0,0,"Full Stack",115000,0,10000,NA,NA,7229,803,12602,0,0,0,0,0,0,0,0,0,0,NA,NA
-"7/30/2019 16:20:07","Google","L3","Software Engineer",180000,"San Francisco, CA",1,1,"ML / AI",0,0,0,NA,NA,7419,807,12622,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/31/2019 11:26:45","IBM","6","Software Engineer",75000,"Markham, ON, Canada",3,3,"Full Stack",75000,0,0,"Male","Security",3468,0,12651,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/31/2019 12:29:43","Apple","ICT2","Hardware Engineer",150000,"Cupertino, CA",0,0,"CPU",115000,15000,20000,NA,NA,7158,807,12653,0,0,0,0,0,0,0,0,0,0,NA,NA
 "7/31/2019 16:41:48","Tesla","Engineering Manager","Software Engineering Manager",265000,"Palo Alto, CA",12,4,"Emended",192000,75000,0,"Male",NA,7351,807,12668,0,0,0,0,0,0,0,0,0,0,NA,NA
-"7/31/2019 17:17:23","Apple","L4","Hardware Engineer",240000,"Cupertino, CA",18,4,"hardware",0,0,0,NA,NA,7158,807,12670,0,0,0,0,0,0,0,0,0,0,NA,NA
-"7/31/2019 22:29:08","Salesforce","MTS","Software Engineer",183000,"San Francisco, CA",1,1,"Distributed Systems (Back-End)",0,21000,0,NA,NA,7419,807,12692,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/1/2019 0:37:25","Facebook","L5 Product Manager","Product Manager",190000,"San Francisco, CA",5,2,"Mobile (iOS + Android)",1e+05,45000,45000,"Female",NA,7419,807,12703,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/1/2019 10:23:20","eBay","SE3","Software Engineer",214000,"San Jose, CA",19,0,"Distributed Systems (Back-End)",155000,14000,45000,"Male",NA,7422,807,12724,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/1/2019 11:25:27","Indeed","L4","Software Engineer",488000,"Seattle, WA",14,1,"Full Stack",280000,180000,28000,"Male",NA,11527,819,12729,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/1/2019 14:18:50","Raytheon","Senior","Mechanical Engineer",104000,"Tewksbury, MA",8,1,"Mechanical Engineering",92000,8000,4000,"Male",NA,39043,506,12736,0,0,0,0,0,0,0,0,0,0,NA,NA
-"8/1/2019 14:42:46","Apple","ICT3","Hardware Engineer",240000,"Cupertino, CA",4,0,"hw",0,0,0,NA,NA,7158,807,12738,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/1/2019 16:51:10","Twitter","Staff SWE","Software Engineer",430000,"San Francisco, CA",5,5,"Distributed Systems (Back-End)",2e+05,180000,50000,NA,NA,7419,807,12739,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/2/2019 15:43:24","Wayfair","L4","Software Engineering Manager",260000,"Boston, MA",8,3.5,"Full Stack",148000,90000,22000,"Male",NA,8816,506,12762,0,0,0,0,0,0,0,0,0,0,NA,NA
-"8/2/2019 18:23:34","Amazon","L6","Software Engineer",260000,"Seattle, WA",12,6,"Distributed Systems (Back-End)",0,0,0,NA,NA,11527,819,12768,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/2/2019 23:22:57","Riot Games","Associate Software Engineer","Software Engineer",168000,"Los Angeles, CA",3,1,"Distributed Systems (Back-End)",150000,0,18000,NA,NA,7275,803,12783,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/4/2019 23:08:25","Facebook","E5","Software Engineer",307000,"Menlo Park, CA",4,1,"iOS",180000,1e+05,27000,"Male",NA,7300,807,12820,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/5/2019 1:20:49","Intuit","Staff Software Engineer","Software Engineer",288000,"Mountain View, CA",8,2,"Mobile (iOS + Android)",167000,95000,31000,"Male",NA,7322,807,12824,0,0,0,0,0,0,0,0,0,0,NA,NA
-"8/5/2019 12:14:02","Amazon","L6 SDM","Software Engineering Manager",325000,"Seattle, WA",22,1,"ML / AI",0,0,0,"Male",NA,11527,819,12831,0,0,0,0,0,0,0,0,0,0,NA,NA
-"8/5/2019 13:34:51","VMware","Senior","Product Designer",220000,"Palo Alto, CA",6,1,"Android",0,0,0,NA,NA,7351,807,12837,0,0,0,0,0,0,0,0,0,0,NA,NA
-"8/7/2019 8:15:22","Atlassian","P4","Software Engineer",115000,"New York, NY",3,2,"Full Stack",0,0,0,NA,NA,10182,501,12883,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/7/2019 11:16:15","Microsoft","61","Product Manager",135000,"Redmond, WA",3,3,"Full Stack",120000,4000,11000,"Female",NA,11521,819,12887,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/7/2019 17:04:25","Microsoft","65","Software Engineer",283000,"Bellevue, WA",11,0,"API Development (Back-End)",195000,40000,50000,NA,NA,11470,819,12898,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/8/2019 16:56:14","Google","5","Software Engineer",275000,"San Francisco, CA",10,8,"Distributed Systems (Back-End)",175000,30000,70000,"Male",NA,7419,807,12921,0,0,0,0,0,0,0,0,0,0,NA,NA
-"8/9/2019 8:53:21","Amazon","L5","Software Engineer",230000,"Seattle, WA",5,0,"Distributed Systems (Back-End)",0,0,0,NA,NA,11527,819,12935,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/10/2019 2:00:51","Adobe","Software Engineer 4","Software Engineer",290000,"San Jose, CA",3,3,"Distributed Systems (Back-End)",176000,105000,9000,NA,NA,7422,807,12956,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/10/2019 10:55:17","Uber","5a","Software Engineer",362000,"Seattle, WA",20,0,"DevOps",185000,150000,27000,NA,NA,11527,819,12961,0,0,0,0,0,0,0,0,0,0,NA,NA
-"8/10/2019 16:14:45","Amazon","L5","Software Engineer",220000,"Sunnyvale, CA",4,2,"Distributed Systems (Back-End)",0,0,0,NA,NA,7472,807,12969,0,0,0,0,0,0,0,0,0,0,NA,NA
-"8/11/2019 14:15:32","Facebook","E4","Software Engineer",235000,"Menlo Park, CA",0,0,"ML / AI",0,0,0,NA,NA,7300,807,12989,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/12/2019 8:20:59","Amazon","SDE I","Software Engineer",150000,"Seattle, WA",2,0,"API Development (Back-End)",120000,5000,25000,"Male",NA,11527,819,13009,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/13/2019 1:16:31","Capital One","Principal Associate","Software Engineer",110000,"London, EN, United Kingdom",7,1,"Android",1e+05,0,10000,"Female",NA,12008,0,13052,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/13/2019 9:45:32","Google","L4","Product Manager",196000,"Mountain View, CA",3,0,"ML / AI",140000,35000,21000,NA,NA,7322,807,13063,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/13/2019 12:20:32","Salesforce","Associate MTS","Software Engineer",171000,"San Francisco, CA",0,0,"Web Development (Front-End)",133000,25000,13000,NA,NA,7419,807,13076,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/13/2019 12:53:20","Northrop Grumman","Associate","Software Engineer",79000,"San Diego, CA",1,1,"Embedded",79000,0,0,"Male",NA,7416,825,13079,0,0,0,0,0,0,0,0,0,0,NA,NA
-"8/13/2019 22:32:28","Microsoft","Senior Manager","Sales",207000,"Washington, DC",11,2,"Sales",0,0,0,NA,NA,40303,511,13105,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/14/2019 8:50:04","Google","L3","Software Engineer",185000,"Mountain View, CA",2,2,"Android",128000,37000,20000,"Male",NA,7322,807,13125,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/14/2019 13:22:34","Amazon","L6","Software Engineer",274000,"Seattle, WA",6,5,"Distributed Systems (Back-End)",159000,115000,0,"Male",NA,11527,819,13139,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/14/2019 15:18:00","Facebook","IC5","Hardware Engineer",354000,"Menlo Park, CA",5,1,"Hardware",195000,120000,39000,"Male",NA,7300,807,13142,0,0,0,0,0,0,0,0,0,0,NA,NA
@@ -975,7 +773,6 @@
 "8/16/2019 10:39:35","Snap","L8","Software Engineering Manager",1000000,"Los Angeles, CA",15,3,"Full Stack",270000,730000,0,"Male",NA,7275,803,13243,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/16/2019 15:58:19","Facebook","E5","Software Engineer",315000,"Seattle, WA",2,2,"Android",187000,1e+05,28000,"Male",NA,11527,819,13254,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/16/2019 16:11:45","Microsoft","59","Software Engineer",190000,"Redmond, WA",0,0,"Distributed Systems (Back-End)",110000,30000,50000,"Male",NA,11521,819,13255,0,0,0,0,0,0,0,0,0,0,NA,NA
-"8/16/2019 17:14:25","Slalom","L2","Software Engineer",90000,"Atlanta, GA",2,1,"Full Stack",0,0,0,"Male",NA,7839,524,13260,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/16/2019 21:13:31","The Walt Disney Company","Software Engineer","Software Engineer",148000,"Seattle, WA",6,2,"API Development (Back-End)",127000,0,20000,"Male",NA,11527,819,13273,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/16/2019 22:09:01","WeWork","L4","Software Engineer",240000,"San Francisco, CA",5,0,"Distributed Systems (Back-End)",185000,55000,0,NA,NA,7419,807,13282,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/17/2019 10:58:17","Google","L3","Software Engineer",260000,"Kitchener, ON, Canada",11,5,"Full Stack",120000,120000,20000,"Male",NA,5898,0,13303,0,0,0,0,0,0,0,0,0,0,NA,NA
@@ -992,32 +789,25 @@
 "8/21/2019 9:49:41","Facebook","E5","Software Engineer",435000,"Seattle, WA",9,0,"Distributed Systems (Back-End)",205000,135000,95000,"Male",NA,11527,819,13485,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/21/2019 13:16:26","Microsoft","67","Software Engineer",370000,"Redmond, WA",15,11,"Distributed Systems (Back-End)",199000,120000,51000,"Male",NA,11521,819,13496,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/21/2019 14:58:23","Liberty Mutual Insurance","Architect","Solution Architect",200000,"Dover, NH",7,7,"Full Stack",165000,0,35000,"Male",NA,9857,506,13499,0,0,0,0,0,0,0,0,0,0,NA,NA
-"8/21/2019 16:57:31","Broadcom","ICB 7","Hardware Engineer",450000,"San Jose, CA",20,10,"asic",0,0,0,NA,NA,7422,807,13502,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/21/2019 21:53:59","Microsoft","63","Software Engineer",199000,"Redmond, WA",2,2,"Web Development (Front-End)",166000,17000,15000,NA,NA,11521,819,13514,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/21/2019 22:16:14","Qualcomm","Engineer","Hardware Engineer",143000,"San Diego, CA",2,0,"ASIC",110000,8000,25000,"Male",NA,7416,825,13516,0,0,0,0,0,0,0,0,0,0,NA,NA
-"8/22/2019 19:12:59","Rubrik","L3","Software Engineer",150000,"Palo Alto, CA",2,0,"Distributed Systems (Back-End)",0,0,0,NA,NA,7351,807,13557,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/22/2019 22:25:42","Microsoft","60","Software Engineer",186000,"Redmond, WA",2,2,"DevOps",126000,40000,20000,"Male",NA,11521,819,13567,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/22/2019 22:46:08","Nike","Lead Engineer","Software Engineer",148000,"Beaverton, OR",10,3,"Full Stack",139000,0,11000,"Male",NA,10485,820,13568,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/23/2019 8:35:29","Apple","ICT4","Software Engineer",360000,"Cupertino, CA",9,7,"Networking",190000,0,25000,"Male",NA,7158,807,13582,0,0,0,0,0,0,0,0,0,0,NA,NA
-"8/23/2019 11:46:18","Amazon","L6","Software Engineer",320000,"Cambridge, MA",23,2,"Distributed Systems (Back-End)",0,0,0,"Male",NA,8821,506,13594,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/23/2019 13:25:27","Salesforce","SMTS","Software Engineer",255000,"San Francisco, CA",4,0,"Security",2e+05,25000,30000,"Male",NA,7419,807,13597,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/23/2019 15:32:08","Amazon","L4","Software Engineer",165000,"Seattle, WA",3,1,"Full Stack",120000,28000,17000,"Female",NA,11527,819,13607,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/23/2019 20:20:51","Microsoft","Senior SDE","Software Engineer",200000,"Redmond, WA",15,5,"Full Stack",165000,15000,20000,"Male",NA,11521,819,13618,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/24/2019 20:43:00","Pinterest","L6","Software Engineer",600000,"San Francisco, CA",5,5,"Distributed Systems (Back-End)",2e+05,4e+05,0,NA,NA,7419,807,13658,0,0,0,0,0,0,0,0,0,0,NA,NA
-"8/25/2019 9:39:45","Amazon","L6","Solution Architect",261000,"Seattle, WA",9,7,"DevOps",0,0,0,NA,NA,11527,819,13669,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/25/2019 10:41:37","Snap","L5","Product Manager",560000,"Los Angeles, CA",6,3,"Full Stack",210000,350000,0,"Male",NA,7275,803,13671,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/25/2019 10:49:56","ASML","Senior","Software Engineer",170000,"San Diego, CA",12,7,"Full Stack",147000,0,22000,"Male",NA,7416,825,13672,0,0,0,0,0,0,0,0,0,0,NA,NA
-"8/26/2019 14:36:23","Rackspace","Software Developer II","Software Engineer",67000,"Austin, TX",5,3,"API Development (Back-End)",0,0,0,NA,NA,10965,635,13696,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/26/2019 20:05:40","Snap","L7","Software Engineer",700000,"Los Angeles, CA",10,3,"Mobile (iOS + Android)",230000,4e+05,70000,"Male",NA,7275,803,13708,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/26/2019 22:59:30","Jane Street Capital","New Grad","Software Engineer",300000,"New York, NY",0,0,"Full Stack",175000,0,125000,"Male",NA,10182,501,13715,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/27/2019 12:04:47","Amazon","L7","Solution Architect",435000,"Vancouver, BC, Canada",15,2,"DevOps",185000,2e+05,50000,"Male",NA,1320,0,13736,0,0,0,0,0,0,0,0,0,0,NA,NA
-"8/27/2019 13:14:42","Qualcomm","Senior Engineer","Software Engineer",138000,"San Diego, CA",0,3.5,"DevOps",0,0,0,NA,NA,7416,825,13739,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/27/2019 18:02:59","Docusign","P3","Software Engineer",192000,"Seattle, WA",2,0.2,"API Development (Back-End)",145000,40000,7000,NA,NA,11527,819,13755,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/27/2019 23:54:46","Intel","Grade 8","Software Engineer",196000,"Portland, OR",12,12,"Security",144000,13000,38000,NA,NA,10522,820,13775,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/28/2019 0:03:15","Qualcomm","Staff Engineer","Hardware Engineer",204000,"Santa Clara, CA",6,0,"Hardware",147000,20000,37000,"Male",NA,7434,807,13777,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/28/2019 9:53:04","PlayStation","Manager","Data Scientist",260000,"San Mateo, CA",9,3,"ML / AI",202000,0,60000,"Male",NA,7427,807,13789,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/28/2019 16:00:00","Google","L4","Software Engineer",210000,"Cambridge, MA",6,3,"Distributed Systems (Back-End)",128000,60000,22000,NA,NA,8821,506,13799,0,0,0,0,0,0,0,0,0,0,NA,NA
-"8/28/2019 18:29:54","Samsung","Senior","Hardware Engineer",165000,"Austin, TX",4,1,"Performance Architecture",0,0,0,"Male",NA,10965,635,13809,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/28/2019 21:16:55","Amazon","L4","Software Engineer",167000,"Seattle, WA",2,1,"API Development (Back-End)",117000,30000,20000,"Male",NA,11527,819,13816,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/28/2019 21:46:25","Facebook","E4","Software Engineer",256000,"Seattle, WA",0,0,"ML / AI",160000,80000,16000,NA,NA,11527,819,13817,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/29/2019 3:04:38","Qualcomm","Engineer","Hardware Engineer",67000,"Cork, CK, Ireland",5,2,"Hardware Design (Implem)",51000,11000,5000,"Male",NA,4013,0,13824,0,0,0,0,0,0,0,0,0,0,NA,NA
@@ -1025,13 +815,8 @@
 "8/29/2019 7:07:38","Mozilla","Senior Director","Product Manager",350000,"San Francisco, CA",15,2,"ML / AI",250000,0,1e+05,"Male",NA,7419,807,13828,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/29/2019 13:21:30","Bloomberg","Senior Software Engineer","Software Engineer",230000,"New York, NY",10,1,"Full Stack",210000,0,20000,"Male","Bloomberg doesn't have titles, or levels. So arguably this is hard to compare.",10182,501,13845,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/29/2019 16:31:24","Facebook","E4","Software Engineer",215000,"San Francisco, CA",4,2,"iOS",150000,50000,15000,"Male",NA,7419,807,13866,0,0,0,0,0,0,0,0,0,0,NA,NA
-"8/29/2019 18:06:12","Hubspot","Senior","Software Engineer",132000,"Boston, MA",6,1,"Web Development (Front-End)",0,0,0,"Male",NA,8816,506,13871,0,0,0,0,0,0,0,0,0,0,NA,NA
-"8/29/2019 22:54:35","Apple","ICT2","Software Engineer",157000,"San Diego, CA",1,0,"DevOps",0,0,0,"Male",NA,7416,825,13897,0,0,0,0,0,0,0,0,0,0,NA,NA
-"8/30/2019 8:47:41","Amazon","L6","Software Engineer",160000,"Seattle, WA",14,3,"Distributed Systems (Back-End)",0,0,0,NA,NA,11527,819,13910,0,0,0,0,0,0,0,0,0,0,NA,NA
-"8/30/2019 8:56:24","Puppet","Principle","Software Engineer",157000,"Portland, OR",12,2,"Distributed Systems (Back-End)",0,0,0,"Male",NA,10522,820,13911,0,0,0,0,0,0,0,0,0,0,NA,NA
 "8/30/2019 13:25:22","Samsung Electronics America","TB7","Software Engineering Manager",326000,"Mountain View, CA",17,4,"API Development (Back-End)",229000,40000,57000,"Other",NA,7322,807,13921,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/1/2019 23:53:12","Microsoft","59","Software Engineer",137000,"Redmond, WA",0,0,"DevOps",109000,20000,8000,"Male",NA,11521,819,13987,0,0,0,0,0,0,0,0,0,0,NA,NA
-"9/2/2019 14:21:30","IBM","Placement","Software Engineer",19000,"Manchester, EN, United Kingdom",0,0,"Full Stack",0,0,0,"Other",NA,14722,0,14000,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/3/2019 16:40:21","Zillow","M3","Software Engineering Manager",200000,"Seattle, WA",7,3,"API Development (Back-End)",165000,15000,20000,"Male",NA,11527,819,14040,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/3/2019 22:18:29","Microsoft","61","Software Engineer",150000,"Seattle, WA",4,2,"ML / AI",133000,6000,11000,"Male","Cortana",11527,819,14061,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/4/2019 8:01:25","Salesforce","Principal MTS","Software Engineer",420000,"New York, NY",21,0,"ML / AI",260000,110000,52000,"Male",NA,10182,501,14069,0,0,0,0,0,0,0,0,0,0,NA,NA
@@ -1041,48 +826,36 @@
 "9/4/2019 19:07:04","Comcast","Senior Engineer","Software Engineer",151000,"Philadelphia, PA",6,3,"Full Stack",127000,14000,10000,"Male",NA,10646,504,14094,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/4/2019 20:31:53","Facebook","E4","Software Engineer",235000,"Seattle, WA",0,0,"ML / AI",160000,75000,0,NA,NA,11527,819,14100,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/5/2019 6:36:40","Oracle","IC-4","Software Engineer",110000,"Kitchener, ON, Canada",10,1,"Full Stack",1e+05,10000,0,"Male",NA,5898,0,14115,0,0,0,0,0,0,0,0,0,0,NA,NA
-"9/5/2019 7:56:33","Epic Systems","Entry","Software Engineer",105000,"Madison, WI",0,0,"Full Stack",0,0,0,"Male",NA,11582,669,14120,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/5/2019 17:33:23","GoDaddy","SDE 2","Software Engineer",123000,"Seattle, WA",2,1,"Web Development (Front-End)",101000,12000,10000,"Male",NA,11527,819,14152,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/5/2019 22:30:54","Amazon","L7","Product Manager",305000,"Seattle, WA",11,6,"E commerce",150000,155000,0,"Male",NA,11527,819,14172,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/6/2019 0:49:54","Microsoft","65","Software Engineering Manager",300000,"Redmond, WA",17,15,"ML / AI",180000,60000,60000,"Female",NA,11521,819,14175,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/6/2019 1:15:37","Autodesk","Grade 15","Solution Architect",380000,"San Francisco, CA",13,4,"API Development (Back-End)",220000,110000,50000,NA,NA,7419,807,14177,0,0,0,0,0,0,0,0,0,0,NA,NA
-"9/6/2019 1:39:30","Flipkart","E12","Software Engineering Manager",120000,"Bangalore, KA, India",12,1,"Distributed Systems (Back-End)",0,0,0,NA,NA,4058,0,14178,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/6/2019 20:19:56","Walmart Labs","X3","Data Scientist",188000,"Sunnyvale, CA",0,0,"ML / AI",145000,20000,23000,"Male",NA,7472,807,14208,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/7/2019 10:17:51","Amazon","L6 SDM","Software Engineering Manager",350000,"Seattle, WA",15,1,"R&D",160000,0,150000,"Female",NA,11527,819,14230,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/7/2019 21:48:13","LinkedIn","Senior Software Engineer","Software Engineer",316000,"Sunnyvale, CA",4,4,"Web Development (Front-End)",169000,130000,17000,NA,NA,7472,807,14247,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/8/2019 2:45:01","Salesforce","Lead MTS","Software Engineer",335000,"Bellevue, WA",20,2,"API Development (Back-End)",2e+05,105000,30000,"Male",NA,11470,819,14254,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/8/2019 4:59:02","JPMorgan Chase","602","Software Engineer",112000,"Plano, TX",8,3,"Android",112000,0,5000,"Male",NA,11204,623,14255,0,0,0,0,0,0,0,0,0,0,NA,NA
-"9/9/2019 13:52:40","Electronic Arts","L5","Data Scientist",160000,"Redwood City, CA",5,2,"ML / AI",0,0,0,NA,NA,7392,807,14302,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/9/2019 18:42:12","Symantec","Senior Software Engineer","Software Engineer",130000,"Mountain View, CA",5,5,"Full Stack",116000,1000,13000,"Male",NA,7322,807,14309,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/9/2019 21:18:37","Lyft","T7","Software Engineer",700000,"Seattle, WA",17,0,"Security",275000,425000,0,"Male",NA,11527,819,14318,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/9/2019 23:58:55","Google","L4","Product Designer",214000,"Sunnyvale, CA",6,0,"Design",147000,45000,22000,"Male",NA,7472,807,14324,0,0,0,0,0,0,0,0,0,0,NA,NA
-"9/10/2019 6:39:32","Microsoft","63","Product Manager",45000,"Hyderabad, TS, India",4,1,"Web Development (Front-End)",0,0,0,"Male",NA,47926,0,14333,0,0,0,0,0,0,0,0,0,0,NA,NA
-"9/10/2019 8:45:29","Atlassian","P4","Software Engineer",102000,"Sydney, NS, Australia",6,2,"Web Development (Front-End)",0,0,0,"Male",NA,1311,0,14339,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/10/2019 11:15:36","Netflix","Senior Software Engineer","Software Engineer",410000,"Los Gatos, CA",6,0,"Web Development (Front-End)",405000,0,10000,"Female",NA,7277,807,14345,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/10/2019 12:39:42","Google","L4","Software Engineer",300000,"Mountain View, CA",8,2,"Distributed Systems (Back-End)",180000,1e+05,20000,NA,NA,7322,807,14351,0,0,0,0,0,0,0,0,0,0,NA,NA
-"9/10/2019 23:20:45","Qualcomm","Engineer","Hardware Engineer",120000,"Santa Clara, CA",0,0,"SoC",0,0,0,"Male",NA,7434,807,14386,0,0,0,0,0,0,0,0,0,0,NA,NA
-"9/11/2019 0:35:43","Google","L4","Software Engineer",230000,"Mountain View, CA",8,1,"iOS",0,0,0,"Other",NA,7322,807,14390,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/11/2019 8:10:51","Microsoft","59","Software Engineer",150000,"Redmond, WA",0,0,"Web Development (Front-End)",109000,30000,11000,"Female",NA,11521,819,14396,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/11/2019 18:34:48","T-Mobile","Engineer","Software Engineer",130000,"Bellevue, WA",4,2,"API Development (Back-End)",105000,10000,15000,"Male",NA,11470,819,14435,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/11/2019 18:58:48","Google","L3","Software Engineer",227000,"Sunnyvale, CA",1,1,"Full Stack",135000,42000,50000,NA,NA,7472,807,14438,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/11/2019 23:18:17","Nvidia","IC4","Software Engineer",224000,"Santa Clara, CA",10,3,"DevOps",174000,46000,0,"Male",NA,7434,807,14448,0,0,0,0,0,0,0,0,0,0,NA,NA
-"9/12/2019 0:44:43","Oracle","IC-2","Software Engineer",160000,"Redwood City, CA",3,1,"ML / AI",0,0,0,NA,NA,7392,807,14456,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/12/2019 13:21:08","JPMorgan Chase","Analyst","Software Engineer",110000,"New York, NY",0,0,"Full Stack",1e+05,0,10000,"Male",NA,10182,501,14481,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/12/2019 18:09:18","SAP","L3","Software Engineer",155000,"Palo Alto, CA",5,2,"Full Stack",137000,0,18000,"Male",NA,7351,807,14496,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/12/2019 23:08:52","Microsoft","64","Solution Architect",230000,"New York, NY",18,8,"Cloud",170000,30000,30000,NA,NA,10182,501,14506,0,0,0,0,0,0,0,0,0,0,NA,NA
-"9/13/2019 7:47:11","talend","L2","Solution Architect",140000,"Atlanta, GA",10,2,"Product",0,0,0,"Male",NA,7839,524,14519,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/13/2019 9:29:38","Epic Systems","Senior Software Systems Developer","Software Engineer",175000,"Verona, WI",9,9,"Full Stack",165000,5000,5000,"Male",NA,12215,669,14526,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/13/2019 9:51:57","JPMorgan Chase","Associate","Software Engineer",82000,"Dublin, DN, Ireland",7,1,"Distributed Systems (Back-End)",72000,0,10000,"Male",NA,4015,0,14531,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/13/2019 18:56:25","IBM","6","Software Engineer",98000,"Austin, TX",2,2,"DevOps",88000,0,10000,"Female","New hire after 2 summers of internships at IBM",10965,635,14574,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/13/2019 21:29:23","Microsoft","Senior PM","Product Manager",207000,"Redmond, WA",6,6,"DevOps",160000,22000,25000,"Male",NA,11521,819,14587,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/13/2019 21:38:51","Intel","Grade 8","Hardware Engineer",179000,"Austin, TX",19,12,"Testing (SDET)",145000,12000,22000,"Male",NA,10965,635,14588,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/14/2019 1:55:45","Apple","ICT5","Software Engineer",387000,"London, EN, United Kingdom",7,2,"Networking",180000,172000,35000,"Male",NA,12008,0,14619,0,0,0,0,0,0,0,0,0,0,NA,NA
-"9/14/2019 6:44:10","Pivotal","P4","Software Engineer",195000,"San Francisco, CA",8,5,"Distributed Systems (Back-End)",0,0,0,NA,NA,7419,807,14644,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/14/2019 8:26:22","Microsoft","63","Software Engineer",69000,"Tallinn, HA, Estonia",19,1,"API Development (Back-End)",63000,0,6000,"Male",NA,6401,0,14665,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/14/2019 9:57:49","Apple","ICT5","Software Engineer",470000,"Seattle, WA",10,3,"ML / AI",230000,2e+05,40000,"Male",NA,11527,819,14682,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/14/2019 10:57:28","Walmart Labs","Software Engineer 2","Software Engineer",90000,"Bentonville, AR",3,1.5,"Full Stack",71000,5000,14000,"Male",NA,6924,670,14696,0,0,0,0,0,0,0,0,0,0,NA,NA
-"9/14/2019 11:09:14","Shopify","Senior Software Developer","Software Engineering Manager",93000,"Ottawa, ON, Canada",6,6,"API Development (Back-End)",0,0,0,"Male",NA,5906,0,14698,0,0,0,0,0,0,0,0,0,0,NA,NA
-"9/14/2019 17:32:41","Microsoft","Principal EM","Data Scientist",147000,"Seattle, WA",7,4,"DevOps",0,0,0,"Male",NA,11527,819,14743,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/14/2019 18:04:53","Nvidia","IC2","Software Engineer",155000,"Santa Clara, CA",4,1,"Distributed Systems (Back-End)",136000,4000,15000,NA,NA,7434,807,14747,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/14/2019 19:35:44","athenahealth","Senior Member of Technical Staff","Software Engineer",158000,"Boston, MA",5,5,"Full Stack",126000,0,32000,"Female",NA,8816,506,14756,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/15/2019 7:20:13","Microsoft","SDE","Software Engineer",153000,"Seattle, WA",0,0,"OS",110000,18000,25000,"Male",NA,11527,819,14806,0,0,0,0,0,0,0,0,0,0,NA,NA
@@ -1097,7 +870,6 @@
 "9/16/2019 8:52:26","Uber","L4","Software Engineer",200000,"Aarhus, AR, Denmark",3,3,"Distributed Systems (Back-End)",120000,60000,20000,"Male",NA,12962,0,14893,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/16/2019 12:16:17","WePay","APM 1","Product Manager",145000,"Redwood City, CA",1,0,"APM",130000,0,15000,"Female",NA,7392,807,14904,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/16/2019 12:47:28","Google","L5","Software Engineer",350000,"Sunnyvale, CA",17,15,"Distributed Systems (Back-End)",195000,120000,35000,"Female",NA,7472,807,14908,0,0,0,0,0,0,0,0,0,0,NA,NA
-"9/16/2019 13:31:49","JP morgan","VP","Product Manager",155000,"Columbus, OH",20,3,"Security",0,0,0,NA,NA,10278,535,14915,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/16/2019 14:37:34","Apple","ICT2","Software Engineer",85000,"Austin, TX",7,3,"Full Stack",76000,5000,4000,"Male",NA,10965,635,14921,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/17/2019 13:54:34","LinkedIn","Senior Software Engineer","Software Engineer",260000,"Sunnyvale, CA",5,2,"DevOps",155000,85000,20000,NA,NA,7472,807,15000,0,0,0,0,0,0,0,0,0,0,NA,NA
 "9/18/2019 8:37:38","Symantec","Principal Software Engineer","Software Engineer",208000,"Boxborough, MA",23,3,"Networking",165000,10000,33000,"Male",NA,21191,506,15058,0,0,0,0,0,0,0,0,0,0,NA,NA

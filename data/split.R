@@ -13,7 +13,7 @@ train <- data[train_ind, ]
 test <- data[-train_ind, ]
 
 # remove test$basesalary == 0
-#test <- subset(test, test$basesalary != 0)
+test <- subset(test, test$basesalary != 0)
 
 # write table
 write.table(train, file = "./data/train_salary.csv", row.names = F, sep = ',')
