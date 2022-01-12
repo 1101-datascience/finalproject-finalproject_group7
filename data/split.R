@@ -17,4 +17,4 @@ test <- data[-train_ind, ]
 
 # write table
 write.table(train, file = "./data/train_salary.csv", row.names = F, sep = ',')
-write.table(test, file = "./datatest_salary.csv", row.names = F, sep = ',')
+write.table(test, file = "./data/test_salary.csv", row.names = F, sep = ',')
