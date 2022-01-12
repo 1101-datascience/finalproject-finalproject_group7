@@ -30,14 +30,14 @@ Our goal is to predict the salary of STEM jobs !
 ### Demo 
 You should provide an example commend to reproduce your result
 
-[Shiny](https://yhqchiu.shinyapps.io/code/)
+[Shiny App](https://yhqchiu.shinyapps.io/code/)
 
 ### Shiny.io
 
 * We put our EDA & Model result into shiny app
 
   ShinyApps link :
-  * [Shiny](https://yhqchiu.shinyapps.io/code/)
+  * https://yhqchiu.shinyapps.io/code/
 
 
 
@@ -146,5 +146,5 @@ You should provide an example commend to reproduce your result
 * [A Useful DMA Shapefile For #Tableau and #Alteryx](https://datablends.us/2021/01/14/a-useful-dma-shapefile-for-tableau-and-alteryx/)
 
 * [Salary Data EDA] https://www.kaggle.com/jackogozaly/salary-data-eda
-* 
+
 * [Salary Data EDA] https://www.kaggle.com/cloudy17/stem-plotly-eda
