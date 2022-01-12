@@ -1,3 +1,5 @@
+library(ggplot2)
+
 dma.df <- read.csv(file = 'dma.df.csv', header = T, sep = ',', stringsAsFactors = F) 
 
 ggplot()+
