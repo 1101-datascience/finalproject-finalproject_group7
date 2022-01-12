@@ -1,7 +1,7 @@
-# STEM Salaries salary prediction 
+# STEM Salaries prediction 
 
 ## Content
-- [STEM Salaries salary prediction](#stem-salaries-salary-prediction)
+- [STEM Salaries Prediction](#stem-salaries-salary-prediction)
 	- [Content](#content)
 		- [Groups](#groups)
 		- [Goal](#goal)
@@ -30,78 +30,66 @@ Our goal is to predict the salary of STEM jobs !
 ### Demo 
 You should provide an example commend to reproduce your result
 
-```R
-# TODO
-```
+[Shiny App](https://yhqchiu.shinyapps.io/code/)
 
 ### Shiny.io
 
 * We put our EDA & Model result into shiny app
 
   ShinyApps link :
-  * [randomForest](https://yhqchiu.shinyapps.io/randomForest_shiny/)
-  * [...]()
+  * https://yhqchiu.shinyapps.io/code/
 
 
 
 ## Folder organization and its related information
 
 ### Docs
-* docs/xzcxzcz
+* docs
+	* Presentation Slide
 
 ### Data
 * Source
-	* Data Science and STEM Salaries 62,000+ STEM salaries scraped from levels.fyi | KAGGLE
-	* [Kaggle Breast Cancer Wisconsin](https://www.kaggle.com/jackogozaly/data-science-and-stem-salaries)
+	* [Data Science and STEM Salaries 62,000+ STEM salaries scraped from levels.fyi | KAGGLE](https://www.kaggle.com/jackogozaly/data-science-and-stem-salaries)
 * Input format
 	* One .csv file.
 	* Attribute Information:
-		* 1) ID number
-		* 2) Diagnosis (M = malignant, B = benign)
-		* 3-32) Ten real-valued features are computed for each cell nucleus:
-			* a) radius (mean of distances from center to points on the perimeter)
-			* b) texture (standard deviation of gray-scale values)
-			* c) perimeter
-			* d) area
-			* e) smoothness (local variation in radius lengths)
-			* f) compactness (perimeter^2 / area - 1.0)
-			* g) concavity (severity of concave portions of the contour)
-			* h) concave points (number of concave portions of the contour)
-			* i) symmetry
-			* j) fractal dimension ("coastline approximation" - 1)
-		* The *mean*, *standard error* and *"worst" or largest* (mean of the threelargest values) of these features were computed for each image, resulting in 30 features. For instance, field 3 is Mean Radius, field 13 is Radius SE, field 23 is Worst Radius.
-		* Which is 10 features x 3 measurements = 30 features
+	
 
 * Any preprocessing?
-    * 
+    * drop the NA
+    * delete the outlier
 
 ### Code
 * Which method do you use?
-    * Robust regression
-   	* Decision tree regression
-	* Random forest regression
-	* SVM
+   * Linear regression
+   * Decision tree regression
+   * Random forest regression
+   * SVM
+   * XGBtree
 
 
 * What is a null model for comparison?
-	* Guess the average salary
+	* Guess the median salary
 
 * How do your perform evaluation?
 	* Cross-validation
-	* RMSE
+	* MAE
 
 
 ### Results
 * Which metric do you use 
+	* MAE
 
 * Is your improvement significant?
-	* Yes , from xxx to xxx
+	* Yes , from 41809.7 to 18185.23
 
 * What is the challenge part of your project?
-    * asd
+    * NA值很多，嘗試用KNN來補效果卻不大好
+    * Shiny app 呈現會有一些大小的問題，以及無法正確visualization
+    * data science的project分工以及merge code是一個大問題
+
 
 ## Packages
-* argparse
 * corrplot
 * caret
 * rpart
@@ -109,24 +97,33 @@ You should provide an example commend to reproduce your result
 * e1071
 * randomForest
 * Formula
-* class
-* highcharter
+* Metrics
 * gbm
 * ggbiplot
 * ggplot2
+* sf
+* data.table
+* tidyverse
+* maps
+* repr
+* ggthemes
+* scales
+* ggpubr
+* shinythemes
+* shiny
+* shinydashboard
+* cowplot
+* rgdal
+* e1071
+* mlbench
+* MLmetrics
+
 
 ## Reference
-* [Predicting breast cancer using PCA + LDA in R](https://www.kaggle.com/shravank/predicting-breast-cancer-using-pca-lda-in-r)
-
-* [Breast Cancer or Not](https://www.kaggle.com/mirichoi0218/classification-breast-cancer-or-not-with-15-ml)
-
-* [Decision Trees for Binary Classification](https://www.kaggle.com/paultimothymooney/decision-trees-for-binary-classification-0-99)
 
 * [Statistical Learning Tutorial for Beginners](https://www.kaggle.com/kanncaa1/statistical-learning-tutorial-for-beginners/notebook)
 
 * [Feature Selection - Correlation and P-value](https://www.kaggle.com/bbloggsbott/feature-selection-correlation-and-p-value/data)
-
-* [Breast Cancer Wisconsin (Diagnostic) Data Set](https://www.kaggle.com/uciml/breast-cancer-wisconsin-data/kernels)
 
 * [Random forest: how to handle new factor levels in test set?](https://stats.stackexchange.com/questions/29446/random-forest-how-to-handle-new-factor-levels-in-test-set)
 
@@ -143,3 +140,11 @@ You should provide an example commend to reproduce your result
 * [Build your dashboard based on shinydashboard (4) - Karthi softek](https://blog.karthisoftek.com/a?ID=01400-2bcdb5fd-17fc-45d7-b951-b8473a998800)
 
 * [DMA Codes](https://help-ooyala.brightcove.com/sites/all/libraries/dita/en/video-platform/reference/dma_codes.html)
+
+* [Maps with ggplot](http://joshuamccrain.com/tutorials/ggplot_maps/maps_tutorial.html)
+
+* [A Useful DMA Shapefile For #Tableau and #Alteryx](https://datablends.us/2021/01/14/a-useful-dma-shapefile-for-tableau-and-alteryx/)
+
+* [Salary Data EDA](https://www.kaggle.com/jackogozaly/salary-data-eda)
+
+* [STEM_PLOTLY_EDA](https://www.kaggle.com/cloudy17/stem-plotly-eda)

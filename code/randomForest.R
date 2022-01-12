@@ -184,10 +184,10 @@ for(i in 1 : k){
                              Base_salary = train_d$basesalary,
                              predictions = pred_train)
   
-  rmse_train <- rmse(result_train$Base_salary,
-                     result_train$predictions) #testRMSE
+  mae_train <- mae(result_train$Base_salary,
+                     result_train$predictions) #testMAE
   
-  rmse_train <- round(rmse_train, 2)
+  mae_train <- round(mae_train, 2)
   
   # =============== predict using model applied to test_d ===============
   pred_test <- predict(model, newdata = test_d, 
@@ -197,10 +197,10 @@ for(i in 1 : k){
                             Base_salary = test_d$basesalary,
                             predictions = pred_test)
   
-  rmse_test <- rmse(result_test$Base_salary,
-                    result_test$predictions) #testRMSE
+  mae_test <- mae(result_test$Base_salary,
+                    result_test$predictions) #testMAE
   
-  rmse_test <- round(rmse_test, 2)
+  mae_test <- round(mae_test, 2)
   
   # =============== predict using model applied to valid_d ==============
   pred_valid <- predict(model, newdata = valid_d, 
@@ -211,19 +211,19 @@ for(i in 1 : k){
                              Base_salary = valid_d$basesalary,
                              predictions = pred_valid)
   
-  rmse_valid <- rmse(result_valid$Base_salary,
-                     result_valid$predictions) #testRMSE
+  mae_valid <- mae(result_valid$Base_salary,
+                     result_valid$predictions) #testMAE
   
-  rmse_valid <- round(rmse_valid, 2)
+  mae_valid <- round(mae_valid, 2)
   
   # cuz test, validation, train data must right shift => d$gp right shift
   data$gp <- (data$gp + (1/k)) %% 1
   
   # =========================== add to vector ============================ 
   set <- c(set, paste("fold", i, sep = ""))
-  training <- c(training, rmse_train)
-  test <- c(test, rmse_test)
-  validation <- c(validation, rmse_valid)
+  training <- c(training, mae_train)
+  test <- c(test, mae_test)
+  validation <- c(validation, mae_valid)
 }
 
 # =========================== calculate average ===========================
@@ -255,11 +255,12 @@ write.table(result_final, file = predict_output, row.names = F, quote = F, sep =
 # write.table(out_data, file = "performance.csv", row.names = F, quote = F, sep = ',')
 # 
 # write.table(result_final, file = "predict.csv", row.names = F, quote = F, sep = ',')
-# ======================== print Final Test RMSE ========================
 
-# [1] "RandomForest Test RMSE:  32366.94"
+# ======================== print Final Test MAE ========================
+
+# [1] "RandomForest Test MAE:  20812.12"
 print(
-  paste('RandomForest Test RMSE: ', round(rmse(result_final$Base_salary,
+  paste('RandomForest Test MAE: ', round(mae(result_final$Base_salary,
                                                result_final$predictions)
                                           , 2) 
   )
