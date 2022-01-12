@@ -147,4 +147,4 @@ You should provide an example commend to reproduce your result
 
 * [Salary Data EDA](https://www.kaggle.com/jackogozaly/salary-data-eda)
 
-* [Salary Data EDA](https://www.kaggle.com/cloudy17/stem-plotly-eda)
+* [STEM_PLOTLY_EDA](https://www.kaggle.com/cloudy17/stem-plotly-eda)
