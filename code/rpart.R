@@ -51,10 +51,11 @@ test <- read.csv(file = test, header = T, stringsAsFactors = F)
 
 #features processing
 train <- trans(train)
-train <- train[,-c(1,14,17:27)]
+train <- train[,-c(1,11,14:24)]
 train <- train[!(train$basesalary==0),]
+
 test <- trans(test)
-test <- test[,-c(1,14,17:27)]
+test <- test[,-c(1,11,14:24)]
 test <- test[!(test$basesalary==0),]
 
 #convert factors' level
@@ -78,32 +79,32 @@ results <- data.frame()
 for (k in 1:fold) {
     #split the train set, use it to train a model and calculate the RMSE.
     train.set <- train[!(train$splitset %in% Folds[c(k, k + 1)]), ]
-    train.set <- train.set[, -c(17,18)]
+    train.set <- train.set[, -c(14,15)]
     model.train <- rpart(basesalary ~ .,
                          method = "anova",
                          cp = 7e-04,
                          data = train.set)
     train_RMSE <- data.frame(truth = train.set$basesalary,
-                             pred = predict(model.train, train.set[,-9]))
+                             pred = predict(model.train, train.set[,-8]))
     train_RMSE <- sqrt(sum((train_RMSE$truth-train_RMSE$pred)^2)/nrow(train_RMSE))
     
     #split the validation set, use it to train a model and calculate the RMSE.
     valid.set <- train[!(train$splitset %in% Folds[k]), ]
-    valid.set <- valid.set[, -c(17,18)]
+    valid.set <- valid.set[, -c(14,15)]
     model.valid <- rpart(basesalary ~ .,
                          method = "anova",
                          cp = 7e-04,
                          data = valid.set)
     valid_RMSE <- data.frame(truth = valid.set$basesalary,
-                             pred = predict(model.valid, valid.set[,-9]))
+                             pred = predict(model.valid, valid.set[,-8]))
     valid_RMSE <- sqrt(sum((valid_RMSE$truth-valid_RMSE$pred)^2)/nrow(valid_RMSE))
     
     #use the model trained from validation set to predict the test set,
     #then calculate the RMSE.
     test.set <- train[train$splitset %in% Folds[k], ]
-    test.set <- test.set[, -c(17,18)]
+    test.set <- test.set[, -c(14,15)]
     test_RMSE <- data.frame(truth = test.set$basesalary,
-                             pred = predict(model.valid, test.set[,-9]))
+                             pred = predict(model.valid, test.set[,-8]))
     test_RMSE <- sqrt(sum((test_RMSE$truth-test_RMSE$pred)^2)/nrow(test_RMSE))
     
     #create a result frame
@@ -124,7 +125,7 @@ result <- rbind(results, ave)
 
 #predict the test data.
 result2 <- data.frame(truth = test$basesalary,
-                      pred = predict(model.valid, test[,-9]))
+                      pred = predict(model.valid, test[,-8]))
 result2_RMSE <- sqrt(sum((result2$truth-result2$pred)^2)/nrow(result2))
 
 #write files
