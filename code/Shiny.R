@@ -87,7 +87,7 @@ b <- unique(data$title)[8:15]
 ui <- tagList(
   shinythemes::themeSelector(),
   navbarPage(
-    "Deal With Data",
+    "Data Visualization",
     
     tabPanel("Raw Data",
              sidebarPanel(
