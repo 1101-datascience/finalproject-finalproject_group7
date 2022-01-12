@@ -31,7 +31,7 @@ Our goal is to predict the salary of STEM jobs !
 You should provide an example commend to reproduce your result
 
 ```R
-(https://yhqchiu.shinyapps.io/code/
+[Shiny](https://yhqchiu.shinyapps.io/code/)
 ```
 
 ### Shiny.io
