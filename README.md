@@ -122,3 +122,5 @@ You should provide an example commend to reproduce your result
 * [Build your dashboard based on shinydashboard (4) - Karthi softek](https://blog.karthisoftek.com/a?ID=01400-2bcdb5fd-17fc-45d7-b951-b8473a998800)
 
 * [DMA Codes](https://help-ooyala.brightcove.com/sites/all/libraries/dita/en/video-platform/reference/dma_codes.html)
+
+* [Maps with ggplot](http://joshuamccrain.com/tutorials/ggplot_maps/maps_tutorial.html)
