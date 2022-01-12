@@ -115,31 +115,28 @@ ui <- tagList(
     ),
     
     tabPanel("EDA",
-       # sidebarPanel(
-           # selectInput("x", "Select x axis:", choices = names(raw_data),
-           #             selected = raw_data$total_yearly_compensation)
-           # selectInput("y", "Select y axis:", choices = names(raw_data),
-           #             selected = raw_data$base_salary),
-      # ),
-      mainPanel(
-        fluidRow(
-          column(width = 12, box(plotOutput("Company"), width = NULL))
-        ),
-        fluidRow(
-          column(width = 12, box(plotOutput("Title_1"), width = NULL)),
-          column(width = 12, box(plotOutput("Title_2"), width = NULL)),
-         ),
-        fluidRow(
-          column(width = 12, box(plotOutput("Experience_da"), width = NULL)),
-        ),
-        fluidRow(
-          column(width = 12, box(plotOutput("Experience_so"), width = NULL)),
-        )
-      )
+             sidebarPanel(
+               selectInput("x", "Select x axis:", choices = names(raw_data),
+                           selected = raw_data$total_yearly_compensation)
+               # selectInput("y", "Select y axis:", choices = names(raw_data),
+               #             selected = raw_data$base_salary),
+             ),
+             mainPanel(
+               fluidRow(
+                 column(width = 12, box(plotOutput("Experience"), width = NULL)),
+               ),
+               fluidRow(
+                 column(width = 12, box(plotOutput("Company"), width = NULL))
+               ),
+               fluidRow(
+                 column(width = 12, box(plotOutput("Title_1"), width = NULL)),
+                 column(width = 12, box(plotOutput("Title_2"), width = NULL)),
+               )
+             )
     ),
     tabPanel("DMA & Base_Salary Distribution",
              mainPanel(plotOutput("distPlot1"),plotOutput("distPlot2"))
-             )
+    )
   )
 )
 
@@ -181,30 +178,17 @@ server <- function(input, output){
   
   # ============================ Company ============================
   
-  output$Experience_da <- renderPlot({
+  output$Experience <- renderPlot({
     #Salary for Data By YOE and Race 
     raw_data %>% 
       filter(Title== "Data Scientist")%>% 
       drop_na(Education) %>% 
-      ggplot() + aes(y=round(Base_Salary/10000)*10000 , x= Years_of_Experience, group= Education, color= Education) + geom_point(size=3) + 
+      ggplot() + aes(y=round(Base_Salary/10000)*10000 , x= get(input$x), group= Education, color= Education) + geom_point(size=3) + 
       scale_y_continuous(labels=scales::dollar_format()) + theme_fivethirtyeight(base_size=20) + 
       theme(axis.title = element_text(size=15, face='bold'),
             axis.text= element_text(size=12), plot.title = element_text(hjust=.5),legend.text = element_text(size=12), 
-            legend.title = element_text(size=12)) + ylab("\n Base salary") + xlab("Years_of_Experience\n") + 
+            legend.title = element_text(size=12)) + ylab("\n Base salary") + xlab(input$x) + 
       ggtitle("Data Scientist Base salary Years of Experience")+ guides(colour = guide_legend(override.aes = list(size=6)))
-  })
-  
-  output$Experience_so <- renderPlot({
-    #Salary for Data By YOE and Race 
-    raw_data %>% 
-      filter(Title== "Software Engineer")%>% 
-      drop_na(Education) %>% 
-      ggplot() + aes(y=round(Base_Salary/10000)*10000 , x= Years_of_Experience, group= Education, color= Education) + geom_point(size=3) + 
-      scale_y_continuous(labels=scales::dollar_format()) + theme_fivethirtyeight(base_size=20) + 
-      theme(axis.title = element_text(size=15, face='bold'),
-            axis.text= element_text(size=12), plot.title = element_text(hjust=.5),legend.text = element_text(size=12), 
-            legend.title = element_text(size=12)) + ylab("\n Base salary") + xlab("Years_of_Experience\n") + 
-      ggtitle("Software Engineer Base salary Years of Experience")+ guides(colour = guide_legend(override.aes = list(size=6)))
   })
   
   output$Company <- renderPlot({
@@ -280,4 +264,3 @@ server <- function(input, output){
 }	
 
 shinyApp(ui, server)
-
