@@ -4,11 +4,11 @@ library(corrplot)
 data <- read.csv("./data/Levels_Fyi_Salary_Data.csv", encoding = "UTF-8")
 
 #select feature
-select_feat =  c("company", "title", "tag", "basesalary", "gender", "Race", "Education", "yearsofexperience", "yearsatcompany", "cityid")
-drop_feat = setdiff(colnames(train),select_feat)
+select_feat =  c("company", "title", "tag", "basesalary", "gender", "Race", "Education", "yearsofexperience", "yearsatcompany", "cityid", "dmaid")
+drop_feat = setdiff(colnames(data),select_feat)
 
-train <- subset(train, select = select_feat)
-test <- subset(test, select = select_feat)
+train <- subset(data, select = select_feat)
+test <- subset(data, select = select_feat)
 
 #drop na
 train <- na.omit(train)
