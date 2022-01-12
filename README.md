@@ -145,6 +145,6 @@ You should provide an example commend to reproduce your result
 
 * [A Useful DMA Shapefile For #Tableau and #Alteryx](https://datablends.us/2021/01/14/a-useful-dma-shapefile-for-tableau-and-alteryx/)
 
-* [Salary Data EDA] (https://www.kaggle.com/jackogozaly/salary-data-eda)
+* [Salary Data EDA](https://www.kaggle.com/jackogozaly/salary-data-eda)
 
-* [Salary Data EDA] (https://www.kaggle.com/cloudy17/stem-plotly-eda)
+* [Salary Data EDA](https://www.kaggle.com/cloudy17/stem-plotly-eda)
