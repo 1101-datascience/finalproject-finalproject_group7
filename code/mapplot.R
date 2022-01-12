@@ -5,12 +5,12 @@ library(ggplot2)
 library(tidyverse)
 library(data.table)
 
-setwd('/Users/kyle/Desktop/NCCU/110-1/四234 資料科學/final project/dma_boundary')
+setwd('./dma_boundary')
 dma <- readOGR("dma_boundary.shp")
 dma.df <- fortify(dma, region = "dma0")
 dma.df <- rename(dma.df, DMA = id)
 
-data <- read.csv('/Users/kyle/Desktop/NCCU/110-1/四234 資料科學/final project/Levels_Fyi_Salary_Data.csv')
+data <- read.csv('Levels_Fyi_Salary_Data.csv')
 
 setDT(data)
 new <- data[,dmaid:=as.character(dmaid)][,.(meansalary=mean(basesalary)),by=.(dmaid)]
