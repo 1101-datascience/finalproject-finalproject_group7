@@ -7,26 +7,22 @@ data <- read.csv("./data/Levels_Fyi_Salary_Data.csv", encoding = "UTF-8")
 select_feat =  c("company", "title", "tag", "basesalary", "gender", "Race", "Education", "yearsofexperience", "yearsatcompany", "cityid", "dmaid")
 drop_feat = setdiff(colnames(data),select_feat)
 
-train <- subset(data, select = select_feat)
-test <- subset(data, select = select_feat)
+data <- subset(data, select = select_feat)
 
 #drop na
-train <- na.omit(train)
-test <- na.omit(test)
+data <- na.omit(data)
 
-print(any(is.na(train)))
-print(any(is.na(test)))
+print(any(is.na(data)))
 
 #label encoding
 for (i in c("company", "title", "tag", "gender", "Race", "Education" )){  
   # print(train[, i])
-  train[, i] <- as.numeric(factor(train[, i]))
-  test[, i] <- as.numeric(factor(test[, i]))  
+  data[, i] <- as.numeric(factor(data[, i]))
 }
 
 #corrlation
 #method = square/number/shade
-corrplot(cor(train),
+corrplot(cor(data),
          method = "shade",
          type = "full"
 )
