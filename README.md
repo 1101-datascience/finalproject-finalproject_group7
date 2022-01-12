@@ -74,7 +74,7 @@ You should provide an example commend to reproduce your result
 
 * How do your perform evaluation?
 	* Cross-validation
-	* RMSE
+	* MAE
 
 
 ### Results
