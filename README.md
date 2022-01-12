@@ -31,7 +31,7 @@ Our goal is to predict the salary of STEM jobs !
 You should provide an example commend to reproduce your result
 
 ```R
-# TODO
+(https://yhqchiu.shinyapps.io/code/
 ```
 
 ### Shiny.io
@@ -46,7 +46,8 @@ You should provide an example commend to reproduce your result
 ## Folder organization and its related information
 
 ### Docs
-* docs/xzcxzcz
+* docs
+	* Presentation Slide
 
 ### Data
 * Source
@@ -62,15 +63,15 @@ You should provide an example commend to reproduce your result
 
 ### Code
 * Which method do you use?
-    * Robust regression
-   	* Decision tree regression
-	* Random forest regression
-	* SVM
-	* XGBtree
+   * Linear regression
+   * Decision tree regression
+   * Random forest regression
+   * SVM
+   * XGBtree
 
 
 * What is a null model for comparison?
-	* Guess the average salary
+	* Guess the median salary
 
 * How do your perform evaluation?
 	* Cross-validation
@@ -79,14 +80,16 @@ You should provide an example commend to reproduce your result
 
 ### Results
 * Which metric do you use 
-	* RMSE
-	* R-square value
+	* MAE
 
 * Is your improvement significant?
-	* Yes , from 50000 to 30000
+	* Yes , from 41809.7 to 18185.23
 
 * What is the challenge part of your project?
-    * asd
+    * NA值很多，嘗試用KNN來補效果卻不大好
+    * Shiny app 呈現會有一些大小的問題，以及無法正確visualization
+    * data science的project分工以及merge code是一個大問題
+
 
 ## Packages
 * corrplot
@@ -143,3 +146,7 @@ You should provide an example commend to reproduce your result
 * [Maps with ggplot](http://joshuamccrain.com/tutorials/ggplot_maps/maps_tutorial.html)
 
 * [A Useful DMA Shapefile For #Tableau and #Alteryx](https://datablends.us/2021/01/14/a-useful-dma-shapefile-for-tableau-and-alteryx/)
+
+* [Salary Data EDA] https://www.kaggle.com/jackogozaly/salary-data-eda
+* 
+* [Salary Data EDA] https://www.kaggle.com/cloudy17/stem-plotly-eda
