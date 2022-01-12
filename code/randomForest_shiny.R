@@ -123,53 +123,54 @@ ui <- tagList(
                )
              )
     ),
-    tabPanel("Raw Data",
+    
+    
+     tabPanel("Raw Data",
              sidebarPanel(
-               selectInput("x", "Select x axis:", choices = names(raw_data), 
-                           selected = raw_data$total_yearly_compensation),
-               selectInput("y", "Select y axis:", choices = names(raw_data), 
-                           selected = raw_data$base_salary),
+    #            selectInput("x", "Select x axis:", choices = names(raw_data), 
+    #                        selected = raw_data$total_yearly_compensation),
+    #            selectInput("y", "Select y axis:", choices = names(raw_data), 
+    #                        selected = raw_data$base_salary),
                sliderInput("obs", "Number of Data:", min = 0, max = nrow(raw_data),
                            value = 3000, step = 3000, animate = TRUE)
              ),
-             mainPanel(
-               fluidRow(	
-                 column(width = 12, box(plotOutput("Plot"), width = NULL)),	
-                 column(width = 12, box(dataTableOutput("Data"), width = NULL))
-               )
-             )
+              mainPanel(
+                fluidRow(	
+    #              column(width = 12, box(plotOutput("Plot"), width = NULL)),	
+                  column(width = 12, box(dataTableOutput("Data"), width = NULL))
+                )
+              )
     ),
-    tabPanel("Processed Data",
-             sidebarPanel(
-               selectInput("x_processed", "Select x axis:", choices = names(processed_data), 
-                           selected = processed_data$total_yearly_compensation),
-               selectInput("y_processed", "Select y axis:", choices = names(processed_data), 
-                           selected = processed_data$base_salary),
-               sliderInput("obs_processed", "Number of Data:", min = 0, max = nrow(processed_data),
-                           value = 1000, step = 1000, animate = TRUE)
-             ),
+    
+    
+    # tabPanel("Processed Data",
+    #         sidebarPanel(
+    #            selectInput("x_processed", "Select x axis:", choices = names(processed_data), 
+    #                        selected = processed_data$total_yearly_compensation),
+    #            selectInput("y_processed", "Select y axis:", choices = names(processed_data), 
+    #                        selected = processed_data$base_salary),
+    #            sliderInput("obs_processed", "Number of Data:", min = 0, max = nrow(processed_data),
+    #                       value = 1000, step = 1000, animate = TRUE)
+    #         ),
+    #          mainPanel(
+    #            fluidRow(	
+    #              column(width = 12, box(plotOutput("Plot2"), width = NULL)),	
+    #              column(width = 12, box(dataTableOutput("Data2"), width = NULL))
+    #            )
+    #          )
+    # ),
+    tabPanel("EDA",
              mainPanel(
-               fluidRow(	
-                 column(width = 12, box(plotOutput("Plot2"), width = NULL)),	
-                 column(width = 12, box(dataTableOutput("Data2"), width = NULL))
-               )
-             )
-    ),
-    tabPanel("Plot_analysis", 
-             mainPanel(
-               fluidRow(
-                 column(width = 12, box(plotOutput("Education_plot"), width = NULL))
-               ),
-               fluidRow(
-                 column(width = 12, box(plotOutput("Race_plot"), width = NULL))
-               ),
                fluidRow(
                  column(width = 12, box(plotOutput("Company"), width = NULL))
                ),
                fluidRow(
                  column(width = 12, box(plotOutput("Title_1"), width = NULL)),
                  column(width = 12, box(plotOutput("Title_2"), width = NULL)),
-                )
+                ),
+               fluidRow(
+                 column(width = 12, box(plotOutput("Experience"), width = NULL)),
+               )
              )
     )
   )
@@ -186,19 +187,19 @@ server <- function(input, output){
   })
   # ================================ raw =================================
   
-  # user select number of raw data
-  subset_raw <- reactive({ raw_data[1:input$obs, ] })
-  
-  # raw scatterplot
-  output$Plot <- renderPlot({
-    ggscatter(subset_raw(), x = input$x, y = input$y,
-              add = "reg.line", cor.method = "pearson",
-              xlab = input$x, ylab = input$y) +
-      stat_cor(
-        aes(label = paste(..rr.label.., ..p.label.., sep = "~','~"))
-      )
-    
-  })
+  # # user select number of raw data
+  # subset_raw <- reactive({ raw_data[1:input$obs, ] })
+  # 
+  # # raw scatterplot
+  # output$Plot <- renderPlot({
+  #   ggscatter(subset_raw(), x = input$x, y = input$y,
+  #             add = "reg.line", cor.method = "pearson",
+  #             xlab = input$x, ylab = input$y) +
+  #     stat_cor(
+  #       aes(label = paste(..rr.label.., ..p.label.., sep = "~','~"))
+  #     )
+  #   
+  # })
   
   # raw table data
   data_table_raw = raw_data[sample(1:nrow(raw_data), 10000, replace = T), ]	
@@ -209,31 +210,21 @@ server <- function(input, output){
   })
   # =============================== processed ===============================
   
-  # user select number of processed data
-  subset_processed <- reactive({ processed_data[1:input$obs_processed, ] })
-  
-  # processed scatterplot
-  
-  output$Plot2 <- renderPlot({
-    ggscatter(subset_processed(), x = input$x_processed, y = input$y_processed,
-              add = "reg.line", cor.method = "pearson",
-              xlab = input$x_processed, ylab = input$y_processed) +
-      stat_cor(
-        aes(label = paste(..rr.label.., ..p.label.., sep = "~','~"))
-      )
-  })
+  # # user select number of processed data
+  # subset_processed <- reactive({ processed_data[1:input$obs_processed, ] })
+  # 
+  # # processed scatterplot
+  # 
+  # output$Plot2 <- renderPlot({
+  #   ggscatter(subset_processed(), x = input$x_processed, y = input$y_processed,
+  #             add = "reg.line", cor.method = "pearson",
+  #             xlab = input$x_processed, ylab = input$y_processed) +
+  #     stat_cor(
+  #       aes(label = paste(..rr.label.., ..p.label.., sep = "~','~"))
+  #     )
+  # })
   
   # ============================ Education ============================
-  output$Education_plot <- renderPlot({
-    ggplot(data, aes(x = basesalary, y = Education)) +
-      geom_point()
-    
-  })
-  output$Race_plot <- renderPlot({
-    ggplot(data, aes(x = basesalary, y = Race)) +
-      geom_point()
-    
-  })
   
   output$Company <- renderPlot({
     data %>% 
@@ -259,6 +250,22 @@ server <- function(input, output){
       xlab("title") +
       ylab("basesalary")
   })
+  
+  output$Experience <- renderPlot({
+    #Salary for Data By YOE and Race 
+    data %>% 
+      filter(title== "Data Scientist")%>% 
+      drop_na(Education) %>% 
+      ggplot() + aes(y=round(basesalary/10000)*10000 , x= yearsofexperience, group= Education, color= Education) + geom_point(size=3) + 
+      scale_y_continuous(labels=scales::dollar_format()) + theme_fivethirtyeight(base_size=20) + 
+      theme(axis.title = element_text(size=15, face='bold'),
+            axis.text= element_text(size=12), plot.title = element_text(hjust=.5),legend.text = element_text(size=12), 
+            legend.title = element_text(size=12)) + ylab("\n Base salary") + xlab("Yearly of Experiement\n") + 
+      ggtitle("Base salary Years of Experience")+ guides(colour = guide_legend(override.aes = list(size=6)))
+  })
+  
+  
+  
   # ============================== Race ===============================
   
   # processed table data
