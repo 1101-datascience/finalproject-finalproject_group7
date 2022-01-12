@@ -26,8 +26,9 @@ cor_data$title <- as.numeric(factor(cor_data$title))
 cor_data <- subset(cor_data, select = -c(timestamp, company, level, 
                                          location, tag, gender, 
                                          otherdetails, rowNumber,
-                                         Race, Education
-))
+                                         Race, Education, stockgrantvalue,
+                                         totalyearlycompensation, bonus)
+                  )
 corr <- round(cor(cor_data), 2)
 cor_p <- cor_pmat(cor_data)
 
