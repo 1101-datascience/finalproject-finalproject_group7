@@ -57,6 +57,9 @@ processed_data <- raw_data
 
 data <- na.omit(data)
 
+a <- unique(data$title)[1:7]
+b <- unique(data$title)[8:15]
+
 # =========================== remove outliers ============================
 processed_data <- subset(processed_data,
                          processed_data$Base_Salary < 7.5e+05)
@@ -162,7 +165,11 @@ ui <- tagList(
                ),
                fluidRow(
                  column(width = 12, box(plotOutput("Company"), width = NULL))
-               )
+               ),
+               fluidRow(
+                 column(width = 12, box(plotOutput("Title_1"), width = NULL)),
+                 column(width = 12, box(plotOutput("Title_2"), width = NULL)),
+                )
              )
     )
   )
@@ -240,6 +247,18 @@ server <- function(input, output){
       scale_y_continuous(labels=comma)
   })
   
+  output$Title_1 <- renderPlot({
+    ggplot(data[(data$title %in% a),], aes(x = as.factor(title), y = basesalary, color = as.factor(title))) +
+      geom_boxplot() +
+      xlab("title") +
+      ylab("basesalary")
+  })
+  output$Title_2 <- renderPlot({
+    ggplot(data[(data$title %in% b),], aes(x = as.factor(title), y = basesalary, color = as.factor(title))) +
+      geom_boxplot() +
+      xlab("title") +
+      ylab("basesalary")
+  })
   # ============================== Race ===============================
   
   # processed table data
