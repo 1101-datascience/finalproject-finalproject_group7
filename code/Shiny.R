@@ -46,69 +46,17 @@ raw_data <- data.frame(Base_Salary = data$basesalary,
                        Bachelors_Degree = data$Bachelors_Degree,
                        Doctorate_Degree = data$Doctorate_Degree,
                        Race_Asian = data$Race_Asian,
-                       Race_Hispanic = data$Race_Hispanic)
+                       Race_Hispanic = data$Race_Hispanic,
+                       Education = data$Education)
 
 raw_data[is.na(raw_data$DMA_Code), "DMA_Code"] <- median(raw_data$DMA_Code, na.rm = T)
 
 raw_data[is.na(raw_data$Race_Hispanic), "Race_Hispanic"] <- median(raw_data$Race_Hispanic, na.rm = T)
 
-processed_data <- raw_data
-
 data <- na.omit(data)
 
 a <- unique(data$title)[1:7]
 b <- unique(data$title)[8:15]
-
-# =========================== remove outliers ============================
-processed_data <- subset(processed_data,
-                         processed_data$Base_Salary < 7.5e+05)
-processed_data <- subset(processed_data,
-                         processed_data$Base_Salary != 0)
-
-#-----------------------------------------------------------------------
-
-processed_data <- subset(processed_data,
-                         processed_data$Years_of_Experience <= 40)
-
-#-----------------------------------------------------------------------
-
-processed_data <- subset(processed_data,
-                         processed_data$Years_at_Company <= 30)
-
-#-----------------------------------------------------------------------
-
-processed_data <- subset(processed_data,
-                         !(processed_data$City_ID > 25000 &
-                             processed_data$Base_Salary > 2.5e+05))
-
-processed_data <- subset(processed_data,
-                         processed_data$City_ID > 100)
-
-processed_data <- subset(processed_data,
-                         !(processed_data$City_ID > 9000 &
-                             processed_data$Base_Salary > 4e+05))
-
-#-----------------------------------------------------------------------
-
-processed_data <- subset(processed_data,
-                         processed_data$DMA_Code < 1000)
-
-processed_data <- subset(processed_data,
-                         !(processed_data$DMA_Code < 750 &
-                             processed_data$Base_Salary > 3e+05))
-
-#-----------------------------------------------------------------------
-
-processed_data <- subset(processed_data,
-                         !(processed_data$Bachelors_Degree == 1 &
-                             processed_data$Base_Salary > 6e+05))
-
-#-----------------------------------------------------------------------
-
-processed_data <- subset(processed_data,
-                         !(processed_data$Doctorate_Degree == 1 &
-                             processed_data$Base_Salary > 6e+05))
-#-----------------------------------------------------------------------
 
 # dashboard
 ui <- tagList(
@@ -141,39 +89,25 @@ ui <- tagList(
              )
     ),
     
-    
-
-    
-    
-    # tabPanel("Processed Data",
-    #         sidebarPanel(
-    #            selectInput("x_processed", "Select x axis:", choices = names(processed_data), 
-    #                        selected = processed_data$total_yearly_compensation),
-    #            selectInput("y_processed", "Select y axis:", choices = names(processed_data), 
-    #                        selected = processed_data$base_salary),
-    #            sliderInput("obs_processed", "Number of Data:", min = 0, max = nrow(processed_data),
-    #                       value = 1000, step = 1000, animate = TRUE)
-    #         ),
-    #          mainPanel(
-    #            fluidRow(	
-    #              column(width = 12, box(plotOutput("Plot2"), width = NULL)),	
-    #              column(width = 12, box(dataTableOutput("Data2"), width = NULL))
-    #            )
-    #          )
-    # ),
     tabPanel("EDA",
-             mainPanel(
-               fluidRow(
-                 column(width = 12, box(plotOutput("Company"), width = NULL))
-               ),
-               fluidRow(
-                 column(width = 12, box(plotOutput("Title_1"), width = NULL)),
-                 column(width = 12, box(plotOutput("Title_2"), width = NULL)),
-                ),
-               fluidRow(
-                 column(width = 12, box(plotOutput("Experience"), width = NULL)),
-               )
-             )
+       sidebarPanel(
+           selectInput("x", "Select x axis:", choices = names(raw_data),
+                       selected = raw_data$total_yearly_compensation)
+           # selectInput("y", "Select y axis:", choices = names(raw_data),
+           #             selected = raw_data$base_salary),
+      ),
+      mainPanel(
+        fluidRow(
+          column(width = 12, box(plotOutput("Company"), width = NULL))
+        ),
+        fluidRow(
+          column(width = 12, box(plotOutput("Title_1"), width = NULL)),
+          column(width = 12, box(plotOutput("Title_2"), width = NULL)),
+         ),
+        fluidRow(
+          column(width = 12, box(plotOutput("Experience"), width = NULL)),
+        )
+      )
     )
   )
 )
@@ -210,23 +144,21 @@ server <- function(input, output){
   output$Data <- renderDataTable({	
     head(data_table_raw, input$obs)	
   })
-  # =============================== processed ===============================
   
-  # # user select number of processed data
-  # subset_processed <- reactive({ processed_data[1:input$obs_processed, ] })
-  # 
-  # # processed scatterplot
-  # 
-  # output$Plot2 <- renderPlot({
-  #   ggscatter(subset_processed(), x = input$x_processed, y = input$y_processed,
-  #             add = "reg.line", cor.method = "pearson",
-  #             xlab = input$x_processed, ylab = input$y_processed) +
-  #     stat_cor(
-  #       aes(label = paste(..rr.label.., ..p.label.., sep = "~','~"))
-  #     )
-  # })
+  # ============================ Company ============================
   
-  # ============================ Education ============================
+  output$Experience <- renderPlot({
+    #Salary for Data By YOE and Race 
+    raw_data %>% 
+      filter(Title == "Data Scientist")%>% 
+      drop_na(Education) %>% 
+      ggplot() + aes_string(y=round(Base_Salary/10000)*10000 , x= input$x_lab, group = Education, color= Education) + geom_point(size=3) + 
+      scale_y_continuous(labels=scales::dollar_format()) + theme_fivethirtyeight(base_size=20) + 
+      theme(axis.title = element_text(size=15, face='bold'),
+            axis.text= element_text(size=12), plot.title = element_text(hjust=.5),legend.text = element_text(size=12), 
+            legend.title = element_text(size=12)) + ylab("\n Base salary") + xlab(input$x_lab) + 
+      ggtitle("Base salary")+ guides(colour = guide_legend(override.aes = list(size=6)))
+  })
   
   output$Company <- renderPlot({
     data %>% 
@@ -253,30 +185,7 @@ server <- function(input, output){
       ylab("basesalary")
   })
   
-  output$Experience <- renderPlot({
-    #Salary for Data By YOE and Race 
-    data %>% 
-      filter(title== "Data Scientist")%>% 
-      drop_na(Education) %>% 
-      ggplot() + aes(y=round(basesalary/10000)*10000 , x= yearsofexperience, group= Education, color= Education) + geom_point(size=3) + 
-      scale_y_continuous(labels=scales::dollar_format()) + theme_fivethirtyeight(base_size=20) + 
-      theme(axis.title = element_text(size=15, face='bold'),
-            axis.text= element_text(size=12), plot.title = element_text(hjust=.5),legend.text = element_text(size=12), 
-            legend.title = element_text(size=12)) + ylab("\n Base salary") + xlab("Yearly of Experiement\n") + 
-      ggtitle("Base salary Years of Experience")+ guides(colour = guide_legend(override.aes = list(size=6)))
-  })
-  
-  
-  
-  # ============================== Race ===============================
-  
-  # processed table data
-  data_table_processed = processed_data[sample(1:nrow(processed_data), 10000, replace = T), ]	
-  
-  # processed table
-  output$Data2 <- renderDataTable({	
-    head(data_table_processed, input$obs_processed)	
-  })
 }	
+
 shinyApp(ui, server)
 
