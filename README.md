@@ -39,8 +39,7 @@ You should provide an example commend to reproduce your result
 * We put our EDA & Model result into shiny app
 
   ShinyApps link :
-  * [randomForest](https://yhqchiu.shinyapps.io/randomForest_shiny/)
-  * [...]()
+  * [Shiny](https://yhqchiu.shinyapps.io/code/)
 
 
 
