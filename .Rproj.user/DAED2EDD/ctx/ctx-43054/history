@@ -1,0 +1,209 @@
+data <- read.csv("./Levels_Fyi_Salary_Data.csv")
+data <- read.csv(".data/Levels_Fyi_Salary_Data.csv")
+data <- read.csv("./data/Levels_Fyi_Salary_Data.csv")
+## 75% of the sample size
+smp_size <- floor(0.75 * nrow(final_df))
+## set the seed to make your partition reproducible
+set.seed(123)
+train_ind <- sample(seq_len(nrow(final_df)), size = smp_size)
+train <- final_df[train_ind, ]
+## 75% of the sample size
+smp_size <- floor(0.75 * nrow(final_df))
+## set the seed to make your partition reproducible
+set.seed(123)
+train_ind <- sample(seq_len(nrow(data)), size = smp_size)
+## 75% of the sample size
+smp_size <- floor(0.75 * nrow(data))
+## set the seed to make your partition reproducible
+set.seed(123)
+train_ind <- sample(seq_len(nrow(data)), size = smp_size)
+train <- final_df[train_ind, ]
+test <- final_df[-train_ind, ]
+test <- subset(test,select=-c(basesalary))
+train <- data[train_ind, ]
+test <- data[-train_ind, ]
+test <- subset(test,select=-c(basesalary))
+data <- read.csv("./data/Levels_Fyi_Salary_Data.csv")
+## 75% of the sample size
+smp_size <- floor(0.8 * nrow(data))
+## set the seed to make your partition reproducible
+set.seed(123)
+train_ind <- sample(seq_len(nrow(data)), size = smp_size)
+train <- data[train_ind, ]
+test <- data[-train_ind, ]
+test <- subset(test,select=-c(basesalary))
+## 75% of the sample size
+smp_size <- floor(0.9 * nrow(data))
+## set the seed to make your partition reproducible
+set.seed(123)
+train_ind <- sample(seq_len(nrow(data)), size = smp_size)
+train <- data[train_ind, ]
+test <- data[-train_ind, ]
+View(data)
+View(data)
+View(test)
+View(data)
+Company = data$company,
+title = data$title,
+location = data$location,
+yearofexperience = data$yearsofexperience,
+yearsatcompany = data$yearsatcompany,
+basesalary = data$basesalary
+)
+#define one-hot encoding function
+dummy <- dummyVars(~ ., data=s_data)
+#perform one-hot encoding on data frame
+final_df <- data.frame(predict(dummy, newdata=s_data))
+## 75% of the sample size
+smp_size <- floor(0.75 * nrow(final_df))
+## set the seed to make your partition reproducible
+set.seed(123)
+train_ind <- sample(seq_len(nrow(final_df)), size = smp_size)
+train <- final_df[train_ind, ]
+test <- final_df[-train_ind, ]
+test <- subset(test,select=-c(basesalary))
+bstSparse <- xgboost(data = train, max.depth = 2, eta = 1, nthread = 2, nrounds = 2, objective = "binary:logistic")
+#model = svm(formula = basesalary ~ ., data = train)
+# model <- lm(basesalary ~ .,  data = train)
+predict(model,test)
+lm
+data <- read.csv("./data/Levels_Fyi_Salary_Data.csv")
+for (id in data['timestamp']){
+print(id)
+break
+}
+for (id in data['timestamp']){
+cnt += 1
+if (id == "11/3/2020 19:56:58"){
+print(cnt)
+break
+}
+}
+cnt <- cnt + 1
+for (id in data['timestamp']){
+cnt <- cnt + 1
+if (id == "11/3/2020 19:56:58"){
+print(cnt)
+break
+}
+}
+cnt = 0
+for (id in data['timestamp']){
+cnt += 1
+if (id == "11/3/2020 19:56:58"){
+print(cnt)
+break
+}
+}
+for (id in data['timestamp']){
+cnt <- cnt + 1
+if (id == "11/3/2020 19:56:58"){
+print(cnt)
+break
+}
+}
+print(id)
+print(len(id))
+print(length(id))
+for (id in data[['timestamp']]){
+cnt <- cnt + 1
+print(length(id))
+if (id == "11/3/2020 19:56:58"){
+print(cnt)
+break
+}
+}
+for (id in data[['timestamp']]){
+cnt <- cnt + 1
+if (id == "11/3/2020 19:56:58"){
+print(cnt)
+break
+}
+}
+data[69109,]
+data <- na.omit(data)
+cnt = 0
+for (id in data[['timestamp']]){
+cnt <- cnt + 1
+if (id == "11/3/2020 19:56:58"){
+print(cnt)
+break
+}
+}
+data[cnt,]
+data <- read.csv("./data/Levels_Fyi_Salary_Data.csv", fileEncoding = "iso-8859-1")
+data <- na.omit(data)
+cnt = 0
+for (id in data[['timestamp']]){
+cnt <- cnt + 1
+if (id == "11/3/2020 19:56:58"){
+print(cnt)
+break
+}
+}
+for (id in data[['timestamp']]){
+cnt <- cnt + 1
+if (id == "11/3/2020 19:56:58"){
+print(cnt)
+break
+}
+}
+data[cnt,]
+head(data)
+data <- read.csv("./data/Levels_Fyi_Salary_Data.csv")
+for (id in data[['timestamp']]){
+cnt <- cnt + 1
+if (id == "11/3/2020 19:56:58"){
+print(cnt)
+break
+}
+}
+data[cnt,]
+data <- read.csv("./data/Levels_Fyi_Salary_Data.csv",encoding = "GBK")
+data <- na.omit(data)
+cnt = 0
+for (id in data[['timestamp']]){
+cnt <- cnt + 1
+if (id == "11/3/2020 19:56:58"){
+print(cnt)
+break
+}
+}
+data[cnt,]
+data <- read.csv("./data/Levels_Fyi_Salary_Data.csv",encoding = "utf-8")
+data <- na.omit(data)
+cnt = 0
+for (id in data[['timestamp']]){
+cnt <- cnt + 1
+if (id == "11/3/2020 19:56:58"){
+print(cnt)
+break
+}
+}
+data[cnt,]
+data <- read.csv("./data/Levels_Fyi_Salary_Data.csv", encoding = "UTF-8")
+data <- na.omit(data)
+cnt = 0
+for (id in data[['timestamp']]){
+cnt <- cnt + 1
+if (id == "11/3/2020 19:56:58"){
+print(cnt)
+break
+}
+}
+data[cnt,]
+data[cnt,] <- gsub("\U00A0", "", data[cnt,])
+data[cnt,]
+data <- read.csv("./data/Levels_Fyi_Salary_Data.csv", encoding = "UTF-8")
+data <- na.omit(data)
+cnt = 0
+for (id in data[['timestamp']]){
+cnt <- cnt + 1
+if (id == "11/3/2020 19:56:58"){
+print(cnt)
+break
+}
+}
+data <- gsub("\U00A0", "", data)
+data[cnt,]
+data
