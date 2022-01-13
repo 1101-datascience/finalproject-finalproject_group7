@@ -1,5 +1,5 @@
 # STEM Salaries prediction 
-
+![kaggle]("./kaggle.jpg")
 ## Content
 - [STEM Salaries Prediction](#stem-salaries-salary-prediction)
 	- [Content](#content)
